@@ -152,6 +152,7 @@ application/vnd.yellowriver-custom-menu
 application/wita
 application/wordperfect5.1
 application/x-bcpio		bcpio
+application/x-bzip2		bz2
 application/x-cdlink		vcd
 application/x-chess-pgn		pgn
 application/x-compress

@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.16
+Version: 2.1.17
 Release: 1
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Mon Oct 11 2004 Bill Nottingham <notting@redhat.com> 2.1.17-1
+- pdfs -> back to ggv
+
 * Thu Sep 23 2004 Bill Nottingham <notting@redhat.com> 2.1.16-1
 - eog -> gthumb
 - pdfs -> gpdf

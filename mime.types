@@ -144,8 +144,11 @@ application/vnd.svd
 application/vnd.swiftview-ics
 application/vnd.truedoc
 application/vnd.visio
-application/vnd.wap.wml		wml
 application/vnd.webturbo
+application/vnd.wap.slc		slc
+application/vnd.wap.sic		sic
+application/vnd.wap.wmlc	wmlc
+application/vnd.wap.wmlscriptc	wmlsc
 application/vnd.wrq-hp3000-labelled
 application/vnd.wt.stf
 application/vnd.xara
@@ -214,6 +217,7 @@ image/vnd.dxf
 image/vnd.fpx
 image/vnd.net-fpx
 image/vnd.svf
+image/vnd.wav.wbmp		wbmp
 image/vnd.xiff
 image/x-cmu-raster		ras
 image/x-portable-anymap		pnm
@@ -266,6 +270,10 @@ text/vnd.fmi.flexstor
 text/vnd.in3d.3dml
 text/vnd.in3d.spot
 text/vnd.latex-z
+text/vnd.wap.sl			sl
+text/vnd.wap.si			si
+text/vnd.wap.wml		wml
+text/vnd.wap.wmlscript		wmls
 text/x-setext			etx
 text/xml			xml
 video/mpeg			mpeg mpg mpe

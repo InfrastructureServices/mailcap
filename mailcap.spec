@@ -1,7 +1,7 @@
 
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.0.8
+Version: 2.0.9
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Mon Jun 12 2000 Preston Brown <pbrown@redhat.com>
-- add wap entry
+- add wap entries
 
 * Fri Jun  9 2000 Bill Nottingham <notting@redhat.com>
 - remove mailcap.vga

@@ -38,9 +38,9 @@ image/*; ee %s
 video/*; xanim %s
 video/mpeg; xanim %s
 
-application/pgp; pgp -f < %s | metamail; needsterminal; \
-       test=test %{encapsulation}=entity 
-application/pgp; pgp %s; needsterminal
+application/pgp; gpg < %s | metamail; needsterminal; \
+       test=test %{encapsulation}=entity ; copiousoutput
+application/pgp; gpg < %s; needsterminal ; copiousoutput
 
 application/pdf; xpdf %s
 

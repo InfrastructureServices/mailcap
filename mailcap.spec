@@ -1,7 +1,7 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
 Version: 2.0.1
-Release: 1
+Release: 2
 Copyright: public domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
@@ -43,6 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/man/man4/mailcap.4
 
 %changelog
+* Sat May 15 1999 Jeff Johnson <jbj@redhat.com>
+- fix typo in pdf entry (#2618).
+
 * Mon Mar 29 1999 Bill Nottingham <notting@redhat.com>
 - comment out play
 

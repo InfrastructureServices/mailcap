@@ -42,7 +42,7 @@ application/pgp; pgp -f < %s | metamail; needsterminal; \
        test=test %{encapsulation}=entity 
 application/pgp; pgp %s; needsterminal
 
-application/pdf: xpdf %s
+application/pdf; xpdf %s
 
 ###
 ### End Red Hat Modifications

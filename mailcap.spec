@@ -1,8 +1,8 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.7
+Version: 2.1.8
 Release: 1
-Copyright: public domain
+License: public domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
 BuildArchitectures: noarch
@@ -41,7 +41,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
-* Mon Sep 17 2001 Bill Nottingham <notting@redhat.com>
+* Tue Oct 23 2001 Nalin Dahyabhai <nalin@redhat.com> 2.1.8-1
+- resync mime.types with apache 1.3.22
+
+* Mon Sep 17 2001 Bill Nottingham <notting@redhat.com> 2.1.7-1
 - associate PS files with gv (#53734)
 
 * Fri Aug 10 2001 Bill Nottingham <notting@redhat.com>

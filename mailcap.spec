@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.12
+Version: 2.1.13
 Release: 1
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Fri Feb  7 2003 Bill Nottingham <notting@redhat.com> 2.1.13-1
+- resync mime.types with apache
+- clean out mailcap some
+
 * Tue Sep  3 2002 Bill Nottingham <notting@redhat.com> 2.1.12-1
 - add application/x-ogg to mime.types
 

@@ -35,8 +35,8 @@ audio/mod; /usr/bin/mikmod %s
 
 image/*; ee %s
 
-video/*; xanim %s
 video/mpeg; gtv %s
+video/*; xanim %s
 
 application/pgp; gpg < %s | metamail; needsterminal; \
        test=test %{encapsulation}=entity ; copiousoutput

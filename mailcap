@@ -38,10 +38,6 @@ image/*; eog %s
 video/mpeg; gtv %s
 video/*; xanim %s
 
-application/pgp; gpg < %s | metamail; needsterminal; \
-       test=test %{encapsulation}=entity ; copiousoutput
-application/pgp; gpg < %s; needsterminal ; copiousoutput
-
 application/pdf; xpdf %s
 application/postscript ; gv -safer %s
 
@@ -76,8 +72,8 @@ message/external-body; showexternal %s %{access-type} %{name} %{site} %{director
 
 # The following give rudimentary capabilities to read old andrew format
 # even to non-Andrew sites, since "ezview" comes with metamail.
-x-be2;     ezview %s ; copiousoutput
-application/andrew-inset;     ezview %s ; copiousoutput; edit=ez -d %s; compose="ez -d %s"; description="An Andrew inset/document"
+#x-be2;     ezview %s ; copiousoutput
+#application/andrew-inset;     ezview %s ; copiousoutput; edit=ez -d %s; compose="ez -d %s"; description="An Andrew inset/document"
 
 # The following gives rudimentary capability for receiving 
 # text mail in the ISO-8859-1 character set, which covers many European 
@@ -94,22 +90,22 @@ application/andrew-inset;     ezview %s ; copiousoutput; edit=ez -d %s; compose=
 #text/plain; kterm -geometry +0+0  -e more %s /dev/null; test=test "`echo %{charset} | tr '[A-Z]' '[a-z]'`" = iso-2022-jp
 
 
-text/richtext; richtext %s; copiousoutput
+#text/richtext; richtext %s; copiousoutput
 # If you have Andrew at your site, you MIGHT prefer to replace the
 # above line with the following one, but probably won't because
 # ez takes so long to start up.
 # text/richtext; richtoatk < %s | ezview - ; copiousoutput
-text/enriched; richtext -e %s; copiousoutput
+#text/enriched; richtext -e %s; copiousoutput
 
 # The following is a VERY rough cut at showing mail from Sun's openwindows mailtool
 # Old version
 # x-sun-attachment; sun-to-mime %s
-x-sun-attachment; sun2mime %s
-audio-file; sun-audio-file %s
+#x-sun-attachment; sun2mime %s
+#audio-file; sun-audio-file %s
 postscript-file; gv -safer %s
-default; sun-message.csh %s %{encoding}; needsterminal
-mail-file; sun-message.csh %s %{encoding}; needsterminal
-sun-deskset-message; sun-message.csh %s %{encoding}; needsterminal
+#default; sun-message.csh %s %{encoding}; needsterminal
+#mail-file; sun-message.csh %s %{encoding}; needsterminal
+#sun-deskset-message; sun-message.csh %s %{encoding}; needsterminal
 
 # The following is used for distributing metamail patches
 # It should probably be used only by those administering metamail at a site.
@@ -186,6 +182,4 @@ application/x-metamail-patch; cat %s > /dev/null \; patch-metamail source-tree-r
 # foo/bar; echo mosaic; test=test "$MM_MAILER" = ""
 # foo/bar; echo not mosaic
 
-application/msword; ns="%s"; tmp=`mktemp -q /tmp/${ns}.XXXXXX`; \
-    /usr/bin/wvHtml "${ns}" -o ${tmp}; \
-    netscape "file:${tmp}"; /bin/rm -f "${tmp}"
+application/msword; oofice %s

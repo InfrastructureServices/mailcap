@@ -43,7 +43,7 @@ application/pgp; gpg < %s | metamail; needsterminal; \
 application/pgp; gpg < %s; needsterminal ; copiousoutput
 
 application/pdf; xpdf %s
-application/postscrip ; gv -safer %s
+application/postscript ; gv -safer %s
 
 text/html; /usr/bin/htmlview %s ; copiousoutput
 
@@ -106,7 +106,7 @@ text/enriched; richtext -e %s; copiousoutput
 # x-sun-attachment; sun-to-mime %s
 x-sun-attachment; sun2mime %s
 audio-file; sun-audio-file %s
-postscript-file; lpr %s \; echo SENT FILE TO PRINTER
+postscript-file; gv -safer %s
 default; sun-message.csh %s %{encoding}; needsterminal
 mail-file; sun-message.csh %s %{encoding}; needsterminal
 sun-deskset-message; sun-message.csh %s %{encoding}; needsterminal

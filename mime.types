@@ -50,6 +50,7 @@ application/ocsp-request
 application/ocsp-response
 application/octet-stream	bin dms lha lzh exe class so dll
 application/oda			oda
+application/ogg			ogg
 application/parityfec
 application/pdf			pdf
 application/pgp-encrypted
@@ -304,7 +305,6 @@ application/x-killustrator	kil
 application/x-koan		skp skd skt skm
 application/x-latex		latex
 application/x-netcdf		nc cdf
-application/x-ogg		ogg
 # This conflicts with audio/x-pn-realaudio-plugin, which is commented out below.
 application/x-rpm		rpm
 application/x-sh		sh

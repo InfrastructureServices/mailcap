@@ -1,6 +1,7 @@
 
 VERSION=$(shell awk '/Version:/ { print $$2 }' mailcap.spec)
 CVSTAG = r$(subst .,-,$(VERSION))
+CVSROOT = $(shell cat CVS/Root)
 
 tag-archive:
 	@cvs -Q tag -F $(CVSTAG)

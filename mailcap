@@ -8,9 +8,6 @@ audio/mod; /usr/bin/mikmod %s
 
 image/*; eog %s
 
-video/mpeg; gtv %s
-video/*; xanim %s
-
 application/msword; ooffice %s
 application/pdf; xpdf %s
 application/postscript ; gv -safer %s

@@ -42,8 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Thu Dec 28 2000 Bill Nottingham <notting@redhat.com>
-- reintegrate stuff into the package that people add without checking CVS
-- remove word entry (we don't ship the package in question...)
+- reintegrate stuff into the package so it doesn't get lost 
 
 * Thu Dec 28 2000 Than Ngo <than@redhat.com>
 - add ms(TM) word document entry (Bug #17474)

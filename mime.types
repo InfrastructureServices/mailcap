@@ -305,6 +305,7 @@ application/x-killustrator	kil
 application/x-koan		skp skd skt skm
 application/x-latex		latex
 application/x-netcdf		nc cdf
+application/x-ogg		ogg
 
 # This conflicts with audio/x-pn-realaudio-plugin, which is commented out below.
 application/x-rpm		rpm

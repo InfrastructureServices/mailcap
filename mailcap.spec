@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.5
+Version: 2.1.6
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Fri Aug 10 2001 Bill Nottingham <notting@redhat.com>
+- switch gtv & xanim order (#51408)
+
 * Wed Jul 17 2001 Bill Nottingham <notting@redhat.com>
 - use htmlview for text/html (#48141)
 

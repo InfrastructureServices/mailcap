@@ -1,5 +1,5 @@
 
-VERSION=$(shell awk '/define version/ { print $$3 }' mailcap.spec)
+VERSION=$(shell awk '/Version:/ { print $$2 }' mailcap.spec)
 CVSTAG = r$(subst .,-,$(VERSION))
 
 tag-archive:

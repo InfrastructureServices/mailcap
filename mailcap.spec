@@ -1,9 +1,7 @@
 
-%define version 2.0.5
-
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: %{version}
+Version: 2.0.6
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -43,9 +41,12 @@ rm -rf $RPM_BUILD_ROOT
 %config /etc/mailcap
 %config /etc/mailcap.vga
 %config /etc/mime.types
-/usr/man/man4/mailcap.4
+/usr/man/man4/mailcap.*
 
 %changelog
+* Thu Feb  3 2000 Bill Nottingham <notting@redhat.com>
+- handle compressed man pages
+
 * Tue Jan 18 2000 Bill Nottingham <notting@redhat.com>
 - add .bz2
 

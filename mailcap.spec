@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.3
+Version: 2.1.4
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Thu Jan 18 2001 Bill Nottingham <notting@redhat.com>
+- use gpg, not pgp (#13816, others)
+
 * Sat Jan  6 2001 Bill Nottingham <notting@redhat.com>
 - fix typo (#23409)
 

@@ -169,6 +169,11 @@ application/x-gtar		gtar
 application/x-gzip		gz tgz
 application/x-hdf		hdf
 application/x-javascript	js
+application/x-kword		kwd kwt
+application/x-kspread		ksp
+application/x-kpresenter	kpr kpt
+application/x-kchart		chrt
+application/x-killustrator	kil
 application/x-koan		skp skd skt skm
 application/x-latex		latex
 application/x-netcdf		nc cdf

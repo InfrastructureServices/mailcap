@@ -1,13 +1,12 @@
-
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.0.9
+Version: 2.1.2
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
 BuildArchitectures: noarch
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot: %{_tmppath}/%{name}-root
 
 %description
 The mailcap file is used by the metamail program.  Metamail reads the
@@ -42,6 +41,14 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Thu Dec 28 2000 Bill Nottingham <notting@redhat.com>
+- reintegrate stuff into the package that people add without checking CVS
+- remove word entry (we don't ship the package in question...)
+
+* Thu Dec 28 2000 Than Ngo <than@redhat.com>
+- add ms(TM) word document entry (Bug #17474)
+- bzip2 sources
+
 * Mon Jun 12 2000 Preston Brown <pbrown@redhat.com>
 - add wap entries
 

@@ -167,6 +167,7 @@ application/x-javascript	js
 application/x-koan		skp skd skt skm
 application/x-latex		latex
 application/x-netcdf		nc cdf
+application/x-rpm		rpm
 application/x-sh		sh
 application/x-shar		shar
 application/x-shockwave-flash	swf
@@ -193,7 +194,6 @@ audio/mpeg			mpga mp2 mp3
 audio/vnd.qcelp
 audio/x-aiff			aif aiff aifc
 audio/x-pn-realaudio		ram rm
-audio/x-pn-realaudio-plugin	rpm
 audio/x-realaudio		ra
 audio/x-wav			wav
 chemical/x-pdb			pdb xyz

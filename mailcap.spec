@@ -43,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Mon May  3 2004 Bill Nottingham <notting@redhat.com> 2.1.15-1
 - xpdf/gv -> ggv (#118401)
+- add application/x-bittorrent (#118752)
 
 * Fri Jul 11 2003 Bill Nottingham <notting@redhat.com> 2.1.14-1
 - add application/ogg and OpenOffice.org mime.types

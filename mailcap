@@ -32,10 +32,10 @@
 audio/mod; /usr/bin/mikmod %s
 audio/*; /usr/bin/play %s
 
-image/*; xv %s
+image/*; ee %s
 
 video/*; xanim %s
-video/mpeg; xmpeg %s
+video/mpeg; xanim %s
 
 application/pgp; pgp -f < %s | metamail; needsterminal; \
        test=test %{encapsulation}=entity 

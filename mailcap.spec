@@ -1,7 +1,7 @@
 
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.0.6
+Version: 2.0.7
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -28,10 +28,9 @@ handle non-text files.
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/etc
 install -m 644 mailcap $RPM_BUILD_ROOT/etc
-install -m 644 mailcap.vga $RPM_BUILD_ROOT/etc
 install -m 644 mime.types $RPM_BUILD_ROOT/etc
-mkdir -p $RPM_BUILD_ROOT/usr/man/man4
-install -m 644 mailcap.4 $RPM_BUILD_ROOT/usr/man/man4
+mkdir -p $RPM_BUILD_ROOT%{_mandir}/man4
+install -m 644 mailcap.4 $RPM_BUILD_ROOT%{_mandir}/man4
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -39,11 +38,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %config /etc/mailcap
-%config /etc/mailcap.vga
 %config /etc/mime.types
-/usr/man/man4/mailcap.*
+%{_mandir}/man4/mailcap.*
 
 %changelog
+* Fri Jun  9 2000 Bill Nottingham <notting@redhat.com>
+- remove mailcap.vga
+
 * Thu Feb  3 2000 Bill Nottingham <notting@redhat.com>
 - handle compressed man pages
 

@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Fri Jul 11 2003 Bill Nottingham <notting@redhat.com> 2.1.14-1
-- add application/ogg
+- add application/ogg and OpenOffice.org mime.types
 
 * Fri Feb  7 2003 Bill Nottingham <notting@redhat.com> 2.1.13-1
 - resync mime.types with apache

@@ -4,7 +4,7 @@ Version: 2.0
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
-Source0: mailcap-1.0.tar.gz
+Source0: %{name}-%{version}.tar.gz
 BuildArchitectures: noarch
 BuildRoot: /var/tmp/%{name}-root
 

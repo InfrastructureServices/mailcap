@@ -43,6 +43,7 @@ application/pgp; gpg < %s | metamail; needsterminal; \
 application/pgp; gpg < %s; needsterminal ; copiousoutput
 
 application/pdf; xpdf %s
+application/postscrip ; gv -safer %s
 
 text/html; /usr/bin/htmlview %s ; copiousoutput
 
@@ -60,12 +61,6 @@ message/external-body; showexternal %s %{access-type} %{name} %{site} %{director
 #	test=test %{access-type}  = mail-server;  \
 
 
-# If you have an interactive Postscript interpreter, you should think carefully 
-# before replacing lpr with it in the following line, because PostScript
-# can be an enormous security hole.  It is RELATIVELY harmless
-# when sent to the printer...
-application/postscript ; lpr %s \; echo SENT FILE TO PRINTER ; description="A Postscript File";\
-	compose="getfilename Postscript %s"
 
 # The following should be commented out if you do NOT have safe-tcl
 # and should be uncommented if you DO have safe-tcl

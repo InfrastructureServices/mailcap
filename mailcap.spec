@@ -1,5 +1,5 @@
 
-%define version 2.0.4
+%define version 2.0.5
 
 Summary: Associates helper applications with particular file types.
 Name: mailcap
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/man/man4/mailcap.4
 
 %changelog
+* Tue Jan 18 2000 Bill Nottingham <notting@redhat.com>
+- add .bz2
+
 * Thu Jan 13 2000 Bill Nottingham <notting@redhat.com>
 - add tgz/gz to gzip
 

@@ -11,10 +11,10 @@ BuildRoot: /var/tmp/%{name}-root
 
 %description
 The mailcap file is used by the metamail program.  Metamail reads the
-mailcap file to determine how it should display non-text or
-multimedia material.  Basically, mailcap associates a particular type
-of file with a particular program that a mail agent or other program 
-can call in order to handle the file.
+mailcap file to determine how it should display non-text or multimedia
+material.  Basically, mailcap associates a particular type of file
+with a particular program that a mail agent or other program can call
+in order to handle the file.
 
 Mailcap should be installed to allow certain programs to be able to
 handle non-text files.

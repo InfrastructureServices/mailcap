@@ -44,6 +44,8 @@ application/pgp; gpg < %s; needsterminal ; copiousoutput
 
 application/pdf; xpdf %s
 
+text/html; /usr/bin/htmlview %s ; copiousoutput
+
 ###
 ### End Red Hat Modifications
 ###

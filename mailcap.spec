@@ -1,7 +1,7 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.4
-Release: 2
+Version: 2.1.5
+Release: 1
 Copyright: public domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Wed Jul 17 2001 Bill Nottingham <notting@redhat.com>
+- use htmlview for text/html (#48141)
+
 * Wed Mar 21 2001 Tim Waugh <twaugh@redhat.com> 2.1.4-2
 - Use gtv not xanim for video/mpeg, since we no longer ship the codecs.
 

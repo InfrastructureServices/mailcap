@@ -29,7 +29,8 @@
 ### Begin Red Hat Mailcap
 ###
 
-audio/*; /usr/bin/play %s
+# play is apparently a security hole.
+# audio/*; /usr/bin/play %s
 
 image/*; zgv %s
 

@@ -30,7 +30,8 @@
 ###
 
 audio/mod; /usr/bin/mikmod %s
-audio/*; /usr/bin/play %s
+# play is apparently a security hole
+#audio/*; /usr/bin/play %s
 
 image/*; ee %s
 
@@ -40,6 +41,8 @@ video/mpeg; xanim %s
 application/pgp; pgp -f < %s | metamail; needsterminal; \
        test=test %{encapsulation}=entity 
 application/pgp; pgp %s; needsterminal
+
+application/pdf: xpdf %s
 
 ###
 ### End Red Hat Modifications

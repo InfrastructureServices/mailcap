@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.0.2
+Version: 2.0.3
 Release: 1
 Copyright: public domain
 Group: System Environment/Base

@@ -128,7 +128,7 @@ application/x-metamail-patch; cat %s > /dev/null \; patch-metamail source-tree-r
 #
 # If you don't have CAP, and haven't changed rcvAppleSingle
 # or sndAppleSingle, you should comment out this line.
-application/applefile; rcvAppleSingle %s; compose="sndAppleSingle %s";description="An Apple Macintosh file in AppleSingle format"
+#application/applefile; rcvAppleSingle %s; compose="sndAppleSingle %s";description="An Apple Macintosh file in AppleSingle format"
 
 #
 # The following is for interoperability with Z-Mail version 3.0 and beyond.

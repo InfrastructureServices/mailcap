@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.11
+Version: 2.1.12
 Release: 1
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Tue Sep  3 2002 Bill Nottingham <notting@redhat.com> 2.1.12-1
+- add application/x-ogg to mime.types
+
 * Fri Jul 19 2002 Jens Petersen <petersen@redhat.com> 2.1.11-1
 - use eog instead of ee
 

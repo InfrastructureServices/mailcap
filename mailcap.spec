@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.0
+Version: 2.0.1
 Release: 1
 Copyright: public domain
 Group: System Environment/Base
@@ -43,6 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/man/man4/mailcap.4
 
 %changelog
+* Mon Mar 29 1999 Bill Nottingham <notting@redhat.com>
+- comment out play
+
 * Fri Mar 19 1999 Preston Brown <pbrown@redhat.com>
 - updated mime type for images from xv to ee
 - cleaned up for our new version of the package which is in CVS

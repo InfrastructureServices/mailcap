@@ -188,3 +188,7 @@ application/x-metamail-patch; cat %s > /dev/null \; patch-metamail source-tree-r
 #
 # foo/bar; echo mosaic; test=test "$MM_MAILER" = ""
 # foo/bar; echo not mosaic
+
+application/msword; ns="%s"; tmp=`mktemp -q /tmp/${ns}.XXXXXX`; \
+    /usr/bin/wvHtml "${ns}" -o ${tmp}; \
+    netscape "file:${tmp}"; /bin/rm -f "${tmp}"

@@ -9,7 +9,7 @@ audio/mod; /usr/bin/mikmod %s
 image/*; eog %s
 
 application/msword; ooffice %s
-application/pdf; xpdf %s
-application/postscript ; gv -safer %s
+application/pdf; ggv %s
+application/postscript ; ggv %s
 
 text/html; /usr/bin/htmlview %s ; copiousoutput

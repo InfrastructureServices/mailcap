@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.18
+Version: 2.1.19
 Release: 1
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Mon Mar  7 2005 Bill Nottingham <notting@redhat.com> 2.1.19-1
+- s/ggv/evince/ (#150509)
+
 * Fri Jan 21 2005 Bill Nottingham <notting@redhat.com> 2.1.18-1
 - add iso, img to octet-stream (#142459 <ville.skytta@iki.fi>)
 

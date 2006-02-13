@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.19
+Version: 2.1.20
 Release: 1
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Mon Feb 13 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.20-1
+- add OpenOffice.org 2.0 mime types (#173789)
+
+* Fri Dec 09 2005 Jesse Keating <jkeating@redhat.com>
+- rebuilt
+
 * Mon Mar  7 2005 Bill Nottingham <notting@redhat.com> 2.1.19-1
 - s/ggv/evince/ (#150509)
 

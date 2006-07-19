@@ -1,7 +1,7 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
 Version: 2.1.21
-Release: 1
+Release: 1%{?dist}
 License: public domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
-* Tue Jul 18 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.21
+* Tue Jul 18 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.21-1
 - add audio and video x-ms mime types (#197840)
 
 * Wed Jul 12 2006 Jesse Keating <jkeating@redhat.com> - 2.1.20-1.1

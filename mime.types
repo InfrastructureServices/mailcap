@@ -255,6 +255,7 @@ application/vnd.shana.informed.package
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
+application/vnd.street-stream
 application/vnd.sun.xml.writer	sxw
 application/vnd.sun.xml.writer.template	stw
 application/vnd.sun.xml.calc	sxc
@@ -265,9 +266,9 @@ application/vnd.sun.xml.impress	sxi
 application/vnd.sun.xml.impress.template	sti
 application/vnd.sun.xml.writer.global	sxg
 application/vnd.sun.xml.math	sxm
-application/vnd.street-stream
 application/vnd.svd
 application/vnd.swiftview-ics
+application/vnd.symbian.install	sis
 application/vnd.triscape.mxs
 application/vnd.trueapp
 application/vnd.truedoc
@@ -320,6 +321,8 @@ application/x-futuresplash	spl
 application/x-gtar		gtar
 application/x-gzip		gz tgz
 application/x-hdf		hdf
+application/x-java-archive	jar
+application/x-java-jnlp-file	jnlp
 application/x-javascript	js
 application/x-kword		kwd kwt
 application/x-kspread		ksp
@@ -482,6 +485,7 @@ text/vnd.in3d.spot
 text/vnd.latex-z
 text/vnd.motorola.reflex
 text/vnd.ms-mediapackage
+text/vnd.sun.j2me.app-descriptor	jad
 text/vnd.wap.si
 text/vnd.wap.sl
 text/vnd.wap.wml		wml

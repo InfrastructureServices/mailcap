@@ -505,6 +505,7 @@ video/vnd.mpegurl		mxu
 video/vnd.mts
 video/vnd.nokia.interleaved-multimedia
 video/vnd.vivo
+video/x-flv			flv
 video/x-ms-asf			asf asx
 video/x-ms-wm			wm
 video/x-ms-wmv			wmv

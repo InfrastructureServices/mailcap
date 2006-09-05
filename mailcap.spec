@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types.
 Name: mailcap
-Version: 2.1.22
+Version: 2.1.23
 Release: 1%{?dist}
 License: public domain
 Group: System Environment/Base
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Tue Sep 05 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.23-1
+- add video/x-flv to mime.types (#205239)
+
 * Mon Aug 07 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.22-1
 - add java/mobile mime types (#201512 <ville.skytta@iki.fi>)
 

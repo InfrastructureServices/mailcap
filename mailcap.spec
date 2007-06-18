@@ -1,12 +1,12 @@
-Summary: Associates helper applications with particular file types.
+Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.23
+Version: 2.1.24
 Release: 1%{?dist}
-License: public domain
+License: Public Domain
 Group: System Environment/Base
 Source0: %{name}-%{version}.tar.gz
-BuildArchitectures: noarch
-BuildRoot: %{_tmppath}/%{name}-root
+BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
 The mailcap file is used by the metamail program.  Metamail reads the
@@ -25,22 +25,25 @@ handle non-text files.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/etc
-install -m 644 mailcap $RPM_BUILD_ROOT/etc
-install -m 644 mime.types $RPM_BUILD_ROOT/etc
+mkdir -p $RPM_BUILD_ROOT%{_sysconfdir}
+install -p -m 644 mailcap mime.types $RPM_BUILD_ROOT%{_sysconfdir}
 mkdir -p $RPM_BUILD_ROOT%{_mandir}/man4
-install -m 644 mailcap.4 $RPM_BUILD_ROOT%{_mandir}/man4
+install -p -m 644 mailcap.4 $RPM_BUILD_ROOT%{_mandir}/man4
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%config /etc/mailcap
-%config /etc/mime.types
+%config(noreplace) %{_sysconfdir}/mailcap
+%config(noreplace) %{_sysconfdir}/mime.types
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Mon Jun 18 2007 Miroslav Lichvar <mlichvar@redhat.com> 2.1.24-1
+- add text/x-vcard to mime.types (#243889)
+- mark configs noreplace, cleanup spec a bit
+
 * Tue Sep 05 2006 Miroslav Lichvar <mlichvar@redhat.com> 2.1.23-1
 - add video/x-flv to mime.types (#205239)
 

@@ -491,6 +491,7 @@ text/vnd.wap.sl
 text/vnd.wap.wml		wml
 text/vnd.wap.wmlscript		wmls
 text/x-setext			etx
+text/x-vcard			vcf
 text/xml			xml xsl
 text/xml-external-parsed-entity
 video/mp4v-es

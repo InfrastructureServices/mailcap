@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.24
+Version: 2.1.25
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Tue Jul 10 2007 Miroslav Lichvar <mlichvar@redhat.com> 2.1.25-1
+- add image/vnd.microsoft.icon to mime.types (#247222)
+
 * Mon Jun 18 2007 Miroslav Lichvar <mlichvar@redhat.com> 2.1.24-1
 - add text/x-vcard to mime.types (#243889)
 - mark configs noreplace, cleanup spec a bit

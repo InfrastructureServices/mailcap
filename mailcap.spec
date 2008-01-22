@@ -1,9 +1,13 @@
 Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.25
+Version: 2.1.26
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
+# The source for this package was pulled from upstream's vcs.  Use the
+# following commands to generate the tarball:
+# cvs -d :pserver:anonymous@elvis.redhat.com:/usr/local/CVS co -r r2-1-26 mailcap
+# cd mailcap; make create-archive
 Source0: %{name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -40,6 +44,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Tue Jan 22 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.26-1
+- use xdg-open (Ville Skyttä) (#388481)
+- spec cleanup (#226116)
+
 * Tue Jul 10 2007 Miroslav Lichvar <mlichvar@redhat.com> 2.1.25-1
 - add image/vnd.microsoft.icon to mime.types (#247222)
 
@@ -161,7 +169,7 @@ rm -rf $RPM_BUILD_ROOT
 - updated mime.types
 
 * Fri Feb 12 1999 Bill Nottingham <notting@redhat.com>
-- comment out backticked %variables to work around security problems
+- comment out backticked %%variables to work around security problems
 
 * Wed Jan 06 1999 Cristian Gafton <gafton@redhat.com>
 - glibc version 2.1

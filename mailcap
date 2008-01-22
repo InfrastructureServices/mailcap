@@ -2,14 +2,12 @@
 ### Begin Red Hat Mailcap
 ###
 
-audio/mod; /usr/bin/mikmod %s
-# play is apparently a security hole
-#audio/*; /usr/bin/play %s
+audio/*; /usr/bin/xdg-open %s
 
-image/*; gthumb %s
+image/*; /usr/bin/xdg-open %s
 
-application/msword; ooffice %s
-application/pdf; evince %s
-application/postscript ; evince %s
+application/msword; /usr/bin/xdg-open %s
+application/pdf; /usr/bin/xdg-open %s
+application/postscript ; /usr/bin/xdg-open %s
 
-text/html; /usr/bin/htmlview %s ; copiousoutput
+text/html; /usr/bin/xdg-open %s ; copiousoutput

@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.26
+Version: 2.1.27
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
@@ -44,6 +44,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Thu Feb 07 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.27-1
+- associate *.ent with text/xml-external-parsed-entity
+  (Ville Skyttä) (#431722)
+
 * Tue Jan 22 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.26-1
 - use xdg-open (Ville Skyttä) (#388481)
 - spec cleanup (#226116)

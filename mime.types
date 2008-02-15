@@ -49,6 +49,7 @@ application/news-transmission
 application/ocsp-request
 application/ocsp-response
 application/octet-stream	bin dms lha lzh exe class so dll img iso
+application/oda			oda
 application/ogg			ogg
 application/parityfec
 application/pdf			pdf
@@ -126,7 +127,7 @@ application/vnd.ericsson.quickcall
 application/vnd.eudora.data
 application/vnd.fdf
 application/vnd.ffsns
-application/vnd.framemaker
+application/vnd.framemaker	fm
 application/vnd.fsc.weblaunch
 application/vnd.fujitsu.oasys
 application/vnd.fujitsu.oasys2
@@ -332,6 +333,7 @@ application/x-killustrator	kil
 application/x-koan		skp skd skt skm
 application/x-latex		latex
 application/x-netcdf		nc cdf
+application/x-perl		pl
 # This conflicts with audio/x-pn-realaudio-plugin, which is commented out below.
 application/x-rpm		rpm
 application/x-sh		sh
@@ -345,7 +347,7 @@ application/x-tcl		tcl
 application/x-tex		tex
 application/x-texinfo		texinfo texi
 application/x-troff		t tr roff
-application/x-troff-man		man
+application/x-troff-man		man 1 2 3 4 5 6 7 8
 application/x-troff-me		me
 application/x-troff-ms		ms
 application/x-ustar		ustar
@@ -397,7 +399,7 @@ image/cgm
 image/g3fax
 image/gif			gif
 image/ief			ief
-image/jpeg			jpeg jpg jpe
+image/jpeg			jpeg jpg jpe jfif
 image/naplps
 image/png			png
 image/prs.btif
@@ -419,11 +421,13 @@ image/vnd.svf
 image/vnd.wap.wbmp		wbmp
 image/vnd.xiff
 image/x-cmu-raster		ras
+image/x-fits			fts
 image/x-portable-anymap		pnm
 image/x-portable-bitmap		pbm
 image/x-portable-graymap	pgm
 image/x-portable-pixmap		ppm
 image/x-rgb			rgb
+image/x-targa			tga
 image/x-xbitmap			xbm
 image/x-xpixmap			xpm
 image/x-xwindowdump		xwd
@@ -431,9 +435,9 @@ message/delivery-status
 message/disposition-notification
 message/external-body
 message/http
-message/news
+message/news			art
 message/partial
-message/rfc822
+message/rfc822			eml mail
 message/s-http
 model/iges			igs iges
 model/mesh			msh mesh silo
@@ -464,7 +468,7 @@ text/directory
 text/enriched
 text/html			html htm
 text/parityfec
-text/plain			asc txt
+text/plain			asc txt text pm el c h cc hh cxx hxx f90
 text/prs.lines.tag
 text/rfc822-headers
 text/richtext			rtx
@@ -491,6 +495,7 @@ text/vnd.wap.si
 text/vnd.wap.sl
 text/vnd.wap.wml		wml
 text/vnd.wap.wmlscript		wmls
+text/x-pod			pod
 text/x-setext			etx
 text/x-vcard			vcf
 text/xml			xml xsl

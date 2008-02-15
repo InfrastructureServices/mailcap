@@ -1,12 +1,12 @@
 Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.27
+Version: 2.1.28
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
 # The source for this package was pulled from upstream's vcs.  Use the
 # following commands to generate the tarball:
-# cvs -d :pserver:anonymous@elvis.redhat.com:/usr/local/CVS co -r r2-1-27 mailcap
+# cvs -d :pserver:anonymous@elvis.redhat.com:/usr/local/CVS co -r r2-1-28 mailcap
 # cd mailcap; make create-archive
 Source0: %{name}-%{version}.tar.gz
 BuildArch: noarch
@@ -44,6 +44,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Fri Feb 15 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.28-1
+- add new entries from perl-libwww-perl's media.types
+  (Ville Skyttä) (#432290)
+
 * Thu Feb 07 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.27-1
 - associate *.ent with text/xml-external-parsed-entity
   (Ville Skyttä) (#431722)

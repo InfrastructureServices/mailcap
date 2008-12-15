@@ -4,11 +4,7 @@ Version: 2.1.29
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
-# The source for this package was pulled from upstream's vcs.  Use the
-# following commands to generate the tarball:
-# cvs -d :pserver:anonymous@elvis.redhat.com:/usr/local/CVS co -r r2-1-28 mailcap
-# cd mailcap; make create-archive
-Source0: %{name}-%{version}.tar.gz
+Source0: https://fedorahosted.org/releases/m/a/mailcap/%{name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 

@@ -1,19 +1,12 @@
 
 VERSION=$(shell awk '/Version:/ { print $$2 }' mailcap.spec)
-CVSTAG = r$(subst .,-,$(VERSION))
-CVSROOT = $(shell cat CVS/Root)
+TAG = r$(subst .,-,$(VERSION))
 
 tag-archive:
-	@cvs -Q tag -F $(CVSTAG)
+	@git tag $(TAG)
 
 create-archive:
-	@rm -rf /tmp/mailcap
-	@cd /tmp ; cvs -Q -d $(CVSROOT) export -r$(CVSTAG) mailcap || echo "Um... export aborted."
-	@mv /tmp/mailcap /tmp/mailcap-$(VERSION)
-	@cd /tmp ; tar -czSpf mailcap-$(VERSION).tar.gz mailcap-$(VERSION)
-	@rm -rf /tmp/mailcap-$(VERSION)
-	@cp /tmp/mailcap-$(VERSION).tar.gz .
-	@rm -f /tmp/mailcap-$(VERSION).tar.gz
+	@git archive --prefix=mailcap-$(VERSION)/ $(TAG) | gzip > mailcap-$(VERSION).tar.gz 
 	@echo ""
 	@echo "The final archive is in mailcap-$(VERSION).tar.gz"
 

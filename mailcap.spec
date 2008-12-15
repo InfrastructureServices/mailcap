@@ -1,6 +1,6 @@
 Summary: Associates helper applications with particular file types
 Name: mailcap
-Version: 2.1.28
+Version: 2.1.29
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
@@ -44,6 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man4/mailcap.*
 
 %changelog
+* Mon Dec 15 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.29-1
+- update mime.types (Ville Skyttä) (#476455)
+
 * Fri Feb 15 2008 Miroslav Lichvar <mlichvar@redhat.com> 2.1.28-1
 - add new entries from perl-libwww-perl's media.types
   (Ville Skyttä) (#432290)

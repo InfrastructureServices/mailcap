@@ -60,6 +60,7 @@ application/macwriteii
 application/marc		mrc
 application/mathematica		nb ma mb
 application/mbox		mbox
+application/metalink+xml	metalink
 # mp4, mpg4 used for video/mp4, see RFC 4337
 application/mp4
 application/mpeg4-iod

@@ -146,16 +146,21 @@ application/vnd.acucorp			atc acutc
 application/vnd.adobe.xdp+xml		xdp
 application/vnd.adobe.xfdf		xfdf
 application/vnd.aether.imp
+application/vnd.airzip.filesecure.azf	azf
+application/vnd.airzip.filesecure.azs	azs
 application/vnd.americandynamics.acc	acc
 application/vnd.amiga.ami		ami
 application/vnd.anser-web-certificate-issue-initiation	cii
 application/vnd.anser-web-funds-transfer-initiation
 application/vnd.antix.game-component	atx
 application/vnd.apple.installer+xml	dist distz pkg mpkg
-application/vnd.arastra.swi		swi
+# m3u kept with application/x-mpegurl for now
+application/vnd.apple.mpegurl		m3u8
+application/vnd.aristanetworks.swi	swi
 application/vnd.audiograph		aep
 application/vnd.autopackage		package
 application/vnd.blueice.multipass	mpm
+application/vnd.bluetooth.ep.oob	ep
 application/vnd.bmi			bmi
 application/vnd.businessobjects		rep
 application/vnd.canon-cpdl
@@ -165,6 +170,7 @@ application/vnd.chemdraw+xml		cdxml
 application/vnd.chipnuts.karaoke-mmd	mmd
 application/vnd.cinderella		cdy
 application/vnd.claymore		cla
+application/vnd.cloanto.rp9		rp9
 application/vnd.clonk.c4group		c4g c4d c4f c4p c4u
 # icc used for application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
@@ -191,6 +197,7 @@ application/vnd.dpgraph			dpg mwc dpgraph
 application/vnd.dreamfactory		dfac
 # dxr used for application/x-director
 application/vnd.dxr
+application/vnd.dynageo			geo
 application/vnd.ecdis-update
 application/vnd.ecowin.chart		mag
 application/vnd.ecowin.filerequest
@@ -210,6 +217,8 @@ application/vnd.eudora.data
 application/vnd.ezpics-album	ez2
 application/vnd.ezpics-package	ez3
 application/vnd.fdf		fdf
+application/vnd.fdsn.mseed	msd mseed
+application/vnd.fsdn.seed	seed dataless
 application/vnd.ffsns
 # vnd.fints extensions used for application/vnd.hbci
 application/vnd.fints
@@ -231,6 +240,12 @@ application/vnd.fujixerox.docuworks.binder	xbd
 application/vnd.fut-misnet
 application/vnd.fuzzysheet		fzs
 application/vnd.genomatix.tuxedo	txd
+application/vnd.geogebra.file		ggb
+application/vnd.geogebra.tool		ggt
+application/vnd.geometry-explorer	gex gre
+application/vnd.geonext			gxt
+application/vnd.geoplan			g2w
+application/vnd.geospace		g3w
 application/vnd.gmx			gmx
 application/vnd.google-earth.kml+xml	kml
 application/vnd.google-earth.kmz	kmz
@@ -438,6 +453,7 @@ application/vnd.pwg-xhtml-print+xml
 application/vnd.qualcomm.brew-app-res	bar
 application/vnd.Quark.QuarkXPress	qxd qxt qwd qwt qxl qxb
 application/vnd.rapid
+application/vnd.realvnc.bed		bed
 application/vnd.recordare.musicxml	mxl
 application/vnd.route66.link66+xml	link66
 application/vnd.s3sms
@@ -463,6 +479,7 @@ application/vnd.shana.informed.interchange	iif
 application/vnd.shana.informed.package		ipk
 application/vnd.SimTech-MindMapper	twd twds
 application/vnd.smaf			mmf
+application/vnd.smart.teacher		teacher
 application/vnd.software602.filler.form+xml	fo
 application/vnd.software602.filler.form-xml-zip	zfo
 application/vnd.solent.sdkm+xml		sdkm sdkd
@@ -549,9 +566,11 @@ application/vnd.xmpie.xlim	xlim
 application/vnd.yamaha.hv-dic	hvd
 application/vnd.yamaha.hv-script	hvs
 application/vnd.yamaha.hv-voice	hvp
+application/vnd.yamaha.openscoreformat	osf
 application/vnd.yamaha.smaf-audio	saf
 application/vnd.yamaha.smaf-phrase	spf
 application/vnd.yellowriver-custom-menu	cmp
+application/vnd.zul		zir zirz
 application/vnd.zzazz.deck+xml	zaz
 application/voicexml+xml	vxml
 application/watcherinfo+xml	wif
@@ -676,6 +695,7 @@ audio/vorbis
 audio/vorbis-config
 audio/x-aiff			aif aiff aifc
 audio/x-mod			mod ult uni m15 mtm 669 med
+# m3u in IANA as application/vnd.apple.mpegurl; keeping here for now
 audio/x-mpegurl			m3u
 audio/x-pn-realaudio		ram rm
 #audio/x-pn-realaudio-plugin	rpm
@@ -719,6 +739,7 @@ image/vnd.microsoft.icon	ico
 image/vnd.mix
 image/vnd.ms-modi		mdi
 image/vnd.net-fpx
+image/vnd.radiance		hdr rgbe xyze
 image/vnd.sealed.png		spng spn s1n
 image/vnd.sealedmedia.softseal-gif	sgif sgi s1g
 image/vnd.sealedmedia.softseal-jpg	sjpg sjp s1j

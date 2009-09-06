@@ -419,7 +419,14 @@ application/vnd.oasis.opendocument.text-master	odm
 application/vnd.oasis.opendocument.text-template	ott
 application/vnd.oasis.opendocument.text-web	oth
 application/vnd.olpc-sugar		xo
+application/vnd.oma.dd+xml		dd
 application/vnd.oma.dd2+xml		dd2
+application/vnd.oma.drm.content		dcf
+# odf used with application/vnd.oasis.opendocument.formula
+application/vnd.oma.drm.dcf		o4a o4v
+application/vnd.oma.drm.message		dm
+application/vnd.oma.drm.rights+wbxml	drc
+application/vnd.oma.drm.rights+xml	dr
 application/vnd.openofficeorg.extension	oxt
 application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
 application/vnd.openxmlformats-officedocument.presentationml.slide	sldx

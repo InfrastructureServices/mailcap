@@ -4,7 +4,7 @@ Version: 2.1.29
 Release: 1%{?dist}
 License: Public Domain
 Group: System Environment/Base
-Source0: https://fedorahosted.org/releases/m/a/mailcap/%{name}-%{version}.tar.gz
+Source0: https://fedorahosted.org/released/mailcap/%{name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 

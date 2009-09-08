@@ -281,7 +281,7 @@ application/vnd.iccprofile		icc icm
 application/vnd.igloader		igl
 application/vnd.immervision-ivp		ivp
 application/vnd.immervision-ivu		ivu
-application/vnd.informix-visionary	vis
+# application/vnd.informix-visionary obsoleted by application/vnd.visionary
 application/vnd.intercon.formnet	xpw xpx
 application/vnd.intertrust.digibox
 application/vnd.intertrust.nncp

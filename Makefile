@@ -6,6 +6,8 @@ INSTALL = install
 sysconfdir = /etc
 mandir = /usr/share/man
 
+all:
+
 install:
 	$(INSTALL) -Dpm 644 mailcap $(DESTDIR)$(sysconfdir)/mailcap
 	$(INSTALL) -Dpm 644 mime.types $(DESTDIR)$(sysconfdir)/mime.types

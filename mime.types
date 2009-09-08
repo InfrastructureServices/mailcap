@@ -879,7 +879,7 @@ video/vnd.sealed.swf		sswf ssw
 video/vnd.sealedmedia.softseal-mov	smov smo s1q
 video/vnd.vivo
 video/x-flv			flv
-video/x-ms-asf			asf asx
+video/x-ms-asf			asx
 video/x-ms-wm			wm
 video/x-ms-wmv			wmv
 video/x-ms-wmx			wmx

@@ -27,6 +27,9 @@ handle non-text files.
 rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT sysconfdir=%{_sysconfdir} mandir=%{_mandir}
 
+%check
+make check
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 

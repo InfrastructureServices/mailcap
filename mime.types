@@ -474,7 +474,7 @@ application/vnd.sealed.mht		smht smh
 application/vnd.sealed.ppt		sppt s1p
 application/vnd.sealed.xls		sxls sxl s1e
 # stm used for audio/x-stm
-application/vnd.sealedmedia.softseal-html    stml stm s1h
+application/vnd.sealedmedia.softseal-html    stml s1h
 application/vnd.sealedmedia.softseal-pdf     spdf spd s1a
 application/vnd.seemail			see
 application/vnd.sema			sema

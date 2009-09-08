@@ -1,5 +1,4 @@
-
-VERSION=$(shell awk '/Version:/ { print $$2 }' mailcap.spec)
+VERSION = $(shell awk '/Version:/ { print $$2 }' mailcap.spec)
 TAG = r$(subst .,-,$(VERSION))
 
 INSTALL = install
@@ -22,4 +21,3 @@ create-archive:
 	@echo "The final archive is in mailcap-$(VERSION).tar.gz"
 
 archive: tag-archive create-archive
-

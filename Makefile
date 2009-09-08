@@ -2,6 +2,15 @@
 VERSION=$(shell awk '/Version:/ { print $$2 }' mailcap.spec)
 TAG = r$(subst .,-,$(VERSION))
 
+INSTALL = install
+sysconfdir = /etc
+mandir = /usr/share/man
+
+install:
+	$(INSTALL) -Dpm 644 mailcap $(DESTDIR)$(sysconfdir)/mailcap
+	$(INSTALL) -Dpm 644 mime.types $(DESTDIR)$(sysconfdir)/mime.types
+	$(INSTALL) -Dpm 644 mailcap.4 $(DESTDIR)$(mandir)/man4/mailcap.4
+
 tag-archive:
 	@git tag $(TAG)
 

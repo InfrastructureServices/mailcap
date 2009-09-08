@@ -25,10 +25,7 @@ handle non-text files.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_sysconfdir}
-install -p -m 644 mailcap mime.types $RPM_BUILD_ROOT%{_sysconfdir}
-mkdir -p $RPM_BUILD_ROOT%{_mandir}/man4
-install -p -m 644 mailcap.4 $RPM_BUILD_ROOT%{_mandir}/man4
+make install DESTDIR=$RPM_BUILD_ROOT sysconfdir=%{_sysconfdir} mandir=%{_mandir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT

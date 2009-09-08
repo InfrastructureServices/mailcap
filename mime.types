@@ -76,7 +76,8 @@ application/oda			oda
 application/oebps-package+xml	opf
 application/ogg			ogx
 application/parityfec
-application/patch-ops-error+xml	xer
+# xer is in application/xcap-error+xml, it was around first (RFC 4825 vs 5261)
+#application/patch-ops-error+xml	xer
 application/pdf			pdf
 application/pgp-encrypted
 application/pgp-keys

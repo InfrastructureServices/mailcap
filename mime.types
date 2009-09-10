@@ -776,7 +776,6 @@ video/vnd.vivo
 
 application/mac-compactpro			cpt
 application/metalink+xml			metalink
-application/news-message-id
 application/vnd.ms-excel.addin.macroEnabled.12		xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
 application/vnd.ms-excel.sheet.macroEnabled.12		xlsm
@@ -820,7 +819,6 @@ application/x-bittorrent			torrent
 application/x-bzip2				bz2
 application/x-cdlink				vcd
 application/x-chess-pgn				pgn
-application/x-compress
 application/x-cpio				cpio
 application/x-csh				csh
 application/x-director				dcr dir dxr
@@ -852,7 +850,6 @@ application/x-troff-me				me
 application/x-troff-ms				ms
 application/x-ustar				ustar
 application/x-wais-source			src
-audio/g.722.1
 audio/midi					mid midi kar
 audio/x-aiff					aif aiff aifc
 audio/x-mod					mod ult uni m15 mtm 669 med
@@ -863,8 +860,6 @@ audio/x-pn-realaudio				ram rm
 audio/x-realaudio				ra
 audio/x-stm					stm
 audio/x-wav					wav
-# pdb: application/vnd.palm
-chemical/x-pdb
 chemical/x-xyz					xyz
 image/bmp					bmp
 image/x-cmu-raster				ras
@@ -877,11 +872,9 @@ image/x-targa					tga
 image/x-xbitmap					xbm
 image/x-xpixmap					xpm
 image/x-xwindowdump				xwd
-text/vnd.flatland.3dml
 text/x-pod					pod
 text/x-setext					etx
 text/x-vcard					vcf
-video/vnd.mts
 video/x-flv					flv
 video/x-ms-asf					asx
 video/x-ms-wm					wm

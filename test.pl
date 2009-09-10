@@ -2,8 +2,8 @@
 
 use strict;
 
-my %types;
-my $ntypes = 0;
+my %ext2type;
+my %seentype;
 
 while (<>) {
   chomp;
@@ -11,23 +11,30 @@ while (<>) {
 
   $_ = lc($_);
   my ($type, @exts) = split;
-  $ntypes++;
+  $seentype{$type}++;
 
   for my $ext (@exts) {
-    $types{$ext} ||= [];
-    push @{$types{$ext}}, $type;
+    $ext2type{$ext} ||= [];
+    push @{$ext2type{$ext}}, $type;
   }
 }
 
 my @dupes;
-while (my ($ext, $types) = each %types) {
+for my $ext (sort keys %ext2type) {
+  my $types = $ext2type{$ext};
   next if scalar @$types < 2;
   push @dupes, sprintf "%s => %s", $ext, join(", ", sort @$types);
 }
+for my $type (sort keys %seentype) {
+  my $count = $seentype{$type};
+  next if $count < 2;
+  push @dupes, sprintf "%s (%d)", $type, $count;
+}
 
-printf "%d types, %d extensions\n", $ntypes, scalar keys %types;
+printf "%d types, %d extensions\n",
+  scalar keys %seentype, scalar keys %ext2type;
 if (@dupes) {
-  print STDERR "Error: duplicate mapping: ", $_, "\n" for sort @dupes;
+  print STDERR "Error: duplicate mapping: ", $_, "\n" for @dupes;
   exit 1;
 }
 print "Success, no duplicate mappings found.\n";

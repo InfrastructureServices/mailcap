@@ -8,17 +8,16 @@
 # please read RFC 2045, 2046, 2047, 2048, and 2077.  The Internet media type
 # registry is at <http://www.iana.org/assignments/media-types/>.
 
+# IANA types
+
 # MIME type					Extensions
-application/EDI-Consent
-application/EDI-X12
-application/EDIFACT
 application/activemessage
 application/andrew-inset			ez
 application/applefile
 application/atom+xml				atom
+application/atomicmail
 application/atomcat+xml				atomcat
 application/atomsvc+xml				atomsvc
-application/atomicmail
 application/auth-policy+xml			apxml
 application/batch-SMTP
 application/beep+xml
@@ -34,6 +33,9 @@ application/dec-dx
 application/dicom				dcm
 application/dvcs				dvc
 application/ecmascript
+application/EDI-Consent
+application/EDI-X12
+application/EDIFACT
 application/eshop
 application/fastinfoset				finf
 # fits, fit, fts: image/fits
@@ -55,19 +57,16 @@ application/javascript
 application/json				json
 application/lost+xml				lostxml
 application/mac-binhex40			hqx
-application/mac-compactpro			cpt
 application/macwriteii
 application/marc				mrc
 application/mathematica				nb ma mb
 application/mbox				mbox
-application/metalink+xml			metalink
 # mp4, mpg4: video/mp4, see RFC 4337
 application/mp4
 application/mpeg4-iod
 application/mpeg4-iod-xmt
 application/msword				doc
 application/mxf					mxf
-application/news-message-id
 application/news-transmission
 application/ocsp-request			orq
 application/ocsp-response			ors
@@ -87,8 +86,8 @@ application/pkcs7-mime				p7m p7c
 application/pkcs7-signature			p7s
 application/pkix-cert				cer
 application/pkix-crl				crl
-application/pkixcmp
 application/pkix-pkipath			pkipath
+application/pkixcmp
 application/pls+xml				pls
 application/postscript				ai eps ps
 application/prs.alvestrand.titrax-sheet
@@ -361,24 +360,13 @@ application/vnd.ms-artgalry			cil
 application/vnd.ms-asf				asf
 application/vnd.ms-cab-compressed		cab
 application/vnd.ms-excel			xls
-application/vnd.ms-excel.addin.macroEnabled.12		xlam
-application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
-application/vnd.ms-excel.sheet.macroEnabled.12		xlsm
-application/vnd.ms-excel.template.macroEnabled.12	xltm
 application/vnd.ms-fontobject			eot
 application/vnd.ms-htmlhelp			chm
 application/vnd.ms-ims				ims
 application/vnd.ms-lrm				lrm
 application/vnd.ms-powerpoint			ppt
-application/vnd.ms-powerpoint.addin.macroEnabled.12		ppam
-application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
-application/vnd.ms-powerpoint.slide.macroEnabled.12		sldm
-application/vnd.ms-powerpoint.slideshow.macroEnabled.12		ppsm
-application/vnd.ms-powerpoint.template.macroEnabled.12		potm
 application/vnd.ms-project			mpp
 application/vnd.ms-tnef				tnef tnf
-application/vnd.ms-word.document.macroEnabled.12	docm
-application/vnd.ms-word.template.macroEnabled.12	dotm
 application/vnd.ms-works			wcm wdb wks wps
 application/vnd.ms-wpl				wpl
 application/vnd.ms-xpsdocument			xps
@@ -421,23 +409,8 @@ application/vnd.oasis.opendocument.text-master			odm
 application/vnd.oasis.opendocument.text-template		ott
 application/vnd.oasis.opendocument.text-web			oth
 application/vnd.olpc-sugar			xo
-application/vnd.oma.dd+xml			dd
 application/vnd.oma.dd2+xml			dd2
-application/vnd.oma.drm.content			dcf
-# odf: application/vnd.oasis.opendocument.formula
-application/vnd.oma.drm.dcf			o4a o4v
-application/vnd.oma.drm.message			dm
-application/vnd.oma.drm.rights+wbxml		drc
-application/vnd.oma.drm.rights+xml		dr
 application/vnd.openofficeorg.extension		oxt
-application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
-application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
-application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
-application/vnd.openxmlformats-officedocument.presentationml.template	potx
-application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
-application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
-application/vnd.openxmlformats-officedocument.wordprocessingml.document	docx
-application/vnd.openxmlformats-officedocument.wordprocessingml.template	dotx
 application/vnd.osa.netdeploy			ndc
 application/vnd.osgi.dp				dp
 application/vnd.palm				prc pdb pqa oprc
@@ -499,20 +472,9 @@ application/vnd.sss-dtf
 application/vnd.sss-ntf
 application/vnd.street-stream
 application/vnd.sun.wadl+xml			wadl
-application/vnd.sun.xml.writer			sxw
-application/vnd.sun.xml.writer.template		stw
-application/vnd.sun.xml.calc			sxc
-application/vnd.sun.xml.calc.template		stc
-application/vnd.sun.xml.draw			sxd
-application/vnd.sun.xml.draw.template		std
-application/vnd.sun.xml.impress			sxi
-application/vnd.sun.xml.impress.template	sti
-application/vnd.sun.xml.writer.global		sxg
-application/vnd.sun.xml.math			sxm
 application/vnd.sus-calendar			sus susp
 application/vnd.svd
 application/vnd.swiftview-ics
-application/vnd.symbian.install			sis
 application/vnd.syncml.dm+wbxml			bdm
 application/vnd.syncml.dm+xml			xdm
 application/vnd.syncml+xml			xsm
@@ -530,8 +492,8 @@ application/vnd.unity				unityweb
 application/vnd.uoml+xml			uoml uo
 application/vnd.uplanet.alert
 application/vnd.uplanet.alert-wbxml
-application/vnd.uplanet.bearer-choice-wbxml
 application/vnd.uplanet.bearer-choice
+application/vnd.uplanet.bearer-choice-wbxml
 application/vnd.uplanet.cacheop
 application/vnd.uplanet.cacheop-wbxml
 application/vnd.uplanet.channel
@@ -552,7 +514,6 @@ application/vnd.visionary			vis
 # vsc: application/vnd.vidsoft.vidconference
 application/vnd.vividence.scriptfile
 application/vnd.vsf				vsf
-application/vnd.wap.mms-message			mms
 application/vnd.wap.sic				sic
 application/vnd.wap.slc				slc
 application/vnd.wap.wbxml			wbxml
@@ -589,43 +550,6 @@ application/wita
 application/wordperfect5.1
 application/wsdl+xml				wsdl
 application/wspolicy+xml			wspolicy
-application/x-bcpio				bcpio
-application/x-bittorrent			torrent
-application/x-bzip2				bz2
-application/x-cdlink				vcd
-application/x-chess-pgn				pgn
-application/x-compress
-application/x-cpio				cpio
-application/x-csh				csh
-application/x-director				dcr dir dxr
-application/x-dvi				dvi
-application/x-futuresplash			spl
-application/x-gtar				gtar
-application/x-gzip				gz tgz
-application/x-hdf				hdf
-application/x-java-archive			jar
-application/x-java-jnlp-file			jnlp
-application/x-killustrator			kil
-application/x-latex				latex
-application/x-netcdf				nc cdf
-application/x-perl				pl
-application/x-rpm				rpm
-application/x-sh				sh
-application/x-shar				shar
-application/x-shockwave-flash			swf
-application/x-stuffit				sit
-application/x-sv4cpio				sv4cpio
-application/x-sv4crc				sv4crc
-application/x-tar				tar
-application/x-tcl				tcl
-application/x-tex				tex
-application/x-texinfo				texinfo texi
-application/x-troff				t tr roff
-application/x-troff-man				man 1 2 3 4 5 6 7 8
-application/x-troff-me				me
-application/x-troff-ms				ms
-application/x-ustar				ustar
-application/x-wais-source			src
 application/x400-bp
 application/xcap-att+xml			xav
 application/xcap-caps+xml			xca
@@ -656,10 +580,8 @@ audio/EVRC					evc
 audio/EVRC-QCP
 audio/EVRCB					evb
 audio/EVRCWB					evw
-audio/g.722.1
 audio/iLBC					lbc
 audio/L16					l16
-audio/midi					mid midi kar
 audio/mobile-xmf				mxmf
 # mp4, mpg4: video/mp4, see RFC 4337
 audio/mp4
@@ -701,19 +623,6 @@ audio/vnd.sealedmedia.softseal.mpeg		smp3 smp s1m
 audio/vnd.vmx.cvsd
 audio/vorbis
 audio/vorbis-config
-audio/x-aiff					aif aiff aifc
-audio/x-mod					mod ult uni m15 mtm 669 med
-audio/x-mpegurl					m3u
-audio/x-pn-realaudio				ram rm
-audio/x-realaudio				ra
-audio/x-stm					stm
-audio/x-wav					wav
-audio/x-ms-wma					wma
-audio/x-ms-wax					wax
-# pdb: application/vnd.palm
-chemical/x-pdb
-chemical/x-xyz					xyz
-image/bmp					bmp
 image/cgm
 image/fits					fits fit fts
 image/g3fax
@@ -752,16 +661,6 @@ image/vnd.sealedmedia.softseal.jpg		sjpg sjp s1j
 image/vnd.svf
 image/vnd.wap.wbmp				wbmp
 image/vnd.xiff					xif
-image/x-cmu-raster				ras
-image/x-portable-anymap				pnm
-image/x-portable-bitmap				pbm
-image/x-portable-graymap			pgm
-image/x-portable-pixmap				ppm
-image/x-rgb					rgb
-image/x-targa					tga
-image/x-xbitmap					xbm
-image/x-xpixmap					xpm
-image/x-xwindowdump				xwd
 message/delivery-status
 message/disposition-notification
 message/external-body
@@ -822,19 +721,18 @@ text/sgml					sgml sgm
 text/tab-separated-values			tsv
 text/t140
 text/uri-list					uris uri
-text/vnd.DMClientScript				dms
-text/vnd.IPTC.NITF
-text/vnd.IPTC.NewsML
 text/vnd.abc					abc
 # curl: application/vnd.curl
 text/vnd.curl
+text/vnd.DMClientScript				dms
 text/vnd.esmertec.theme-descriptor		jtd
-text/vnd.flatland.3dml
 text/vnd.fly					fly
 text/vnd.fmi.flexstor				flx
 text/vnd.graphviz				gv dot
 text/vnd.in3d.3dml				3dml 3dm
 text/vnd.in3d.spot				spot spo
+text/vnd.IPTC.NewsML
+text/vnd.IPTC.NITF
 text/vnd.latex-z
 text/vnd.motorola.reflex
 text/vnd.ms-mediapackage			mpf
@@ -846,9 +744,6 @@ text/vnd.wap.si					si
 text/vnd.wap.sl					sl
 text/vnd.wap.wml				wml
 text/vnd.wap.wmlscript				wmls
-text/x-pod					pod
-text/x-setext					etx
-text/x-vcard					vcf
 text/xml					xml xsl
 text/xml-external-parsed-entity			ent
 video/3gpp					3gp 3gpp
@@ -868,7 +763,6 @@ video/vnd.motorola.video
 video/vnd.motorola.videop
 video/vnd.mpegurl				mxu m4u
 video/vnd.ms-playready.media.pyv		pyv
-video/vnd.mts
 video/vnd.nokia.interleaved-multimedia		nim
 # mp4: video/mp4
 video/vnd.objectvideo
@@ -877,6 +771,117 @@ video/vnd.sealed.mpeg4				s14
 video/vnd.sealed.swf				sswf ssw
 video/vnd.sealedmedia.softseal.mov		smov smo s1q
 video/vnd.vivo
+
+# Non-IANA types
+
+application/mac-compactpro			cpt
+application/metalink+xml			metalink
+application/news-message-id
+application/vnd.ms-excel.addin.macroEnabled.12		xlam
+application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
+application/vnd.ms-excel.sheet.macroEnabled.12		xlsm
+application/vnd.ms-excel.template.macroEnabled.12	xltm
+application/vnd.ms-powerpoint.addin.macroEnabled.12		ppam
+application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
+application/vnd.ms-powerpoint.slide.macroEnabled.12		sldm
+application/vnd.ms-powerpoint.slideshow.macroEnabled.12		ppsm
+application/vnd.ms-powerpoint.template.macroEnabled.12		potm
+application/vnd.ms-word.document.macroEnabled.12	docm
+application/vnd.ms-word.template.macroEnabled.12	dotm
+application/vnd.oma.dd+xml			dd
+application/vnd.oma.drm.content			dcf
+# odf: application/vnd.oasis.opendocument.formula
+application/vnd.oma.drm.dcf			o4a o4v
+application/vnd.oma.drm.message			dm
+application/vnd.oma.drm.rights+wbxml		drc
+application/vnd.oma.drm.rights+xml		dr
+application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
+application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
+application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
+application/vnd.openxmlformats-officedocument.presentationml.template	potx
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
+application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
+application/vnd.openxmlformats-officedocument.wordprocessingml.document	docx
+application/vnd.openxmlformats-officedocument.wordprocessingml.template	dotx
+application/vnd.sun.xml.calc			sxc
+application/vnd.sun.xml.calc.template		stc
+application/vnd.sun.xml.draw			sxd
+application/vnd.sun.xml.draw.template		std
+application/vnd.sun.xml.impress			sxi
+application/vnd.sun.xml.impress.template	sti
+application/vnd.sun.xml.math			sxm
+application/vnd.sun.xml.writer			sxw
+application/vnd.sun.xml.writer.global		sxg
+application/vnd.sun.xml.writer.template		stw
+application/vnd.symbian.install			sis
+application/vnd.wap.mms-message			mms
+application/x-bcpio				bcpio
+application/x-bittorrent			torrent
+application/x-bzip2				bz2
+application/x-cdlink				vcd
+application/x-chess-pgn				pgn
+application/x-compress
+application/x-cpio				cpio
+application/x-csh				csh
+application/x-director				dcr dir dxr
+application/x-dvi				dvi
+application/x-futuresplash			spl
+application/x-gtar				gtar
+application/x-gzip				gz tgz
+application/x-hdf				hdf
+application/x-java-archive			jar
+application/x-java-jnlp-file			jnlp
+application/x-killustrator			kil
+application/x-latex				latex
+application/x-netcdf				nc cdf
+application/x-perl				pl
+application/x-rpm				rpm
+application/x-sh				sh
+application/x-shar				shar
+application/x-shockwave-flash			swf
+application/x-stuffit				sit
+application/x-sv4cpio				sv4cpio
+application/x-sv4crc				sv4crc
+application/x-tar				tar
+application/x-tcl				tcl
+application/x-tex				tex
+application/x-texinfo				texinfo texi
+application/x-troff				t tr roff
+application/x-troff-man				man 1 2 3 4 5 6 7 8
+application/x-troff-me				me
+application/x-troff-ms				ms
+application/x-ustar				ustar
+application/x-wais-source			src
+audio/g.722.1
+audio/midi					mid midi kar
+audio/x-aiff					aif aiff aifc
+audio/x-mod					mod ult uni m15 mtm 669 med
+audio/x-mpegurl					m3u
+audio/x-ms-wax					wax
+audio/x-ms-wma					wma
+audio/x-pn-realaudio				ram rm
+audio/x-realaudio				ra
+audio/x-stm					stm
+audio/x-wav					wav
+# pdb: application/vnd.palm
+chemical/x-pdb
+chemical/x-xyz					xyz
+image/bmp					bmp
+image/x-cmu-raster				ras
+image/x-portable-anymap				pnm
+image/x-portable-bitmap				pbm
+image/x-portable-graymap			pgm
+image/x-portable-pixmap				ppm
+image/x-rgb					rgb
+image/x-targa					tga
+image/x-xbitmap					xbm
+image/x-xpixmap					xpm
+image/x-xwindowdump				xwd
+text/vnd.flatland.3dml
+text/x-pod					pod
+text/x-setext					etx
+text/x-vcard					vcf
+video/vnd.mts
 video/x-flv					flv
 video/x-ms-asf					asx
 video/x-ms-wm					wm

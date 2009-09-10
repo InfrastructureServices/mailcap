@@ -663,7 +663,7 @@ audio/midi					mid midi kar
 audio/mobile-xmf				mxmf
 # mp4, mpg4: video/mp4, see RFC 4337
 audio/mp4
-audio/mp4a-latm
+audio/MP4A-LATM
 audio/mpa-robust
 audio/mpeg					mpga mp1 mp2 mp3
 audio/ogg					oga ogg spx

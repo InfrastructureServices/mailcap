@@ -152,7 +152,8 @@ application/vnd.airzip.filesecure.azs		azs
 application/vnd.americandynamics.acc		acc
 application/vnd.amiga.ami			ami
 application/vnd.anser-web-certificate-issue-initiation	cii
-application/vnd.anser-web-funds-transfer-initiation
+# Not in IANA listing, but is on FTP site?
+application/vnd.anser-web-funds-transfer-initiation	fti
 application/vnd.antix.game-component		atx
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: application/x-mpegurl for now

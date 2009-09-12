@@ -215,8 +215,8 @@ application/vnd.epson.ssf			ssf
 application/vnd.ericsson.quickcall		qcall qca
 application/vnd.eszigno3+xml			es3 et3
 application/vnd.eudora.data
-application/vnd.ezpics-album			ez2
-application/vnd.ezpics-package			ez3
+application/vnd.ezpix-album			ez2
+application/vnd.ezpix-package			ez3
 application/vnd.fdf				fdf
 application/vnd.fdsn.mseed			msd mseed
 application/vnd.fsdn.seed			seed dataless

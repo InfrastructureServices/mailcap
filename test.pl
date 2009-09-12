@@ -4,6 +4,7 @@ use strict;
 
 my %ext2type;
 my %seentype;
+my %toplevel;
 
 while (<>) {
   chomp;
@@ -12,6 +13,8 @@ while (<>) {
   $_ = lc($_);
   my ($type, @exts) = split;
   $seentype{$type}++;
+  my $toplevel = (split(/\//, $type))[0];
+  $toplevel{$toplevel}++;
 
   for my $ext (@exts) {
     $ext2type{$ext} ||= [];
@@ -31,10 +34,14 @@ for my $type (sort keys %seentype) {
   push @dupes, sprintf "%s (%d)", $type, $count;
 }
 
+print "Top level types:\n";
+for my $toplevel (sort keys %toplevel) {
+  printf "%16s: %d\n", $toplevel, $toplevel{$toplevel};
+}
 printf "%d types, %d extensions\n",
   scalar keys %seentype, scalar keys %ext2type;
 if (@dupes) {
   print STDERR "Error: duplicate mapping: ", $_, "\n" for @dupes;
   exit 1;
 }
-print "Success, no duplicate mappings found.\n";
+print "No duplicate mappings found.\n";

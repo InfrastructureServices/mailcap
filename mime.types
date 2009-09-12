@@ -179,10 +179,10 @@ application/vnd.commonspace			csp cst
 application/vnd.contact.cmsg			cdbcmsg
 application/vnd.cosmocaller			cmc
 application/vnd.crick.clicker			clkx
-application/vnd.crick.keyboard			clkk
-application/vnd.crick.palette			clkp
-application/vnd.crick.template			clkt
-application/vnd.crick.wordbank			clkw
+application/vnd.crick.clicker.keyboard		clkk
+application/vnd.crick.clicker.palette		clkp
+application/vnd.crick.clicker.template		clkt
+application/vnd.crick.clicker.wordbank		clkw
 application/vnd.criticaltools.wbs+xml		wbs
 application/vnd.ctc-posml			pml
 application/vnd.cups-postscript

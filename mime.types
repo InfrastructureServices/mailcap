@@ -1184,6 +1184,7 @@ image/x-targa					tga
 image/x-xbitmap					xbm
 image/x-xpixmap					xpm
 image/x-xwindowdump				xwd
+text/cache-manifest				manifest
 text/x-pod					pod
 text/x-setext					etx
 text/x-vcard					vcf

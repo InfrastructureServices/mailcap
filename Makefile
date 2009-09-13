@@ -24,3 +24,5 @@ create-archive:
 	@echo "The final archive is in mailcap-$(VERSION).tar.gz"
 
 archive: tag-archive create-archive
+
+.PHONY: all check install tag-archive create-archive archive

@@ -602,21 +602,21 @@ application/vnd.pwg-multiplexed
 application/vnd.pwg-xhtml-print+xml
 application/vnd.qualcomm.brew-app-res		bar
 application/vnd.Quark.QuarkXPress		qxd qxt qwd qwt qxl qxb
-vnd.radisys.moml+xml
-vnd.radisys.msml-audit-conf+xml
-vnd.radisys.msml-audit-conn+xml
-vnd.radisys.msml-audit-dialog+xml
-vnd.radisys.msml-audit-stream+xml
-vnd.radisys.msml-audit+xml
-vnd.radisys.msml-conf+xml
-vnd.radisys.msml-dialog-base+xml
-vnd.radisys.msml-dialog-fax-detect+xml
-vnd.radisys.msml-dialog-fax-sendrecv+xml
-vnd.radisys.msml-dialog-group+xml
-vnd.radisys.msml-dialog-speech+xml
-vnd.radisys.msml-dialog-transform+xml
-vnd.radisys.msml-dialog+xml
-vnd.radisys.msml+xml
+application/vnd.radisys.moml+xml
+application/vnd.radisys.msml-audit-conf+xml
+application/vnd.radisys.msml-audit-conn+xml
+application/vnd.radisys.msml-audit-dialog+xml
+application/vnd.radisys.msml-audit-stream+xml
+application/vnd.radisys.msml-audit+xml
+application/vnd.radisys.msml-conf+xml
+application/vnd.radisys.msml-dialog-base+xml
+application/vnd.radisys.msml-dialog-fax-detect+xml
+application/vnd.radisys.msml-dialog-fax-sendrecv+xml
+application/vnd.radisys.msml-dialog-group+xml
+application/vnd.radisys.msml-dialog-speech+xml
+application/vnd.radisys.msml-dialog-transform+xml
+application/vnd.radisys.msml-dialog+xml
+application/vnd.radisys.msml+xml
 application/vnd.rapid
 application/vnd.realvnc.bed			bed
 application/vnd.recordare.musicxml		mxl

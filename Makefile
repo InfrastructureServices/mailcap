@@ -1,4 +1,4 @@
-VERSION = $(shell awk '/Version:/ { print $$2 }' mailcap.spec)
+VERSION = 2.1.29
 TAG = r$(subst .,-,$(VERSION))
 
 INSTALL = install

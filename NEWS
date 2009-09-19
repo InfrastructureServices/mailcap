@@ -1,3 +1,17 @@
+mailcap 2.1.30 (2009-09-19)
+
+  Ville Skyttä:
+  - mime.types: Sync.types with IANA as of 2009-09-19.
+  - mime.types: Remove non-IANA types that map to no extensions.
+  - mime.types: Reorganize mime into IANA and non-IANA ones.
+  - mime.types: Add HTML5 text/cache-manifest.
+  - mime.types: Add application/metalink+xml.
+  - mime.types: Various spelling fixes, make sure extensions are listed once.
+  - Add mime.types sanity checker (use make check to invoke).
+
+  Tom Callaway:
+  - Add copyright info.
+
 mailcap 2.1.29 (2008-12-15)
 
   Ville Skyttä:

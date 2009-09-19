@@ -1,0 +1,169 @@
+mailcap 2.1.29 (2008-12-15)
+
+  Ville Skyttä:
+  - update mime.types (#476455)
+
+mailcap 2.1.28 (2008-02-15)
+
+  Ville Skyttä:
+  - add new entries from perl-libwww-perl's media.types (#432290)
+
+mailcap 2.1.27 (2008-02-07)
+
+  Ville Skyttä:
+  - associate *.ent with text/xml-external-parsed-entity (#431722)
+
+mailcap 2.1.26 (2008-01-22)
+
+  Ville Skyttä:
+  - use xdg-open (#388481)
+
+  Miroslav Lichvar:
+  - spec cleanup (#226116)
+
+mailcap 2.1.25 (2007-07-10)
+
+  Miroslav Lichvar:
+  - add image/vnd.microsoft.icon to mime.types (#247222)
+
+mailcap 2.1.24 (2007-06-18)
+
+  Miroslav Lichvar:
+  - add text/x-vcard to mime.types (#243889)
+  - mark configs noreplace, cleanup spec a bit
+
+mailcap 2.1.23 (2006-09-05)
+
+  Miroslav Lichvar:
+  - add video/x-flv to mime.types (#205239)
+
+mailcap 2.1.22 (2006-08-07)
+
+  Ville Skyttä:
+  - add java/mobile mime types (#201512)
+
+mailcap 2.1.21 (2006-07-18)
+
+  Miroslav Lichvar:
+  - add audio and video x-ms mime types (#197840)
+
+mailcap 2.1.20 (2006-02-13)
+
+  Miroslav Lichvar:
+  - add OpenOffice.org 2.0 mime types (#173789)
+
+mailcap 2.1.19 (2005-03-07)
+
+  Bill Nottingham:
+  - s/ggv/evince/ (#150509)
+
+mailcap 2.1.18 (2005-01-21)
+
+  Ville Skyttä:
+  - add iso, img to octet-stream (#142459)
+
+mailcap 2.1.17 (2004-10-11)
+
+  Bill Nottingham:
+  - pdfs -> back to ggv
+
+mailcap 2.1.16 (2004-09-23)
+
+  Bill Nottingham:
+  - eog -> gthumb
+  - pdfs -> gpdf
+
+mailcap 2.1.15 (2004-05-03)
+
+  Bill Nottingham:
+  - xpdf/gv -> ggv (#118401)
+  - add application/x-bittorrent (#118752)
+
+mailcap 2.1.14 (2003-07-11)
+
+  Bill Nottingham:
+  - add application/ogg and OpenOffice.org mime.types
+
+mailcap 2.1.13 (2003-02-07)
+
+  Bill Nottingham:
+  - resync mime.types with apache
+  - clean out mailcap some
+
+mailcap 2.1.12 (2002-09-03)
+
+  Bill Nottingham:
+  - add application/x-ogg to mime.types
+
+mailcap 2.1.11 (2002-07-19)
+
+  Jens Petersen:
+  - use eog instead of ee
+
+mailcap 2.1.10 (2002-06-18)
+
+  Nalin Dahyabhai:
+  - resync mime.types with apache 1.3.26
+
+mailcap 2.1.9 (2001-12-24)
+
+  Bill Nottingham:
+  - fix Sep. 17 changes (#57362)
+
+mailcap 2.1.8 (2001-10-23)
+
+  Nalin Dahyabhai:
+  - resync mime.types with apache 1.3.22
+
+mailcap 2.1.7 (2001-09-17)
+
+  Bill Nottingham:
+  - associate PS files with gv (#53734)
+
+mailcap [older versions]:
+
+  Bill Nottingham:
+  - switch gtv & xanim order (#51408)
+  - use htmlview for text/html (#48141)
+  - use gpg, not pgp (#13816, others)
+  - fix typo (#23409)
+  - reintegrate stuff into the package so it doesn't get lost 
+  - remove mailcap.vga
+  - handle compressed man pages
+  - add .bz2
+  - add tgz/gz to gzip
+  - rpm files are RPM files. :)
+  - comment out play
+  - comment out backticked %variables to work around security problems
+  - we don't ship tracker, use mikmod instead
+
+  Preston Brown:
+  - add wap entries
+  - updated mime type for images from xv to ee
+  - cleaned up for our new version of the package which is in CVS
+
+  Than Ngo:
+  - add ms(TM) word document entry (Bug #17474)
+  - bzip2 sources
+
+  Jeff Johnson:
+  - fix typo in pdf entry (#2618).
+  - build root
+
+  Tim Waugh:
+  - Use gtv not xanim for video/mpeg, since we no longer ship the codecs.
+
+  Matt Wilson:
+  - updated mime.types
+
+  Cristian Gafton:
+  - glibc version 2.1
+
+  Prospector System:
+  - translations modified for de, fr, tr
+
+  Donnie Barnes:
+  - added /etc/mime.types from mutt to this package to make it universal
+
+  Erik Troan:
+  - made a noarch package

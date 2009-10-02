@@ -52,6 +52,7 @@ application/fastsoap
 application/fits
 application/font-tdpfr				pfr
 application/H224
+application/held+xml
 application/http
 application/hyperstudio				stk
 application/ibe-key-request+xml
@@ -768,6 +769,7 @@ application/xml-dtd				dtd
 application/xml-external-parsed-entity
 application/xmpp+xml
 application/xop+xml				xop
+application/xslt+xml				xsl xslt
 application/xv+xml				mxml xhvml xvml xvm
 application/zip					zip
 audio/32kadpcm					726
@@ -1040,7 +1042,7 @@ text/vnd.wap.si					si
 text/vnd.wap.sl					sl
 text/vnd.wap.wml				wml
 text/vnd.wap.wmlscript				wmls
-text/xml					xml xsl
+text/xml					xml
 text/xml-external-parsed-entity			ent
 video/3gpp					3gp 3gpp
 video/3gpp2					3g2 3gpp2

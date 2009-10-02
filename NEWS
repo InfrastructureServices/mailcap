@@ -1,7 +1,12 @@
+mailcap x.x.x (20xx-xx-xx)
+
+  Ville Skyttä:
+  - mime.types: Sync with IANA as of 2009-10-02.
+
 mailcap 2.1.30 (2009-09-19)
 
   Ville Skyttä:
-  - mime.types: Sync.types with IANA as of 2009-09-19.
+  - mime.types: Sync with IANA as of 2009-09-19.
   - mime.types: Remove non-IANA types that map to no extensions.
   - mime.types: Reorganize mime into IANA and non-IANA ones.
   - mime.types: Add HTML5 text/cache-manifest.

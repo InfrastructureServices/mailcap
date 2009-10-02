@@ -1161,6 +1161,7 @@ application/x-gzip				gz tgz
 application/x-hdf				hdf
 application/x-java-archive			jar
 application/x-java-jnlp-file			jnlp
+application/x-java-pack200			pack
 application/x-killustrator			kil
 application/x-latex				latex
 application/x-netcdf				nc cdf

@@ -11,6 +11,7 @@
 # IANA types
 
 # MIME type					Extensions
+application/3gpp-ims+xml
 application/activemessage
 application/andrew-inset			ez
 application/applefile
@@ -38,6 +39,8 @@ application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
 application/dns
+application/dssc+der				dssc
+application/dssc+xml				xdssc
 application/dvcs				dvc
 application/ecmascript
 application/EDI-Consent
@@ -626,6 +629,7 @@ application/vnd.RenLearn.rlprint
 application/vnd.route66.link66+xml		link66
 application/vnd.ruckus.download
 application/vnd.s3sms
+application/vnd.sailingtracker.track		st
 application/vnd.sbm.cid
 application/vnd.sbm.mid2
 application/vnd.scribus				scd sla slaz
@@ -715,6 +719,10 @@ application/vnd.webturbo			wtb
 application/vnd.wfa.wsc				wsc
 application/vnd.wmc				wmc
 application/vnd.wmf.bootstrap
+# nb: application/mathematica for now
+application/vnd.wolfram.mathematica
+application/vnd.wolfram.mathematica.package	m
+application/vnd.wolfram.player			nbp
 application/vnd.wordperfect			wpd
 application/vnd.wqd				wqd
 application/vnd.wrq-hp3000-labelled

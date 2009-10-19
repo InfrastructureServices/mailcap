@@ -3,6 +3,7 @@ mailcap x.x.x (20xx-xx-xx)
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2009-10-17.
   - mime.types: Add application/x-java-pack200.
+  - mime.types: Add application/x-xz (#529584).
 
 mailcap 2.1.30 (2009-09-19)
 

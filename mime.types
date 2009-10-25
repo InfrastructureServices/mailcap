@@ -1115,6 +1115,7 @@ video/vnd.vivo
 # Non-IANA types
 
 application/mac-compactpro			cpt
+application/mathml+xml				mml
 application/metalink+xml			metalink
 application/vnd.ms-excel.addin.macroEnabled.12		xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
@@ -1204,6 +1205,7 @@ audio/x-stm					stm
 audio/x-wav					wav
 chemical/x-xyz					xyz
 image/bmp					bmp
+image/svg+xml					svg svgz
 image/x-cmu-raster				ras
 image/x-portable-anymap				pnm
 image/x-portable-bitmap				pbm

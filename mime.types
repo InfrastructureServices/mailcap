@@ -1201,6 +1201,7 @@ audio/x-ms-wax					wax
 audio/x-ms-wma					wma
 audio/x-pn-realaudio				ram rm
 audio/x-realaudio				ra
+audio/x-s3m					s3m
 audio/x-stm					stm
 audio/x-wav					wav
 chemical/x-xyz					xyz

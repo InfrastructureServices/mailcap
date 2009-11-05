@@ -1117,6 +1117,7 @@ video/vnd.vivo
 application/mac-compactpro			cpt
 application/mathml+xml				mml
 application/metalink+xml			metalink
+application/rss+xml				rss
 application/vnd.ms-excel.addin.macroEnabled.12		xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
 application/vnd.ms-excel.sheet.macroEnabled.12		xlsm

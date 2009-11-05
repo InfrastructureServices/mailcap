@@ -6,6 +6,7 @@ mailcap x.x.x (20xx-xx-xx)
   - mime.types: Add application/x-xz (#529584).
   - mime.types: Add application/mathml+xml and image/svg+xml.
   - mime.types: Add audio/x-s3m.
+  - mime.types: Add application/rss+xml.
 
 mailcap 2.1.30 (2009-09-19)
 

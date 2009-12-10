@@ -1260,6 +1260,7 @@ application/x-wais-source			src
 application/x-xz				xz
 audio/midi					mid midi kar
 audio/x-aiff					aif aiff aifc
+audio/x-flac					flac
 audio/x-mod					mod ult uni m15 mtm 669 med
 audio/x-mpegurl					m3u
 audio/x-ms-wax					wax

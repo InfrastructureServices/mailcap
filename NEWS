@@ -1,3 +1,8 @@
+mailcap x.x.xx (20xx-xx-xx)
+
+  Ville Skyttä:
+  - mime.types: Add audio/x-flac (#546116).
+
 mailcap 2.1.31 (2009-11-17)
 
   Ville Skyttä:

@@ -137,7 +137,7 @@ application/pkix-pkipath			pkipath
 application/pkixcmp
 application/pls+xml				pls
 application/poc-settings+xml
-application/postscript				ai eps ps
+application/postscript				ps eps ai
 application/prs.alvestrand.titrax-sheet
 application/prs.cww				cw cww
 application/prs.nprend				rnd rct
@@ -914,7 +914,7 @@ audio/mp4
 audio/MP4A-LATM
 audio/MPA
 audio/mpa-robust
-audio/mpeg					mpga mp1 mp2 mp3
+audio/mpeg					mp3 mpga mp1 mp2
 audio/mpeg4-generic
 audio/ogg					oga ogg spx
 audio/parityfec
@@ -989,7 +989,7 @@ image/g3fax
 image/gif					gif
 image/ief					ief
 image/jp2					jp2 jpg2
-image/jpeg					jpeg jpg jpe jfif
+image/jpeg					jpg jpeg jpe jfif
 image/jpm					jpm jpgm
 image/jpx					jpx jpf
 image/naplps
@@ -1078,7 +1078,7 @@ text/html					html htm
 # obsoleted by application/javascript
 text/javascript					js
 text/parityfec
-text/plain				asc txt text pm el c h cc hh cxx hxx f90
+text/plain				txt asc text pm el c h cc hh cxx hxx f90
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc
 text/RED
@@ -1147,7 +1147,7 @@ video/nv
 video/ogg					ogv
 video/parityfec
 video/pointer
-video/quicktime					qt mov
+video/quicktime					mov qt
 video/raw
 video/rtp-enc-aescm128
 video/rtx

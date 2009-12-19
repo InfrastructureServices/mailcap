@@ -526,6 +526,7 @@ application/vnd.nokia.radio-presets		rpss
 application/vnd.novadigm.EDM			edm
 application/vnd.novadigm.EDX			edx
 application/vnd.novadigm.EXT			ext
+application/vnd.ntt-local.file-transfer
 application/vnd.oasis.opendocument.chart			odc
 application/vnd.oasis.opendocument.chart-template		otc
 application/vnd.oasis.opendocument.database			odb
@@ -724,6 +725,7 @@ application/vnd.shana.informed.interchange	iif
 application/vnd.shana.informed.package		ipk
 application/vnd.SimTech-MindMapper		twd twds
 application/vnd.smaf				mmf
+application/vnd.smart.notebook			notebook
 application/vnd.smart.teacher			teacher
 application/vnd.software602.filler.form+xml	fo
 application/vnd.software602.filler.form-xml-zip	zfo

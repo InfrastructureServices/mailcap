@@ -205,6 +205,7 @@ application/vnd.accpac.simply.aso		aso
 application/vnd.accpac.simply.imp		imp
 application/vnd.acucobol			acu
 application/vnd.acucorp				atc acutc
+application/vnd.adobe.fxp			fxp fxpl
 application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml			xdp
 application/vnd.adobe.xfdf			xfdf

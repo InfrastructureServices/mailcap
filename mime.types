@@ -11,6 +11,7 @@
 # IANA types
 
 # MIME type					Extensions
+application/1d-interleaved-parityfec
 application/3gpp-ims+xml
 application/activemessage
 application/andrew-inset			ez
@@ -851,6 +852,7 @@ application/xop+xml				xop
 application/xslt+xml				xsl xslt
 application/xv+xml				mxml xhvml xvml xvm
 application/zip					zip
+audio/1d-interleaved-parityfec
 audio/32kadpcm					726
 # 3gp, 3gpp: video/3gpp
 audio/3gpp
@@ -1070,6 +1072,7 @@ multipart/related
 multipart/report
 multipart/signed
 multipart/voice-message				vpm
+text/1d-interleaved-parityfec
 text/calendar					ics ifb
 text/css					css
 text/csv					csv
@@ -1123,6 +1126,7 @@ text/vnd.wap.wml				wml
 text/vnd.wap.wmlscript				wmls
 text/xml					xml
 text/xml-external-parsed-entity			ent
+video/1d-interleaved-parityfec
 video/3gpp					3gp 3gpp
 video/3gpp2					3g2 3gpp2
 video/3gpp-tt

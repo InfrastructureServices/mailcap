@@ -274,6 +274,7 @@ application/vnd.dvb.esgcontainer
 application/vnd.dvb.ipdcdftnotifaccess
 application/vnd.dvb.ipdcesgaccess
 application/vnd.dvb.ipdcesgaccess2
+application/vnd.dvb.ipdcesgpdd
 application/vnd.dvb.ipdcroaming
 application/vnd.dvb.iptv.alfec-base
 application/vnd.dvb.iptv.alfec-enhancement

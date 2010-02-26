@@ -96,6 +96,7 @@ application/mbms-user-service-description+xml
 application/mbox				mbox
 application/media_control+xml
 application/mediaservercontrol+xml
+application/metalink4+xml			meta4
 application/mikey
 application/moss-keys
 application/moss-signature

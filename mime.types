@@ -1272,6 +1272,7 @@ application/x-troff-me				me
 application/x-troff-ms				ms
 application/x-ustar				ustar
 application/x-wais-source			src
+application/x-xpinstall				xpi
 application/x-xz				xz
 audio/midi					mid midi kar
 audio/x-aiff					aif aiff aifc

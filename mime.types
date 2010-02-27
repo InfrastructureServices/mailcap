@@ -1235,6 +1235,7 @@ application/vnd.sun.xml.writer.global		sxg
 application/vnd.sun.xml.writer.template		stw
 application/vnd.symbian.install			sis
 application/vnd.wap.mms-message			mms
+application/x-annodex				anx
 application/x-bcpio				bcpio
 application/x-bittorrent			torrent
 application/x-bzip2				bz2
@@ -1273,9 +1274,11 @@ application/x-troff-ms				ms
 application/x-ustar				ustar
 application/x-wais-source			src
 application/x-xpinstall				xpi
+application/x-xspf+xml				xspf
 application/x-xz				xz
 audio/midi					mid midi kar
 audio/x-aiff					aif aiff aifc
+audio/x-annodex					axa
 audio/x-flac					flac
 audio/x-mod					mod ult uni m15 mtm 669 med
 audio/x-mpegurl					m3u
@@ -1303,6 +1306,7 @@ text/cache-manifest				manifest
 text/x-pod					pod
 text/x-setext					etx
 text/x-vcard					vcf
+video/x-annodex					axv
 video/x-flv					flv
 video/x-ms-asf					asx
 video/x-ms-wm					wm

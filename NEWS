@@ -5,6 +5,7 @@ mailcap x.x.xx (20xx-xx-xx)
   - mime.types: Sync with IANA as of 2010-02-26.
   - mime.types: Add xiph.org non-IANA types (#546116).
   - mime.types: Add application/x-xpinstall.
+  - mime.types: Add text/html-sandboxed.
 
 mailcap 2.1.31 (2009-11-17)
 

@@ -1303,6 +1303,7 @@ image/x-xbitmap					xbm
 image/x-xpixmap					xpm
 image/x-xwindowdump				xwd
 text/cache-manifest				manifest
+text/html-sandboxed				sandboxed
 text/x-pod					pod
 text/x-setext					etx
 text/x-vcard					vcf

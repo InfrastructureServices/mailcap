@@ -565,6 +565,7 @@ application/vnd.oma.bcast.simple-symbol-container
 application/vnd.oma.bcast.smartcard-trigger+xml
 application/vnd.oma.bcast.sprov+xml
 application/vnd.oma.bcast.stkm
+application/vnd.oma.cab-pcc+xml
 application/vnd.oma.dcd
 application/vnd.oma.dcdc
 application/vnd.oma.dd2+xml			dd2

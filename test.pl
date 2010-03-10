@@ -6,6 +6,10 @@ my %ext2type;
 my %seentype;
 my %toplevel;
 
+my %good_toplevel = map { $_ => 1 }
+  qw(application audio chemical image message model multipart text video
+     x-conference x-epoc);
+
 while (<>) {
   chomp;
   /^\s*(#|$)/ && next;
@@ -40,8 +44,21 @@ for my $toplevel (sort keys %toplevel) {
 }
 printf "%d types, %d extensions\n",
   scalar keys %seentype, scalar keys %ext2type;
+
+my $dupe_error = 0;
 if (@dupes) {
   print STDERR "Error: duplicate mapping: ", $_, "\n" for @dupes;
-  exit 1;
+  $dupe_error++;
 }
-print "No duplicate mappings found.\n";
+  print "No duplicate mappings found.\n" unless $dupe_error;
+
+my $toplevel_error = 0;
+for my $toplevel (keys %toplevel) {
+  unless (exists $good_toplevel{$toplevel}) {
+    print STDERR "Error: bad top level type: ", $toplevel, "\n";
+    $toplevel_error++;
+  }
+}
+print "No bad top level types found.\n" unless $toplevel_error;
+
+exit $dupe_error + $toplevel_error ? 1 : 0;

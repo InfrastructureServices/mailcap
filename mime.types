@@ -831,6 +831,7 @@ application/voicexml+xml			vxml
 application/watcherinfo+xml			wif
 application/whoispp-query
 application/whoispp-response
+application/widget				wgt
 application/wita
 application/wordperfect5.1
 application/wsdl+xml				wsdl

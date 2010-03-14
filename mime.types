@@ -133,6 +133,8 @@ application/pidf+xml
 application/pkcs10				p10
 application/pkcs7-mime				p7m p7c
 application/pkcs7-signature			p7s
+# ac: application/vnd.nokia.n-gage.ac+xml
+application/pkix-attr-cert
 application/pkix-cert				cer
 application/pkix-crl				crl
 application/pkix-pkipath			pkipath

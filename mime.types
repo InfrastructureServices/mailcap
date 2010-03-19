@@ -841,6 +841,7 @@ application/wspolicy+xml			wspolicy
 application/x400-bp
 application/xcap-att+xml			xav
 application/xcap-caps+xml			xca
+application/xcap-diff+xml			xdf
 application/xcap-el+xml				xel
 application/xcap-error+xml			xer
 application/xcap-ns+xml				xns

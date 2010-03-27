@@ -411,6 +411,7 @@ application/vnd.iptc.g2.packageitem+xml
 application/vnd.ipunplugged.rcprofile		rcprofile
 application/vnd.irepository.package+xml		irp
 application/vnd.is-xpr				xpr
+application/vnd.isac.fcs			fcs
 application/vnd.jam				jam
 application/vnd.japannet-directory-service
 application/vnd.japannet-jpnstore-wakeup
@@ -567,6 +568,7 @@ application/vnd.oma.bcast.simple-symbol-container
 application/vnd.oma.bcast.smartcard-trigger+xml
 application/vnd.oma.bcast.sprov+xml
 application/vnd.oma.bcast.stkm
+application/vnd.oma.cab-address-book+xml
 application/vnd.oma.cab-pcc+xml
 application/vnd.oma.dcd
 application/vnd.oma.dcdc
@@ -653,6 +655,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
 application/vnd.openxmlformats-package.core-properties+xml
 application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
+application/vnd.openxmlformats-package.relationships+xml
 application/vnd.osa.netdeploy			ndc
 # jar: application/x-java-archive
 application/vnd.osgi.bundle

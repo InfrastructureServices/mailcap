@@ -2,6 +2,7 @@ mailcap x.x.x (20xx-xx-xx)
 
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2010-03-27.
+  - mime.types: Associate rng and xsd with text/xml.
 
 mailcap 2.1.32 (2010-03-19)
 

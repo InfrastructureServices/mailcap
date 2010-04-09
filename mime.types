@@ -50,6 +50,7 @@ application/EDIFACT
 application/emma+xml				emma
 application/epp+xml
 application/eshop
+application/exi					exi
 application/fastinfoset				finf
 application/fastsoap
 # fits, fit, fts: image/fits

@@ -147,6 +147,7 @@ application/prs.alvestrand.titrax-sheet
 application/prs.cww				cw cww
 application/prs.nprend				rnd rct
 application/prs.plucker
+application/prs.xsf+xml				xsf
 application/qsig
 application/rdf+xml				rdf
 application/reginfo+xml				rif

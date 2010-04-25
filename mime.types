@@ -192,6 +192,19 @@ application/spirits-event+xml
 application/srgs				gram
 application/srgs+xml				grxml
 application/ssml+xml				ssml
+application/tamp-apex-update			tau
+application/tamp-apex-update-confirm		auc
+application/tamp-community-update		tcu
+application/tamp-community-update-confirm	cuc
+application/tamp-error				ter
+application/tamp-sequence-adjust		tsa
+application/tamp-sequence-adjust-confirm	sac
+# tsq: application/timestamp-query
+application/tamp-status-query
+# tsr: application/timestamp-reply
+application/tamp-status-response
+application/tamp-update				tur
+application/tamp-update-confirm			tuc
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
 application/tve-trigger

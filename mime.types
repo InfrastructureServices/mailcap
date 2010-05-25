@@ -934,6 +934,7 @@ audio/G729D
 audio/G729E
 audio/GSM
 audio/GSM-EFR
+audio/GSM-HR-08
 audio/iLBC					lbc
 # wav: audio/wav
 audio/L16					l16

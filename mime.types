@@ -206,6 +206,7 @@ application/tamp-status-query
 application/tamp-status-response
 application/tamp-update				tur
 application/tamp-update-confirm			tuc
+application/thraud+xml				tfi
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
 application/tve-trigger
@@ -1059,6 +1060,7 @@ message/CPIM
 message/delivery-status
 message/disposition-notification
 message/external-body
+message/feedback-report
 message/global					u8msg
 message/global-delivery-status			u8dsn
 message/global-disposition-notification		u8mdn

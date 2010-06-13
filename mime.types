@@ -209,6 +209,7 @@ application/tamp-update-confirm			tuc
 application/thraud+xml				tfi
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
+application/timestamped-data			tsd
 application/tve-trigger
 application/ulpfec
 application/vemmi
@@ -880,6 +881,8 @@ application/xmpp+xml
 application/xop+xml				xop
 application/xslt+xml				xsl xslt
 application/xv+xml				mxml xhvml xvml xvm
+application/yang				yang
+application/yin+xml				yin
 application/zip					zip
 audio/1d-interleaved-parityfec
 audio/32kadpcm					726

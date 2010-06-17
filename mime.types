@@ -418,6 +418,7 @@ application/vnd.immervision-ivu			ivu
 application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
 application/vnd.intercon.formnet		xpw xpx
+application/vnd.intergeo			i2g
 application/vnd.intertrust.digibox
 application/vnd.intertrust.nncp
 application/vnd.intu.qbo			qbo
@@ -588,6 +589,7 @@ application/vnd.oma.bcast.sprov+xml
 application/vnd.oma.bcast.stkm
 application/vnd.oma.cab-address-book+xml
 application/vnd.oma.cab-pcc+xml
+application/vnd.oma.cab-user-prefs+xml
 application/vnd.oma.dcd
 application/vnd.oma.dcdc
 application/vnd.oma.dd2+xml			dd2

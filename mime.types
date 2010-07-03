@@ -1339,8 +1339,10 @@ text/html-sandboxed				sandboxed
 text/x-pod					pod
 text/x-setext					etx
 text/x-vcard					vcf
+video/webm					webm
 video/x-annodex					axv
 video/x-flv					flv
+video/x-javafx					fxm
 video/x-ms-asf					asx
 video/x-ms-wm					wm
 video/x-ms-wmv					wmv

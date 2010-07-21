@@ -588,6 +588,7 @@ application/vnd.oma.bcast.smartcard-trigger+xml
 application/vnd.oma.bcast.sprov+xml
 application/vnd.oma.bcast.stkm
 application/vnd.oma.cab-address-book+xml
+application/vnd.oma.cab-feature-handler+xml
 application/vnd.oma.cab-pcc+xml
 application/vnd.oma.cab-user-prefs+xml
 application/vnd.oma.dcd
@@ -677,6 +678,7 @@ application/vnd.openxmlformats-package.core-properties+xml
 application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
 application/vnd.openxmlformats-package.relationships+xml
 application/vnd.osa.netdeploy			ndc
+application/vnd.osgeo.mapguide.package		mgp
 # jar: application/x-java-archive
 application/vnd.osgi.bundle
 application/vnd.osgi.dp				dp

@@ -729,6 +729,7 @@ application/vnd.realvnc.bed			bed
 application/vnd.recordare.musicxml		mxl
 application/vnd.recordare.musicxml+xml
 application/vnd.RenLearn.rlprint
+application/vnd.rig.cryptonote			cryptonote
 application/vnd.route66.link66+xml		link66
 application/vnd.ruckus.download
 application/vnd.s3sms

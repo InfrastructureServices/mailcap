@@ -856,6 +856,7 @@ application/vnd.yellowriver-custom-menu		cmp
 application/vnd.zul				zir zirz
 application/vnd.zzazz.deck+xml			zaz
 application/voicexml+xml			vxml
+application/vq-rtcp-xr
 application/watcherinfo+xml			wif
 application/whoispp-query
 application/whoispp-response

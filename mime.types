@@ -574,6 +574,13 @@ application/vnd.oasis.opendocument.text-master			odm
 application/vnd.oasis.opendocument.text-template		ott
 application/vnd.oasis.opendocument.text-web			oth
 application/vnd.obn
+application/vnd.oipf.contentaccessdownload+xml
+application/vnd.oipf.contentaccessstreaming+xml
+application/vnd.oipf.cspg-hexbinary
+application/vnd.oipf.mippvcontrolmessage+xml
+application/vnd.oipf.spdiscovery+xml
+application/vnd.oipf.spdlist+xml
+application/vnd.oipf.ueprofile+xml
 application/vnd.olpc-sugar			xo
 application/vnd.oma.bcast.associated-procedure-parameter+xml
 application/vnd.oma.bcast.drm-trigger+xml

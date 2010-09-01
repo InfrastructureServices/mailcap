@@ -418,6 +418,7 @@ application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
 application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
+application/vnd.infotech.project+xml
 application/vnd.intercon.formnet		xpw xpx
 application/vnd.intergeo			i2g
 application/vnd.intertrust.digibox
@@ -817,6 +818,7 @@ application/vnd.vcx				vcx
 application/vnd.vd-study			mxi study-inter model-inter
 # mcd: application/vnd.mcd
 application/vnd.vectorworks			vwx
+application/vnd.verimatrix.vcas
 application/vnd.vidsoft.vidconference		vsc
 application/vnd.visio				vsd vst vsw vss
 application/vnd.visionary			vis

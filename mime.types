@@ -286,6 +286,7 @@ application/vnd.curl				curl
 application/vnd.cybank
 application/vnd.data-vision.rdz			rdz
 application/vnd.dece.data			uvf uvvf uvd uvvd
+application/vnd.dece.unspecified		uvx uvvx
 application/vnd.denovo.fcselayout-link		fe_launch
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dna				dna
@@ -419,6 +420,7 @@ application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
 application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
+application/vnd.infotech.project
 application/vnd.infotech.project+xml
 application/vnd.intercon.formnet		xpw xpx
 application/vnd.intergeo			i2g
@@ -1006,6 +1008,7 @@ audio/vnd.cisco.nse
 audio/vnd.cmles.radio-events
 audio/vnd.cns.anp1
 audio/vnd.cns.inf1
+audio/vnd.dece.audio				uva uvva
 audio/vnd.digital-winds				eol
 audio/vnd.dlna.adts
 audio/vnd.dolby.heaac.1
@@ -1056,6 +1059,7 @@ image/tiff					tiff tif
 image/tiff-fx					tfx
 image/vnd.adobe.photoshop			psd
 image/vnd.cns.inf2
+image/vnd.dece.graphic				uvi uvvi uvg uvvg
 image/vnd.djvu					djvu djv
 image/vnd.dwg
 image/vnd.dxf					dxf
@@ -1213,8 +1217,11 @@ video/SMPTE292M
 video/ulpfec
 video/vc1
 video/vnd.CCTV
+video/vnd.dece.hd				uvh uvvh
 video/vnd.dece.mobile				uvm uvvm
 video/vnd.dece.pd				uvp uvvp
+video/vnd.dece.sd				uvs uvvs
+video/vnd.dece.video				uvv uvvv
 video/vnd.dlna.mpeg-tts
 video/vnd.fvt					fvt
 # rm: audio/x-pn-realaudio
@@ -1238,6 +1245,7 @@ video/vnd.sealed.mpeg1				smpg s11
 video/vnd.sealed.mpeg4				s14
 video/vnd.sealed.swf				sswf ssw
 video/vnd.sealedmedia.softseal.mov		smov smo s1q
+video/vnd.uvvu.mp4				uvu uvvu
 video/vnd.vivo
 
 # Non-IANA types

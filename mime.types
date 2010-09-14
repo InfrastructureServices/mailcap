@@ -84,6 +84,9 @@ application/mac-binhex40			hqx
 application/macwriteii
 application/marc				mrc
 application/mathematica				nb ma mb
+application/mathml-content+xml
+application/mathml-presentation+xml
+application/mathml+xml				mml
 application/mbms-associated-procedure-description+xml
 application/mbms-deregister+xml
 application/mbms-envelope+xml
@@ -1251,7 +1254,6 @@ video/vnd.vivo
 # Non-IANA types
 
 application/mac-compactpro			cpt
-application/mathml+xml				mml
 application/metalink+xml			metalink
 application/rss+xml				rss
 application/vnd.ms-excel.addin.macroEnabled.12		xlam

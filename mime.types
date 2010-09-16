@@ -40,6 +40,7 @@ application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
 application/dns
+application/dskpp+xml				xmls
 application/dssc+der				dssc
 application/dssc+xml				xdssc
 application/dvcs				dvc
@@ -785,6 +786,7 @@ application/vnd.spotfire.sfs			sfs
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
+application/vnd.stepmania.stepchart		sm
 application/vnd.street-stream
 application/vnd.sun.wadl+xml			wadl
 application/vnd.sus-calendar			sus susp

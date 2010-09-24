@@ -1227,6 +1227,8 @@ video/vnd.dece.mobile				uvm uvvm
 video/vnd.dece.pd				uvp uvvp
 video/vnd.dece.sd				uvs uvvs
 video/vnd.dece.video				uvv uvvv
+video/vnd.directv.mpeg
+video/vnd.directv.mpeg-tts
 video/vnd.dlna.mpeg-tts
 video/vnd.fvt					fvt
 # rm: audio/x-pn-realaudio

@@ -1055,6 +1055,7 @@ image/jp2					jp2 jpg2
 image/jpeg					jpg jpeg jpe jfif
 image/jpm					jpm jpgm
 image/jpx					jpx jpf
+image/ktx					ktx
 image/naplps
 image/png					png
 image/prs.btif					btif btf
@@ -1224,6 +1225,7 @@ video/vc1
 video/vnd.CCTV
 video/vnd.dece.hd				uvh uvvh
 video/vnd.dece.mobile				uvm uvvm
+video/vnd.dece.mp4				uvu uvvu
 video/vnd.dece.pd				uvp uvvp
 video/vnd.dece.sd				uvs uvvs
 video/vnd.dece.video				uvv uvvv
@@ -1252,7 +1254,8 @@ video/vnd.sealed.mpeg1				smpg s11
 video/vnd.sealed.mpeg4				s14
 video/vnd.sealed.swf				sswf ssw
 video/vnd.sealedmedia.softseal.mov		smov smo s1q
-video/vnd.uvvu.mp4				uvu uvvu
+# uvu, uvvu: video/vnd.dece.mp4
+video/vnd.uvvu.mp4
 video/vnd.vivo
 
 # Non-IANA types

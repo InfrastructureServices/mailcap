@@ -1262,6 +1262,7 @@ video/vnd.vivo
 
 # Non-IANA types
 
+application/epub+zip				epub
 application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss

@@ -2,6 +2,7 @@ mailcap x.x.x (201x-xx-xx)
 
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2010-10-13.
+  - mime.types: Add application/epub+zip.
 
 mailcap 2.1.34 (2010-08-24)
 

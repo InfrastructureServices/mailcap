@@ -290,6 +290,7 @@ application/vnd.curl				curl
 application/vnd.cybank
 application/vnd.data-vision.rdz			rdz
 application/vnd.dece.data			uvf uvvf uvd uvvd
+application/vnd.dece.ttml+xml		uvt uvvt
 application/vnd.dece.unspecified		uvx uvvx
 application/vnd.denovo.fcselayout-link		fe_launch
 application/vnd.dir-bi.plate-dl-nosuffix
@@ -426,6 +427,7 @@ application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
 application/vnd.infotech.project
 application/vnd.infotech.project+xml
+application/vnd.insors.igm			igm
 application/vnd.intercon.formnet		xpw xpx
 application/vnd.intergeo			i2g
 application/vnd.intertrust.digibox

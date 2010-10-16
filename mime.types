@@ -58,6 +58,7 @@ application/fastsoap
 application/fits
 application/font-tdpfr				pfr
 application/H224
+application/hal+xml				hal
 application/held+xml
 application/http
 application/hyperstudio				stk

@@ -153,6 +153,7 @@ application/prs.alvestrand.titrax-sheet
 application/prs.cww				cw cww
 application/prs.nprend				rnd rct
 application/prs.plucker
+application/prs.rdf-xml-crypt			rdf-crypt
 application/prs.xsf+xml				xsf
 application/pskc+xml				pskcxml
 application/qsig
@@ -238,6 +239,7 @@ application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml			xdp
 application/vnd.adobe.xfdf			xfdf
 application/vnd.aether.imp
+application/vnd.ahead.space			ahead
 application/vnd.airzip.filesecure.azf		azf
 application/vnd.airzip.filesecure.azs		azs
 application/vnd.americandynamics.acc		acc

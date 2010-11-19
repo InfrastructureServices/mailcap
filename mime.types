@@ -213,6 +213,7 @@ application/tamp-status-query
 application/tamp-status-response
 application/tamp-update				tur
 application/tamp-update-confirm			tuc
+application/tei+xml				tei teiCorpus odd
 application/thraud+xml				tfi
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
@@ -239,6 +240,7 @@ application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml			xdp
 application/vnd.adobe.xfdf			xfdf
 application/vnd.aether.imp
+application/vnd.ah-barcode
 application/vnd.ahead.space			ahead
 application/vnd.airzip.filesecure.azf		azf
 application/vnd.airzip.filesecure.azs		azs
@@ -271,6 +273,8 @@ application/vnd.cirpack.isdn-ext
 application/vnd.claymore			cla
 application/vnd.cloanto.rp9			rp9
 application/vnd.clonk.c4group			c4g c4d c4f c4p c4u
+application/vnd.cluetrust.cartomobile-config	c11amc
+application/vnd.cluetrust.cartomobile-config-pkg	c11amz
 # icc: application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
 application/vnd.commonspace			csp cst
@@ -320,6 +324,7 @@ application/vnd.dvb.notif-init+xml
 # dxr: application/x-director
 application/vnd.dxr
 application/vnd.dynageo				geo
+application/vnd.easykaraoke.cdgdownload
 application/vnd.ecdis-update
 application/vnd.ecowin.chart			mag
 application/vnd.ecowin.filerequest
@@ -471,6 +476,7 @@ application/vnd.kidspiration			kia
 application/vnd.Kinar				kne knp sdf
 application/vnd.koan				skp skd skm skt
 application/vnd.kodak-descriptor		sse
+application/vnd.las.las+xml			lasxml
 application/vnd.liberty-request+xml
 application/vnd.llamagraphics.life-balance.desktop	lbd
 application/vnd.llamagraphics.life-balance.exchange+xml	lbe

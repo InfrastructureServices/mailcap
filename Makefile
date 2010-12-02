@@ -19,9 +19,9 @@ tag-archive: check
 	@git tag $(TAG)
 
 create-archive:
-	@git archive --prefix=mailcap-$(VERSION)/ $(TAG) | gzip > mailcap-$(VERSION).tar.gz 
+	@git archive --prefix=mailcap-$(VERSION)/ $(TAG) | xz > mailcap-$(VERSION).tar.xz
 	@echo ""
-	@echo "The final archive is in mailcap-$(VERSION).tar.gz"
+	@echo "The final archive is in mailcap-$(VERSION).tar.xz"
 
 archive: tag-archive create-archive
 

@@ -689,6 +689,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies
 application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
 application/vnd.openxmlformats-officedocument.theme+xml
 application/vnd.openxmlformats-officedocument.themeOverride+xml
+application/vnd.openxmlformats-officedocument.vmlDrawing
 application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml
@@ -1211,6 +1212,7 @@ video/H263
 video/H263-1998
 video/H263-2000
 video/H264
+video/H264-RCDO
 video/JPEG
 video/jpeg2000
 video/mj2					mj2 mjp2

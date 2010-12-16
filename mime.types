@@ -1275,6 +1275,7 @@ application/epub+zip				epub
 application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss
+application/vnd.android.package-archive		apk
 application/vnd.ms-excel.addin.macroEnabled.12		xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
 application/vnd.ms-excel.sheet.macroEnabled.12		xlsm

@@ -3,6 +3,7 @@ mailcap 2.1.x (201x-xx-xx)
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2010-12-02.
   - mime.types: Use application/javascript instead of text/javascript for *.js.
+  - mime.types: Add application/vnd.android.package-archive.
 
 mailcap 2.1.35 (2010-10-13)
 

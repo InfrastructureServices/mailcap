@@ -76,8 +76,7 @@ application/iotp
 application/ipfix				ipfix
 application/ipp
 application/isup
-# js: text/javascript (obsolete) for browser support for now
-application/javascript
+application/javascript				js
 application/json				json
 application/kpml-request+xml
 application/kpml-response+xml
@@ -1154,8 +1153,7 @@ text/dns					soa zone
 # text/ecmascript obsoleted by application/ecmascript
 text/enriched
 text/html					html htm
-# obsoleted by application/javascript
-text/javascript					js
+# text/javascript obsoleted by application/javascript
 text/parityfec
 text/plain				txt asc text pm el c h cc hh cxx hxx f90
 text/prs.fallenstein.rst			rst

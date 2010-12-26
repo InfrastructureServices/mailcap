@@ -1071,6 +1071,7 @@ image/naplps
 image/png					png
 image/prs.btif					btif btf
 image/prs.pti					pti
+image/svg+xml					svg svgz
 image/t38					t38
 image/tiff					tiff tif
 image/tiff-fx					tfx
@@ -1370,7 +1371,6 @@ audio/x-stm					stm
 audio/x-wav					wav
 chemical/x-xyz					xyz
 image/bmp					bmp
-image/svg+xml					svg svgz
 image/x-cmu-raster				ras
 image/x-portable-anymap				pnm
 image/x-portable-bitmap				pbm

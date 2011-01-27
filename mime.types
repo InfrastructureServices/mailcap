@@ -316,6 +316,8 @@ application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
 application/vnd.dpgraph				dpg mwc dpgraph
 application/vnd.dreamfactory			dfac
+# class: application/octet-stream
+application/vnd.dvb.dvbj
 application/vnd.dvb.esgcontainer
 application/vnd.dvb.ipdcdftnotifaccess
 application/vnd.dvb.ipdcesgaccess
@@ -331,6 +333,9 @@ application/vnd.dvb.notif-ia-msglist+xml
 application/vnd.dvb.notif-ia-registration-request+xml
 application/vnd.dvb.notif-ia-registration-response+xml
 application/vnd.dvb.notif-init+xml
+# pfr: application/font-tdpfr
+application/vnd.dvb.pfr
+application/vnd.dvb.service			svc
 # dxr: application/x-director
 application/vnd.dxr
 application/vnd.dynageo				geo
@@ -358,6 +363,7 @@ application/vnd.etsi.iptvprofile+xml
 application/vnd.etsi.iptvsad-bc+xml
 application/vnd.etsi.iptvsad-cod+xml
 application/vnd.etsi.iptvsad-npvr+xml
+application/vnd.etsi.iptvservice+xml
 application/vnd.etsi.iptvueprofile+xml
 application/vnd.etsi.mcid+xml
 application/vnd.etsi.overload-control-policy-dataset+xml
@@ -827,6 +833,8 @@ application/vnd.trid.tpt			tpt
 application/vnd.triscape.mxs			mxs
 application/vnd.trueapp				tra
 application/vnd.truedoc
+# cab: application/vnd.ms-cab-compressed
+application/vnd.ubisoft.webplayer
 application/vnd.ufdl				ufdl ufd frm
 application/vnd.uiq.theme			utz
 application/vnd.umajin				umj
@@ -1066,6 +1074,7 @@ audio/vnd.nuera.ecelp9600			ecelp9600
 audio/vnd.octel.sbc
 # audio/vnd.qcelp deprecated in favour of audio/qcelp
 audio/vnd.rhetorex.32kadpcm
+audio/vnd.rip					rip
 audio/vnd.sealedmedia.softseal.mpeg		smp3 smp s1m
 audio/vnd.vmx.cvsd
 audio/vorbis
@@ -1092,6 +1101,7 @@ image/vnd.adobe.photoshop			psd
 image/vnd.cns.inf2
 image/vnd.dece.graphic				uvi uvvi uvg uvvg
 image/vnd.djvu					djvu djv
+image/vnd.dvb.subtitle				sub
 image/vnd.dwg
 image/vnd.dxf					dxf
 image/vnd.fastbidsheet				fbs

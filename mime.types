@@ -256,6 +256,7 @@ application/vnd.airzip.filesecure.azf		azf
 application/vnd.airzip.filesecure.azs		azs
 application/vnd.americandynamics.acc		acc
 application/vnd.amiga.ami			ami
+application/vnd.amundsen.maze+xml
 application/vnd.anser-web-certificate-issue-initiation	cii
 # Not in IANA listing, but is on FTP site?
 application/vnd.anser-web-funds-transfer-initiation	fti
@@ -364,6 +365,7 @@ application/vnd.etsi.iptvsad-bc+xml
 application/vnd.etsi.iptvsad-cod+xml
 application/vnd.etsi.iptvsad-npvr+xml
 application/vnd.etsi.iptvservice+xml
+application/vnd.etsi.iptvsync+xml
 application/vnd.etsi.iptvueprofile+xml
 application/vnd.etsi.mcid+xml
 application/vnd.etsi.overload-control-policy-dataset+xml
@@ -541,8 +543,13 @@ application/vnd.ms-artgalry			cil
 application/vnd.ms-asf				asf
 application/vnd.ms-cab-compressed		cab
 application/vnd.ms-excel			xls
+application/vnd.ms-excel.addin.macroEnabled.12	xlam
+application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
+application/vnd.ms-excel.sheet.macroEnabled.12	xlsm
 application/vnd.ms-fontobject			eot
 application/vnd.ms-htmlhelp			chm
+application/vnd.ms-powerpoint.slideshow.macroEnabled.12	ppsm
+application/vnd.ms-powerpoint.template.macroEnabled.12	potm
 application/vnd.ms-ims				ims
 application/vnd.ms-lrm				lrm
 application/vnd.ms-playready.initiator+xml
@@ -614,6 +621,8 @@ application/vnd.obn
 application/vnd.oipf.contentaccessdownload+xml
 application/vnd.oipf.contentaccessstreaming+xml
 application/vnd.oipf.cspg-hexbinary
+application/vnd.oipf.dae.svg+xml
+application/vnd.oipf.dae.xhtml+xml
 application/vnd.oipf.mippvcontrolmessage+xml
 application/vnd.oipf.spdiscovery+xml
 application/vnd.oipf.spdlist+xml
@@ -1143,6 +1152,7 @@ message/tracking-status
 message/vnd.si.simp
 model/iges					igs iges
 model/mesh					msh mesh silo
+model/vnd.collada+xml				dae
 model/vnd.dwf					dwf
 # 3dml, 3dm: text/vnd.in3d.3dml
 model/vnd.flatland.3dml
@@ -1300,15 +1310,10 @@ application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss
 application/vnd.android.package-archive		apk
-application/vnd.ms-excel.addin.macroEnabled.12		xlam
-application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
-application/vnd.ms-excel.sheet.macroEnabled.12		xlsm
 application/vnd.ms-excel.template.macroEnabled.12	xltm
 application/vnd.ms-powerpoint.addin.macroEnabled.12		ppam
 application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
 application/vnd.ms-powerpoint.slide.macroEnabled.12		sldm
-application/vnd.ms-powerpoint.slideshow.macroEnabled.12		ppsm
-application/vnd.ms-powerpoint.template.macroEnabled.12		potm
 application/vnd.ms-word.document.macroEnabled.12	docm
 application/vnd.ms-word.template.macroEnabled.12	dotm
 application/vnd.oma.dd+xml			dd

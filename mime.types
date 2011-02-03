@@ -122,6 +122,7 @@ application/mp4
 application/mpeg4-generic
 application/mpeg4-iod
 application/mpeg4-iod-xmt
+application/msc-ivr+xml
 application/msc-mixer+xml
 application/msword				doc
 application/mxf					mxf

@@ -599,7 +599,7 @@ application/vnd.novadigm.EDM			edm
 application/vnd.novadigm.EDX			edx
 application/vnd.novadigm.EXT			ext
 application/vnd.ntt-local.file-transfer
-application/vnd.ntt-local.sip-ta_remote-access
+application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream
 application/vnd.oasis.opendocument.chart			odc
 application/vnd.oasis.opendocument.chart-template		otc

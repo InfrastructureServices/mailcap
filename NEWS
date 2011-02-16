@@ -5,6 +5,9 @@ mailcap 2.1.x (201x-xx-xx)
   - mime.types: Use application/javascript instead of text/javascript for *.js.
   - mime.types: Add application/vnd.android.package-archive.
 
+  John Bradshaw:
+  - mailcap.4: Escape backslash (#675681).
+
 mailcap 2.1.35 (2010-10-13)
 
   Ville Skyttä:

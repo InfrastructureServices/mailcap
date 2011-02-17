@@ -544,11 +544,15 @@ application/vnd.ms-artgalry			cil
 application/vnd.ms-asf				asf
 application/vnd.ms-cab-compressed		cab
 application/vnd.ms-excel			xls
+application/vnd.ms-excel.template.macroEnabled.12	xltm
 application/vnd.ms-excel.addin.macroEnabled.12	xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
 application/vnd.ms-excel.sheet.macroEnabled.12	xlsm
 application/vnd.ms-fontobject			eot
 application/vnd.ms-htmlhelp			chm
+application/vnd.ms-office.activeX+xml
+application/vnd.ms-officetheme			thmx
+application/vnd.ms-powerpoint.slide.macroEnabled.12	sldm
 application/vnd.ms-powerpoint.slideshow.macroEnabled.12	ppsm
 application/vnd.ms-powerpoint.template.macroEnabled.12	potm
 application/vnd.ms-ims				ims
@@ -561,6 +565,8 @@ application/vnd.ms-wmdrm.lic-chlg-req
 application/vnd.ms-wmdrm.lic-resp
 application/vnd.ms-wmdrm.meter-chlg-req
 application/vnd.ms-wmdrm.meter-resp
+application/vnd.ms-word.document.macroEnabled.12	docm
+application/vnd.ms-word.template.macroEnabled.12	dotm
 application/vnd.ms-works			wcm wdb wks wps
 application/vnd.ms-wpl				wpl
 application/vnd.ms-xpsdocument			xps
@@ -912,6 +918,7 @@ application/vnd.yamaha.openscoreformat		osf
 application/vnd.yamaha.openscoreformat.osfpvg+xml
 application/vnd.yamaha.smaf-audio		saf
 application/vnd.yamaha.smaf-phrase		spf
+application/vnd.yamaha.tunnel-udpencap
 application/vnd.yellowriver-custom-menu		cmp
 application/vnd.zul				zir zirz
 application/vnd.zzazz.deck+xml			zaz
@@ -1312,12 +1319,8 @@ application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss
 application/vnd.android.package-archive		apk
-application/vnd.ms-excel.template.macroEnabled.12	xltm
 application/vnd.ms-powerpoint.addin.macroEnabled.12		ppam
 application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
-application/vnd.ms-powerpoint.slide.macroEnabled.12		sldm
-application/vnd.ms-word.document.macroEnabled.12	docm
-application/vnd.ms-word.template.macroEnabled.12	dotm
 application/vnd.oma.dd+xml			dd
 application/vnd.oma.drm.content			dcf
 # odf: application/vnd.oasis.opendocument.formula

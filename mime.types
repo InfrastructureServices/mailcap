@@ -318,6 +318,7 @@ application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
 application/vnd.dpgraph				dpg mwc dpgraph
 application/vnd.dreamfactory			dfac
+application/vnd.dvb.ait				ait
 # class: application/octet-stream
 application/vnd.dvb.dvbj
 application/vnd.dvb.esgcontainer
@@ -916,6 +917,7 @@ application/vnd.yamaha.hv-script		hvs
 application/vnd.yamaha.hv-voice			hvp
 application/vnd.yamaha.openscoreformat		osf
 application/vnd.yamaha.openscoreformat.osfpvg+xml
+application/vnd.yamaha.remote-setup
 application/vnd.yamaha.smaf-audio		saf
 application/vnd.yamaha.smaf-phrase		spf
 application/vnd.yamaha.tunnel-udpencap

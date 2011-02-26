@@ -381,7 +381,7 @@ application/vnd.ezpix-package			ez3
 application/vnd.f-secure.mobile
 application/vnd.fdf				fdf
 application/vnd.fdsn.mseed			msd mseed
-application/vnd.fsdn.seed			seed dataless
+application/vnd.fdsn.seed			seed dataless
 application/vnd.ffsns
 # all extensions: application/vnd.hbci
 application/vnd.fints

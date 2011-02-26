@@ -1,3 +1,8 @@
+mailcap x.x.xx (201x-xx-xx)
+
+  Ville Skyttä:
+  - mime.types: Fix fsdn typo in application/vnd.fdsn.seed.
+
 mailcap 2.1.36 (2011-02-22)
 
   Ville Skyttä:

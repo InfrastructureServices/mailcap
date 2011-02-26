@@ -17,8 +17,8 @@ application/activemessage
 application/andrew-inset			ez
 application/applefile
 application/atom+xml				atom
-application/atomicmail
 application/atomcat+xml				atomcat
+application/atomicmail
 application/atomsvc+xml				atomsvc
 application/auth-policy+xml			apxml
 application/batch-SMTP
@@ -551,15 +551,15 @@ application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
 application/vnd.ms-excel.sheet.macroEnabled.12	xlsm
 application/vnd.ms-fontobject			eot
 application/vnd.ms-htmlhelp			chm
+application/vnd.ms-ims				ims
+application/vnd.ms-lrm				lrm
 application/vnd.ms-office.activeX+xml
 application/vnd.ms-officetheme			thmx
+application/vnd.ms-playready.initiator+xml
+application/vnd.ms-powerpoint			ppt
 application/vnd.ms-powerpoint.slide.macroEnabled.12	sldm
 application/vnd.ms-powerpoint.slideshow.macroEnabled.12	ppsm
 application/vnd.ms-powerpoint.template.macroEnabled.12	potm
-application/vnd.ms-ims				ims
-application/vnd.ms-lrm				lrm
-application/vnd.ms-playready.initiator+xml
-application/vnd.ms-powerpoint			ppt
 application/vnd.ms-project			mpp
 application/vnd.ms-tnef				tnef tnf
 application/vnd.ms-wmdrm.lic-chlg-req

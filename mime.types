@@ -557,6 +557,8 @@ application/vnd.ms-office.activeX+xml
 application/vnd.ms-officetheme			thmx
 application/vnd.ms-playready.initiator+xml
 application/vnd.ms-powerpoint			ppt
+application/vnd.ms-powerpoint.addin.macroEnabled.12	ppam
+application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
 application/vnd.ms-powerpoint.slide.macroEnabled.12	sldm
 application/vnd.ms-powerpoint.slideshow.macroEnabled.12	ppsm
 application/vnd.ms-powerpoint.template.macroEnabled.12	potm
@@ -632,6 +634,7 @@ application/vnd.oipf.cspg-hexbinary
 application/vnd.oipf.dae.svg+xml
 application/vnd.oipf.dae.xhtml+xml
 application/vnd.oipf.mippvcontrolmessage+xml
+application/vnd.oipf.pae.gem
 application/vnd.oipf.spdiscovery+xml
 application/vnd.oipf.spdlist+xml
 application/vnd.oipf.ueprofile+xml
@@ -698,6 +701,7 @@ application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml
 application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml
 application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml
 application/vnd.openxmlformats-officedocument.presentationml.tags+xml
+application/vnd.openxmlformats-officedocument.presentationml.template	potx
 application/vnd.openxmlformats-officedocument.presentationml.template.main+xml
 application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml
@@ -726,6 +730,7 @@ application/vnd.openxmlformats-officedocument.theme+xml
 application/vnd.openxmlformats-officedocument.themeOverride+xml
 application/vnd.openxmlformats-officedocument.vmlDrawing
 application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml
+application/vnd.openxmlformats-officedocument.wordprocessingml.document	docx
 application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml
@@ -1321,8 +1326,6 @@ application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss
 application/vnd.android.package-archive		apk
-application/vnd.ms-powerpoint.addin.macroEnabled.12		ppam
-application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
 application/vnd.oma.dd+xml			dd
 application/vnd.oma.drm.content			dcf
 # odf: application/vnd.oasis.opendocument.formula
@@ -1333,10 +1336,8 @@ application/vnd.oma.drm.rights+xml		dr
 application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
 application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
 application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
-application/vnd.openxmlformats-officedocument.presentationml.template	potx
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
-application/vnd.openxmlformats-officedocument.wordprocessingml.document	docx
 application/vnd.openxmlformats-officedocument.wordprocessingml.template	dotx
 application/vnd.sun.xml.calc			sxc
 application/vnd.sun.xml.calc.template		stc

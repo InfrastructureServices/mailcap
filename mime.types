@@ -32,6 +32,7 @@ application/cdmi-object				cdmio
 application/cdmi-queue				cdmiq
 application/cea-2018+xml
 application/cellml+xml				cellml cml
+application/cfw
 application/cnrp+xml
 application/commonground
 application/conference-info+xml
@@ -62,6 +63,7 @@ application/fastsoap
 # fits, fit, fts: image/fits
 application/fits
 application/font-tdpfr				pfr
+application/framework-attributes+xml
 application/H224
 application/hal+xml				hal
 application/held+xml
@@ -777,6 +779,7 @@ application/vnd.pwg-multiplexed
 application/vnd.pwg-xhtml-print+xml
 application/vnd.qualcomm.brew-app-res		bar
 application/vnd.Quark.QuarkXPress		qxd qxt qwd qwt qxl qxb
+application/vnd.quobject-quoxdocument		quox quiz
 application/vnd.radisys.moml+xml
 application/vnd.radisys.msml-audit-conf+xml
 application/vnd.radisys.msml-audit-conn+xml

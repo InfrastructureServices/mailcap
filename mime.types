@@ -742,6 +742,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml
+application/vnd.openxmlformats-officedocument.wordprocessingml.template	dotx
 application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
 application/vnd.openxmlformats-package.core-properties+xml
@@ -795,6 +796,7 @@ application/vnd.radisys.msml-dialog-speech+xml
 application/vnd.radisys.msml-dialog-transform+xml
 application/vnd.radisys.msml-dialog+xml
 application/vnd.radisys.msml+xml
+application/vnd.rainstor.data			tree
 application/vnd.rapid
 application/vnd.realvnc.bed			bed
 application/vnd.recordare.musicxml		mxl
@@ -1341,7 +1343,6 @@ application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
 application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
-application/vnd.openxmlformats-officedocument.wordprocessingml.template	dotx
 application/vnd.sun.xml.calc			sxc
 application/vnd.sun.xml.calc.template		stc
 application/vnd.sun.xml.draw			sxd

@@ -695,11 +695,14 @@ application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml
 application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml
 application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml
 application/vnd.openxmlformats-officedocument.presentationml.presProps+xml
+application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
 application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml
+application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
 application/vnd.openxmlformats-officedocument.presentationml.slide+xml
 application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml
 application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml
 application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml
+application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
 application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml
 application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml
 application/vnd.openxmlformats-officedocument.presentationml.tags+xml
@@ -1338,9 +1341,6 @@ application/vnd.oma.drm.dcf			o4a o4v
 application/vnd.oma.drm.message			dm
 application/vnd.oma.drm.rights+wbxml		drc
 application/vnd.oma.drm.rights+xml		dr
-application/vnd.openxmlformats-officedocument.presentationml.presentation pptx
-application/vnd.openxmlformats-officedocument.presentationml.slide	sldx
-application/vnd.openxmlformats-officedocument.presentationml.slideshow	ppsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
 application/vnd.sun.xml.calc			sxc

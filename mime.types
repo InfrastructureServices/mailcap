@@ -722,6 +722,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
@@ -1341,7 +1342,6 @@ application/vnd.oma.drm.dcf			o4a o4v
 application/vnd.oma.drm.message			dm
 application/vnd.oma.drm.rights+wbxml		drc
 application/vnd.oma.drm.rights+xml		dr
-application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	xlsx
 application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
 application/vnd.sun.xml.calc			sxc
 application/vnd.sun.xml.calc.template		stc

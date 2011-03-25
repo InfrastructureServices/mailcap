@@ -728,6 +728,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml
+application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
 application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml
@@ -983,7 +984,7 @@ audio/ac3					ac3
 audio/AMR					amr
 audio/AMR-WB					awb
 audio/amr-wb+
-audio/asc
+audio/asc					acn
 # aa3, omg: audio/ATRAC3
 audio/ATRAC-ADVANCED-LOSSLESS			aal
 # aa3, omg: audio/ATRAC3
@@ -1342,7 +1343,6 @@ application/vnd.oma.drm.dcf			o4a o4v
 application/vnd.oma.drm.message			dm
 application/vnd.oma.drm.rights+wbxml		drc
 application/vnd.oma.drm.rights+xml		dr
-application/vnd.openxmlformats-officedocument.spreadsheetml.template	xltx
 application/vnd.sun.xml.calc			sxc
 application/vnd.sun.xml.calc.template		stc
 application/vnd.sun.xml.draw			sxd

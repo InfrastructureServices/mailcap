@@ -1030,6 +1030,7 @@ audio/GSM
 audio/GSM-EFR
 audio/GSM-HR-08
 audio/iLBC					lbc
+audio/ip-mr_v2.5
 # wav: audio/wav
 audio/L16					l16
 audio/L20
@@ -1094,6 +1095,7 @@ audio/vnd.dra
 # wav: audio/wav, cpt: application/mac-compactpro
 audio/vnd.dts					dts
 audio/vnd.dts.hd				dtshd
+audio/vnd.dvb.file				dvb
 audio/vnd.everad.plj				plj
 # rm: audio/x-pn-realaudio
 audio/vnd.hns.audio
@@ -1213,6 +1215,7 @@ text/dns					soa zone
 text/enriched
 text/html					html htm
 # text/javascript obsoleted by application/javascript
+text/n3						n3
 text/parityfec
 text/plain				txt asc text pm el c h cc hh cxx hxx f90
 text/prs.fallenstein.rst			rst
@@ -1228,6 +1231,7 @@ text/sgml					sgml sgm
 text/t140
 text/tab-separated-values			tsv
 text/troff
+text/turtle					ttl
 text/ulpfec
 text/uri-list					uris uri
 text/vnd.abc					abc

@@ -860,6 +860,7 @@ application/vnd.syncml.dm+wbxml			bdm
 application/vnd.syncml.dm+xml			xdm
 application/vnd.syncml+xml			xsm
 application/vnd.tao.intent-module-archive	tao
+application/vnd.tcpdump.pcap			pcap cap dmp
 application/vnd.tmobile-livetv			tmo
 application/vnd.trid.tpt			tpt
 application/vnd.triscape.mxs			mxs

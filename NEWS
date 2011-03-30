@@ -1,3 +1,8 @@
+mailcap 2.1.xx (201x-xx-xx)
+
+  Ville Skyttä:
+  - mime.types: Sync with IANA as of 2011-03-30.
+
 mailcap 2.1.37 (2011-03-29)
 
   Ville Skyttä:

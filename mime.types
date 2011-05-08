@@ -269,6 +269,7 @@ application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: application/x-mpegurl for now
 application/vnd.apple.mpegurl			m3u8
 application/vnd.aristanetworks.swi		swi
+application/vnd.astraea-software.iota		iota
 application/vnd.audiograph			aep
 application/vnd.autopackage			package
 application/vnd.avistar+xml
@@ -664,6 +665,7 @@ application/vnd.oma.dcdc
 application/vnd.oma.dd2+xml			dd2
 application/vnd.oma.drm.risd+xml
 application/vnd.oma.group-usage-list+xml
+application/vnd.oma.pal+xml
 application/vnd.oma.poc.detailed-progress-report+xml
 application/vnd.oma.poc.final-report+xml
 application/vnd.oma.poc.groups+xml

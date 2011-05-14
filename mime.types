@@ -1100,7 +1100,8 @@ audio/vnd.dra
 # wav: audio/wav, cpt: application/mac-compactpro
 audio/vnd.dts					dts
 audio/vnd.dts.hd				dtshd
-audio/vnd.dvb.file				dvb
+# dvb: video/vnd.dvb.file
+audio/vnd.dvb.file
 audio/vnd.everad.plj				plj
 # rm: audio/x-pn-realaudio
 audio/vnd.hns.audio
@@ -1312,6 +1313,7 @@ video/vnd.dece.video				uvv uvvv
 video/vnd.directv.mpeg
 video/vnd.directv.mpeg-tts
 video/vnd.dlna.mpeg-tts
+video/vnd.dvb.file				dvb
 video/vnd.fvt					fvt
 # rm: audio/x-pn-realaudio
 video/vnd.hns.video

@@ -139,6 +139,7 @@ application/octet-stream		bin lha lzh exe class so dll img iso
 application/oda					oda
 application/oebps-package+xml			opf
 application/ogg					ogx
+application/oxps				oxps
 application/parityfec
 # xer: application/xcap-error+xml
 application/patch-ops-error+xml

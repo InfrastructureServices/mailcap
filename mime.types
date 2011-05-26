@@ -584,6 +584,7 @@ application/vnd.multiad.creator.cif		cif
 application/vnd.music-niff
 application/vnd.musician			mus
 application/vnd.muvee.style			msty
+application/vnd.mynfc				taglet
 application/vnd.ncd.control
 application/vnd.ncd.reference
 application/vnd.nervana				entity request bkm kcm

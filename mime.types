@@ -23,6 +23,7 @@ application/atomsvc+xml				atomsvc
 application/auth-policy+xml			apxml
 application/batch-SMTP
 application/beep+xml
+application/calendar+xml			xcs
 application/cals-1840
 application/ccxml+xml				ccxml
 application/cdmi-capability			cdmia
@@ -234,6 +235,7 @@ application/timestamp-reply			tsr
 application/timestamped-data			tsd
 application/tve-trigger
 application/ulpfec
+application/vcard+xml
 application/vemmi
 application/vnd.3gpp.bsf+xml
 application/vnd.3gpp.pic-bw-large		plb

@@ -1147,7 +1147,8 @@ image/vnd.adobe.photoshop			psd
 image/vnd.cns.inf2
 image/vnd.dece.graphic				uvi uvvi uvg uvvg
 image/vnd.djvu					djvu djv
-image/vnd.dvb.subtitle				sub
+# sub: text/vnd.dvb.subtitle
+image/vnd.dvb.subtitle
 image/vnd.dwg
 image/vnd.dxf					dxf
 image/vnd.fastbidsheet				fbs
@@ -1248,6 +1249,7 @@ text/vnd.abc					abc
 # curl: application/vnd.curl
 text/vnd.curl
 text/vnd.DMClientScript				dms
+text/vnd.dvb.subtitle				sub
 text/vnd.esmertec.theme-descriptor		jtd
 text/vnd.fly					fly
 text/vnd.fmi.flexstor				flx

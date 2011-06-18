@@ -1245,6 +1245,7 @@ text/troff
 text/turtle					ttl
 text/ulpfec
 text/uri-list					uris uri
+text/vcard					vcf vcard
 text/vnd.abc					abc
 # curl: application/vnd.curl
 text/vnd.curl
@@ -1442,7 +1443,6 @@ text/cache-manifest				manifest
 text/html-sandboxed				sandboxed
 text/x-pod					pod
 text/x-setext					etx
-text/x-vcard					vcf
 video/webm					webm
 video/x-annodex					axv
 video/x-flv					flv

@@ -357,6 +357,7 @@ application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
 application/vnd.enliven				nml
+application/vnd.eprints.data+xml
 application/vnd.epson.esf			esf
 application/vnd.epson.msf			msf
 application/vnd.epson.quickanime		qam
@@ -855,6 +856,7 @@ application/vnd.spotfire.sfs			sfs
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
+application/vnd.stepmania.archive		smzip
 application/vnd.stepmania.stepchart		sm
 application/vnd.street-stream
 application/vnd.sun.wadl+xml			wadl

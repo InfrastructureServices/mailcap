@@ -1024,6 +1024,7 @@ audio/EVRCB0
 audio/EVRCWB					evw
 audio/EVRCWB0
 audio/EVRCWB1
+audio/fwdred
 audio/G719
 audio/G722
 audio/G7221
@@ -1226,6 +1227,7 @@ text/directory
 text/dns					soa zone
 # text/ecmascript obsoleted by application/ecmascript
 text/enriched
+text/fwdred
 text/html					html htm
 # text/javascript obsoleted by application/javascript
 text/n3						n3

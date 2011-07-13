@@ -293,6 +293,7 @@ application/vnd.cloanto.rp9			rp9
 application/vnd.clonk.c4group			c4g c4d c4f c4p c4u
 application/vnd.cluetrust.cartomobile-config	c11amc
 application/vnd.cluetrust.cartomobile-config-pkg	c11amz
+application/vnd.collection+json
 # icc: application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
 application/vnd.commonspace			csp cst
@@ -856,7 +857,7 @@ application/vnd.spotfire.sfs			sfs
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
-application/vnd.stepmania.archive		smzip
+application/vnd.stepmania.package		smzip
 application/vnd.stepmania.stepchart		sm
 application/vnd.street-stream
 application/vnd.sun.wadl+xml			wadl

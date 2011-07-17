@@ -435,6 +435,7 @@ application/vnd.groove-injector			grv
 application/vnd.groove-tool-message		gtm
 application/vnd.groove-tool-template		tpl
 application/vnd.groove-vcard			vcg
+application/vnd.hal+json
 application/vnd.HandHeld-Entertainment+xml	zmm
 application/vnd.hbci				hbci hbc kom upa pkd bpd
 # rep: application/vnd.businessobjects

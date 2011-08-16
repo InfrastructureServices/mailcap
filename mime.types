@@ -80,6 +80,7 @@ application/index.cmd
 application/index.obj
 application/index.response
 application/index.vnd
+application/inkml+xml				ink inkml
 application/iotp
 application/ipfix				ipfix
 application/ipp
@@ -180,6 +181,8 @@ application/resource-lists+xml			rl
 application/riscos
 application/rlmi+xml
 application/rls-services+xml			rs
+application/rpki-manifest			mft
+application/rpki-roa				roa
 application/rtf					rtf
 application/rtx
 application/samlassertion+xml

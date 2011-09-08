@@ -183,6 +183,7 @@ application/rlmi+xml
 application/rls-services+xml			rs
 application/rpki-manifest			mft
 application/rpki-roa				roa
+application/rpki-updown
 application/rtf					rtf
 application/rtx
 application/samlassertion+xml
@@ -321,6 +322,7 @@ application/vnd.data-vision.rdz			rdz
 application/vnd.dece.data			uvf uvvf uvd uvvd
 application/vnd.dece.ttml+xml		uvt uvvt
 application/vnd.dece.unspecified		uvx uvvx
+application/vnd.dece.zip			uvz uvvz
 application/vnd.denovo.fcselayout-link		fe_launch
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dna				dna

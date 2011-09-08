@@ -320,7 +320,7 @@ application/vnd.curl				curl
 application/vnd.cybank
 application/vnd.data-vision.rdz			rdz
 application/vnd.dece.data			uvf uvvf uvd uvvd
-application/vnd.dece.ttml+xml		uvt uvvt
+application/vnd.dece.ttml+xml			uvt uvvt
 application/vnd.dece.unspecified		uvx uvvx
 application/vnd.dece.zip			uvz uvvz
 application/vnd.denovo.fcselayout-link		fe_launch

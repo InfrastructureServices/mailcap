@@ -25,6 +25,7 @@ application/batch-SMTP
 application/beep+xml
 application/calendar+xml			xcs
 application/cals-1840
+application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
 application/cdmi-capability			cdmia
 application/cdmi-container			cdmic
@@ -181,6 +182,7 @@ application/resource-lists+xml			rl
 application/riscos
 application/rlmi+xml
 application/rls-services+xml			rs
+application/rpki-ghostbusters			gbr
 application/rpki-manifest			mft
 application/rpki-roa				roa
 application/rpki-updown
@@ -1019,6 +1021,7 @@ audio/dsr-es201108
 audio/dsr-es202050
 audio/dsr-es202211
 audio/dsr-es202212
+audio/DV
 audio/DVI4
 audio/eac3
 audio/EVRC					evc

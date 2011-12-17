@@ -320,6 +320,7 @@ application/vnd.cups-raster
 application/vnd.cups-raw
 application/vnd.curl				curl
 application/vnd.cybank
+application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
 application/vnd.dece.data			uvf uvvf uvd uvvd
 application/vnd.dece.ttml+xml			uvt uvvt
@@ -471,6 +472,7 @@ application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
 application/vnd.infotech.project
 application/vnd.infotech.project+xml
+application/vnd.innopath.wamp.notification
 application/vnd.insors.igm			igm
 application/vnd.intercon.formnet		xpw xpx
 application/vnd.intergeo			i2g

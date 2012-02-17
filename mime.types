@@ -257,6 +257,7 @@ application/vnd.accpac.simply.aso		aso
 application/vnd.accpac.simply.imp		imp
 application/vnd.acucobol			acu
 application/vnd.acucorp				atc acutc
+application/vnd.adobe.formscentral.fcdt		fcdt
 application/vnd.adobe.fxp			fxp fxpl
 application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml			xdp
@@ -603,6 +604,8 @@ application/vnd.ncd.control
 application/vnd.ncd.reference
 application/vnd.nervana				entity request bkm kcm
 application/vnd.netfpx
+# ntf: application/vnd.lotus-notes
+application/vnd.nitf				nitf
 application/vnd.neurolanguage.nlu		nlu
 application/vnd.noblenet-directory		nnd
 application/vnd.noblenet-sealer			nns
@@ -828,6 +831,8 @@ application/vnd.recordare.musicxml+xml
 application/vnd.RenLearn.rlprint
 application/vnd.rig.cryptonote			cryptonote
 application/vnd.route66.link66+xml		link66
+# gbr: application/rpki-ghostbusters
+application/vnd.rs-274x
 application/vnd.ruckus.download
 application/vnd.s3sms
 application/vnd.sailingtracker.track		st

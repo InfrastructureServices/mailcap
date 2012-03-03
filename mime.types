@@ -484,7 +484,9 @@ application/vnd.intu.qfx			qfx
 application/vnd.iptc.g2.conceptitem+xml
 application/vnd.iptc.g2.knowledgeitem+xml
 application/vnd.iptc.g2.newsitem+xml
+application/vnd.iptc.g2.newsmessage+xml
 application/vnd.iptc.g2.packageitem+xml
+application/vnd.iptc.g2.planningitem+xml
 application/vnd.ipunplugged.rcprofile		rcprofile
 application/vnd.irepository.package+xml		irp
 application/vnd.is-xpr				xpr
@@ -780,6 +782,7 @@ application/vnd.osgeo.mapguide.package		mgp
 # jar: application/x-java-archive
 application/vnd.osgi.bundle
 application/vnd.osgi.dp				dp
+application/vnd.osgi.subsystem			esa
 application/vnd.otps.ct-kip+xml
 application/vnd.palm				prc pdb pqa oprc
 application/vnd.paos+xml

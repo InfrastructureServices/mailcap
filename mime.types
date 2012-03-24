@@ -212,6 +212,7 @@ application/slate
 application/smil				smil smi sml
 # smil, smi: application/smil for now
 application/smil+xml
+application/smpte336m
 application/soap+fastinfoset
 application/soap+xml
 application/sparql-query			rq

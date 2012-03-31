@@ -173,6 +173,7 @@ application/prs.rdf-xml-crypt			rdf-crypt
 application/prs.xsf+xml				xsf
 application/pskc+xml				pskcxml
 application/qsig
+application/raptorfec
 application/rdf+xml				rdf
 application/reginfo+xml				rif
 application/relax-ng-compact-syntax		rnc
@@ -330,6 +331,7 @@ application/vnd.dece.unspecified		uvx uvvx
 application/vnd.dece.zip			uvz uvvz
 application/vnd.denovo.fcselayout-link		fe_launch
 application/vnd.dir-bi.plate-dl-nosuffix
+application/vnd.dm.delegation+xml
 application/vnd.dna				dna
 application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
@@ -504,6 +506,7 @@ application/vnd.japannet-verification-wakeup
 application/vnd.jcp.javame.midlet-rms		rms
 application/vnd.jisp				jisp
 application/vnd.joost.joda-archive		joda
+application/vnd.jsk.isdn-ngn
 application/vnd.kahootz				ktz ktr
 application/vnd.kde.karbon			karbon
 application/vnd.kde.kchart			chrt
@@ -1086,6 +1089,7 @@ audio/PCMU
 audio/PCMU-WB
 audio/prs.sid					sid psid
 audio/qcelp					qcp
+audio/raptorfec
 audio/RED
 audio/rtp-enc-aescm128
 audio/rtp-midi
@@ -1256,6 +1260,7 @@ text/parityfec
 text/plain				txt asc text pm el c h cc hh cxx hxx f90
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc
+text/raptorfec
 text/RED
 text/rfc822-headers
 text/richtext					rtx
@@ -1329,6 +1334,7 @@ video/ogg					ogv
 video/parityfec
 video/pointer
 video/quicktime					mov qt
+video/raptorfec
 video/raw
 video/rtp-enc-aescm128
 video/rtx

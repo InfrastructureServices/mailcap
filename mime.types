@@ -1255,6 +1255,7 @@ text/enriched
 text/fwdred
 text/html					html htm
 # text/javascript obsoleted by application/javascript
+text/jcr-cnd					cnd
 text/n3						n3
 text/parityfec
 text/plain				txt asc text pm el c h cc hh cxx hxx f90

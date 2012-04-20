@@ -294,6 +294,7 @@ application/vnd.cab-jscript
 application/vnd.canon-cpdl
 application/vnd.canon-lips
 application/vnd.cendio.thinlinc.clientconf	tlclient
+application/vnd.century-systems.tcp_stream
 application/vnd.chemdraw+xml			cdxml
 application/vnd.chipnuts.karaoke-mmd		mmd
 application/vnd.cinderella			cdy
@@ -304,6 +305,7 @@ application/vnd.clonk.c4group			c4g c4d c4f c4p c4u
 application/vnd.cluetrust.cartomobile-config	c11amc
 application/vnd.cluetrust.cartomobile-config-pkg	c11amz
 application/vnd.collection+json
+application/vnd.collection.next+json
 # icc: application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
 application/vnd.commonspace			csp cst
@@ -338,6 +340,9 @@ application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
 application/vnd.dpgraph				dpg mwc dpgraph
 application/vnd.dreamfactory			dfac
+application/vnd.dtg.local
+application/vnd.dtg.local.flash			fla
+application/vnd.dtg.local.html
 application/vnd.dvb.ait				ait
 # class: application/octet-stream
 application/vnd.dvb.dvbj
@@ -782,6 +787,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
 application/vnd.openxmlformats-package.core-properties+xml
 application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
 application/vnd.openxmlformats-package.relationships+xml
+application/vnd.orange.indata
 application/vnd.osa.netdeploy			ndc
 application/vnd.osgeo.mapguide.package		mgp
 # jar: application/x-java-archive
@@ -887,12 +893,14 @@ application/vnd.sun.wadl+xml			wadl
 application/vnd.sus-calendar			sus susp
 application/vnd.svd
 application/vnd.swiftview-ics
-application/vnd.syncml.dm.notification
-application/vnd.syncml.dmddf+wbxml		ddf
-application/vnd.syncml.ds.notification
+application/vnd.syncml+xml			xsm
 application/vnd.syncml.dm+wbxml			bdm
 application/vnd.syncml.dm+xml			xdm
-application/vnd.syncml+xml			xsm
+application/vnd.syncml.dm.notification
+application/vnd.syncml.dmddf+wbxml
+application/vnd.syncml.dmddf+xml		ddf
+application/vnd.syncml.dmtnds+xml
+application/vnd.syncml.ds.notification
 application/vnd.tao.intent-module-archive	tao
 application/vnd.tcpdump.pcap			pcap cap dmp
 application/vnd.tmobile-livetv			tmo

@@ -475,6 +475,7 @@ application/vnd.ibm.modcap			list3820 listafp afp pseg3820
 application/vnd.ibm.rights-management		irm
 application/vnd.ibm.secure-container		sc
 application/vnd.iccprofile			icc icm
+application/vnd.ieee.1905			1905.1
 application/vnd.igloader			igl
 application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
@@ -1182,6 +1183,7 @@ image/t38					t38
 image/tiff					tiff tif
 image/tiff-fx					tfx
 image/vnd.adobe.photoshop			psd
+image/vnd.airzip.accelerator.azv		azv
 image/vnd.cns.inf2
 image/vnd.dece.graphic				uvi uvvi uvg uvvg
 image/vnd.djvu					djvu djv

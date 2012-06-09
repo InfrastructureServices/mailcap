@@ -90,6 +90,7 @@ application/javascript				js
 application/json				json
 application/kpml-request+xml
 application/kpml-response+xml
+application/link-format				wlnk
 application/lost+xml				lostxml
 application/mac-binhex40			hqx
 application/macwriteii

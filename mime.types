@@ -901,6 +901,7 @@ application/vnd.syncml.dm+xml			xdm
 application/vnd.syncml.dm.notification
 application/vnd.syncml.dmddf+wbxml
 application/vnd.syncml.dmddf+xml		ddf
+application/vnd.syncml.dmtnds+wbxml
 application/vnd.syncml.dmtnds+xml
 application/vnd.syncml.ds.notification
 application/vnd.tao.intent-module-archive	tao

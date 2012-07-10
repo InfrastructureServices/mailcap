@@ -643,6 +643,7 @@ application/vnd.nokia.radio-presets		rpss
 application/vnd.novadigm.EDM			edm
 application/vnd.novadigm.EDX			edx
 application/vnd.novadigm.EXT			ext
+application/vnd.ntt-local.content-share
 application/vnd.ntt-local.file-transfer
 application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream

@@ -62,10 +62,12 @@ application/eshop
 application/exi					exi
 application/fastinfoset				finf
 application/fastsoap
+application/fdt+xml				fdt
 # fits, fit, fts: image/fits
 application/fits
 application/font-tdpfr				pfr
 application/framework-attributes+xml
+application/gzip				gz tgz
 application/H224
 application/hal+xml				hal
 application/held+xml
@@ -92,6 +94,7 @@ application/kpml-request+xml
 application/kpml-response+xml
 application/link-format				wlnk
 application/lost+xml				lostxml
+application/lostsync+xml			lostsyncxml
 application/mac-binhex40			hqx
 application/macwriteii
 application/mads+xml				mads
@@ -1022,6 +1025,7 @@ application/xv+xml				mxml xhvml xvml xvm
 application/yang				yang
 application/yin+xml				yin
 application/zip					zip
+application/zlib
 audio/1d-interleaved-parityfec
 audio/32kadpcm					726
 # 3gp, 3gpp: video/3gpp
@@ -1433,7 +1437,6 @@ application/x-director				dcr dir dxr
 application/x-dvi				dvi
 application/x-futuresplash			spl
 application/x-gtar				gtar
-application/x-gzip				gz tgz
 application/x-hdf				hdf
 application/x-java-archive			jar
 application/x-java-jnlp-file			jnlp

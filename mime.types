@@ -18,6 +18,7 @@ application/andrew-inset			ez
 application/applefile
 application/atom+xml				atom
 application/atomcat+xml				atomcat
+application/atomdeleted+xml			atomdeleted
 application/atomicmail
 application/atomsvc+xml				atomsvc
 application/auth-policy+xml			apxml

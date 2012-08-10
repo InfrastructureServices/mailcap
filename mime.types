@@ -697,6 +697,7 @@ application/vnd.oma.bcast.stkm
 application/vnd.oma.cab-address-book+xml
 application/vnd.oma.cab-feature-handler+xml
 application/vnd.oma.cab-pcc+xml
+application/vnd.oma.cab-subs-invite+xml
 application/vnd.oma.cab-user-prefs+xml
 application/vnd.oma.dcd
 application/vnd.oma.dcdc

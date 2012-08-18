@@ -1187,6 +1187,7 @@ image/naplps
 image/png					png
 image/prs.btif					btif btf
 image/prs.pti					pti
+image/pwg-raster
 image/svg+xml					svg svgz
 image/t38					t38
 image/tiff					tiff tif

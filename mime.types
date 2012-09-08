@@ -625,6 +625,7 @@ application/vnd.netfpx
 # ntf: application/vnd.lotus-notes
 application/vnd.nitf				nitf
 application/vnd.neurolanguage.nlu		nlu
+application/vnd.nintendo.nitro.rom		nds
 application/vnd.noblenet-directory		nnd
 application/vnd.noblenet-sealer			nns
 application/vnd.noblenet-web			nnw

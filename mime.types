@@ -140,6 +140,7 @@ application/nasdata
 application/news-checkgroups
 application/news-groupinfo
 application/news-transmission
+application/nlsml+xml
 application/nss
 application/ocsp-request			orq
 application/ocsp-response			ors
@@ -1276,6 +1277,7 @@ text/dns					soa zone
 # text/ecmascript obsoleted by application/ecmascript
 text/enriched
 text/fwdred
+text/grammar-ref-list
 text/html					html htm
 # text/javascript obsoleted by application/javascript
 text/jcr-cnd					cnd

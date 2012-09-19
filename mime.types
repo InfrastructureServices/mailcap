@@ -331,6 +331,7 @@ application/vnd.cups-ppd			ppd
 application/vnd.cups-raster
 application/vnd.cups-raw
 application/vnd.curl				curl
+application/vnd.cyan.dean.root+xml
 application/vnd.cybank
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz

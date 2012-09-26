@@ -117,6 +117,8 @@ application/mbms-register+xml
 application/mbms-user-service-description+xml
 application/mbox				mbox
 application/media_control+xml
+# mpf: text/vnd.ms-mediapackage
+application/media-policy-dataset+xml
 application/mediaservercontrol+xml
 application/metalink4+xml			meta4
 application/mets+xml				mets

@@ -1310,6 +1310,7 @@ text/vcard					vcf vcard
 text/vnd.abc					abc
 # curl: application/vnd.curl
 text/vnd.curl
+text/vnd.debian.copyright			copyright
 text/vnd.DMClientScript				dms
 text/vnd.dvb.subtitle				sub
 text/vnd.esmertec.theme-descriptor		jtd

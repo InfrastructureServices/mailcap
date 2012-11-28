@@ -206,6 +206,7 @@ application/scvp-vp-request			spq
 application/scvp-vp-response			spp
 application/sdp					sdp
 application/sep+xml
+application/sep-exi
 application/set-payment
 application/set-payment-initiation
 application/set-registration
@@ -889,6 +890,7 @@ application/vnd.shana.informed.formtemplate	itp
 application/vnd.shana.informed.interchange	iif
 application/vnd.shana.informed.package		ipk
 application/vnd.SimTech-MindMapper		twd twds
+application/vnd.siren+json
 application/vnd.smaf				mmf
 application/vnd.smart.notebook			notebook
 application/vnd.smart.teacher			teacher

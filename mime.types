@@ -67,6 +67,7 @@ application/fdt+xml				fdt
 # fits, fit, fts: image/fits
 application/fits
 application/font-tdpfr				pfr
+application/font-woff				woff
 application/framework-attributes+xml
 application/gzip				gz tgz
 application/H224

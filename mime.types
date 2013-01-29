@@ -348,6 +348,7 @@ application/vnd.dece.ttml+xml			uvt uvvt
 application/vnd.dece.unspecified		uvx uvvx
 application/vnd.dece.zip			uvz uvvz
 application/vnd.denovo.fcselayout-link		fe_launch
+application/vnd.desmume.movie			dsm
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dm.delegation+xml
 application/vnd.dna				dna

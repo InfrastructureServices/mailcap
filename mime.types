@@ -25,6 +25,7 @@ application/auth-policy+xml			apxml
 application/batch-SMTP
 application/beep+xml
 application/calendar+xml			xcs
+application/call-completion
 application/cals-1840
 application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
@@ -1460,6 +1461,7 @@ application/x-bittorrent			torrent
 application/x-bzip2				bz2
 application/x-cdlink				vcd
 application/x-chess-pgn				pgn
+application/x-chrome-extension			crx
 application/x-cpio				cpio
 application/x-csh				csh
 application/x-director				dcr dir dxr

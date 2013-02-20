@@ -985,6 +985,7 @@ application/vnd.wt.stf				stf
 application/vnd.wv.csp+xml
 application/vnd.wv.csp+wbxml			wv
 application/vnd.wv.ssp+xml
+application/vnd.xacml+json
 application/vnd.xara				xar
 application/vnd.xfdl				xfdl xfd
 application/vnd.xfdl.webform

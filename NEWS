@@ -1,7 +1,7 @@
 mailcap x.x.x (2013-xx-xx)
 
   Ville Skyttä:
-  - mime.types: Sync with IANA as of 2013-02-20.
+  - mime.types: Sync with IANA as of 2013-02-23.
   - mime.types: Add application/x-chrome-extension.
 
 mailcap 2.1.40 (2012-08-05)

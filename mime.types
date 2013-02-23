@@ -138,6 +138,9 @@ application/mp4
 application/mpeg4-generic
 application/mpeg4-iod
 application/mpeg4-iod-xmt
+# xdf: application/xcap-diff+xml
+application/mrb-consumer+xml
+application/mrb-publish+xml
 application/msc-ivr+xml
 application/msc-mixer+xml
 application/msword				doc

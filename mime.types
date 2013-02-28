@@ -237,6 +237,7 @@ application/soap+xml
 application/sparql-query			rq
 application/sparql-results+xml			srx
 application/spirits-event+xml
+application/sql					sql
 application/srgs				gram
 application/srgs+xml				grxml
 application/sru+xml				sru

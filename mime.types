@@ -158,6 +158,7 @@ application/oda					oda
 application/oebps-package+xml			opf
 application/ogg					ogx
 application/oxps				oxps
+application/p2p-overlay+xml			relo
 application/parityfec
 # xer: application/xcap-error+xml
 application/patch-ops-error+xml

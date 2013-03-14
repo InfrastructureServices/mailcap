@@ -1311,6 +1311,7 @@ text/mizar					miz
 text/n3						n3
 text/parityfec
 text/plain				txt asc text pm el c h cc hh cxx hxx f90
+text/provenance-notation			provn
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc
 text/raptorfec

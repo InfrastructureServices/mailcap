@@ -1127,7 +1127,7 @@ audio/MPA
 audio/mpa-robust
 audio/mpeg					mp3 mpga mp1 mp2
 audio/mpeg4-generic
-audio/ogg					oga ogg spx
+audio/ogg					oga ogg opus spx
 audio/parityfec
 audio/PCMA
 audio/PCMA-WB

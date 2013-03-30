@@ -44,6 +44,7 @@ application/cpl+xml				cpl
 application/csta+xml
 application/CSTAdata+xml
 application/cybercash
+application/dash+xml				mpd
 application/davmount+xml			davmount
 application/dca-rft
 application/dec-dx
@@ -68,6 +69,7 @@ application/fastsoap
 application/fdt+xml				fdt
 # fits, fit, fts: image/fits
 application/fits
+application/font-sfnt				ttf
 application/font-tdpfr				pfr
 application/font-woff				woff
 application/framework-attributes+xml
@@ -263,6 +265,7 @@ application/timestamp-reply			tsr
 application/timestamped-data			tsd
 application/tve-trigger
 application/ulpfec
+application/urc-ressheet+xml			rsheet
 application/vcard+xml
 application/vemmi
 application/vnd.3gpp.bsf+xml

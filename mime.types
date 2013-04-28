@@ -183,6 +183,7 @@ application/pkixcmp
 application/pls+xml				pls
 application/poc-settings+xml
 application/postscript				ps eps ai
+application/provenance+xml			provx
 application/prs.alvestrand.titrax-sheet
 application/prs.cww				cw cww
 application/prs.nprend				rnd rct

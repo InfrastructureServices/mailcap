@@ -1,7 +1,7 @@
 mailcap x.x.x (2013-xx-xx)
 
   Ville Skyttä:
-  - mime.types: Sync with IANA as of 2013-04-28.
+  - mime.types: Sync with IANA as of 2013-05-02.
   - mime.types: Add application/x-chrome-extension.
   - mime.types: Associate opus with audio/ogg.
 

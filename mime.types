@@ -603,7 +603,7 @@ application/vnd.mozilla.xul+xml			xul
 application/vnd.ms-artgalry			cil
 application/vnd.ms-asf				asf
 application/vnd.ms-cab-compressed		cab
-application/vnd.ms-excel			xls
+application/vnd.ms-excel			xls xlm xla xlc xlt xlw
 application/vnd.ms-excel.template.macroEnabled.12	xltm
 application/vnd.ms-excel.addin.macroEnabled.12	xlam
 application/vnd.ms-excel.sheet.binary.macroEnabled.12	xlsb
@@ -615,13 +615,13 @@ application/vnd.ms-lrm				lrm
 application/vnd.ms-office.activeX+xml
 application/vnd.ms-officetheme			thmx
 application/vnd.ms-playready.initiator+xml
-application/vnd.ms-powerpoint			ppt
+application/vnd.ms-powerpoint			ppt pps pot
 application/vnd.ms-powerpoint.addin.macroEnabled.12	ppam
 application/vnd.ms-powerpoint.presentation.macroEnabled.12	pptm
 application/vnd.ms-powerpoint.slide.macroEnabled.12	sldm
 application/vnd.ms-powerpoint.slideshow.macroEnabled.12	ppsm
 application/vnd.ms-powerpoint.template.macroEnabled.12	potm
-application/vnd.ms-project			mpp
+application/vnd.ms-project			mpp mpt
 application/vnd.ms-tnef				tnef tnf
 application/vnd.ms-windows.printerpairing
 application/vnd.ms-wmdrm.lic-chlg-req

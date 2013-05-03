@@ -4,7 +4,9 @@ mailcap x.x.x (2013-xx-xx)
   - mime.types: Sync with IANA as of 2013-05-02.
   - mime.types: Add application/x-chrome-extension.
   - mime.types: Add (more) extensions for application/ecmascript,
-                application/pkixcmp, audio/ogg, and image/cgm.
+                application/pkixcmp, application/vnd.ms-excel,
+                application/vnd.ms-powerpoint, application/vnd.ms-project,
+                audio/ogg, and image/cgm.
   - mime.types: Use application/smil+xml instead of obsolete application/smil.
   - mime.types: Fix application/vnd.hal+xml (was application/hal+xml).
 

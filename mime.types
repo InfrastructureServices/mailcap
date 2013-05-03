@@ -1119,7 +1119,7 @@ audio/GSM-EFR
 audio/GSM-HR-08
 audio/iLBC					lbc
 audio/ip-mr_v2.5
-# wav: audio/wav
+# wav: audio/x-wav
 audio/L16					l16
 audio/L20
 audio/L24
@@ -1182,7 +1182,7 @@ audio/vnd.dolby.pl2x
 audio/vnd.dolby.pl2z
 audio/vnd.dolby.pulse.1
 audio/vnd.dra
-# wav: audio/wav, cpt: application/mac-compactpro
+# wav: audio/x-wav, cpt: application/mac-compactpro
 audio/vnd.dts					dts
 audio/vnd.dts.hd				dtshd
 # dvb: video/vnd.dvb.file

@@ -231,10 +231,8 @@ application/simple-filter+xml			cl
 application/simple-message-summary
 application/simpleSymbolContainer
 application/slate
-# obsoleted by application/smil+xml
-application/smil				smil smi sml
-# smil, smi: application/smil for now
-application/smil+xml
+# application/smil obsoleted by application/smil+xml
+application/smil+xml				smil smi sml
 application/smpte336m
 application/soap+fastinfoset
 application/soap+xml

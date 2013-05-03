@@ -5,6 +5,7 @@ mailcap x.x.x (2013-xx-xx)
   - mime.types: Add application/x-chrome-extension.
   - mime.types: Associate opus with audio/ogg.
   - mime.types: Use application/smil+xml instead of obsolete application/smil.
+  - mime.types: Fix application/vnd.hal+xml (was application/hal+xml).
 
 mailcap 2.1.40 (2012-08-05)
 

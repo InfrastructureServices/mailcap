@@ -75,7 +75,6 @@ application/font-woff				woff
 application/framework-attributes+xml
 application/gzip				gz tgz
 application/H224
-application/hal+xml				hal
 application/held+xml
 application/http
 application/hyperstudio				stk
@@ -481,6 +480,7 @@ application/vnd.groove-tool-message		gtm
 application/vnd.groove-tool-template		tpl
 application/vnd.groove-vcard			vcg
 application/vnd.hal+json
+application/vnd.hal+xml				hal
 application/vnd.HandHeld-Entertainment+xml	zmm
 application/vnd.hbci				hbci hbc kom upa pkd bpd
 # rep: application/vnd.businessobjects

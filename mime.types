@@ -55,7 +55,7 @@ application/dskpp+xml				xmls
 application/dssc+der				dssc
 application/dssc+xml				xdssc
 application/dvcs				dvc
-application/ecmascript
+application/ecmascript				es
 application/EDI-Consent
 application/EDI-X12
 application/EDIFACT
@@ -178,7 +178,7 @@ application/pkix-attr-cert
 application/pkix-cert				cer
 application/pkix-crl				crl
 application/pkix-pkipath			pkipath
-application/pkixcmp
+application/pkixcmp				pki
 application/pls+xml				pls
 application/poc-settings+xml
 application/postscript				ps eps ai
@@ -1204,7 +1204,7 @@ audio/vnd.sealedmedia.softseal.mpeg		smp3 smp s1m
 audio/vnd.vmx.cvsd
 audio/vorbis
 audio/vorbis-config
-image/cgm
+image/cgm					cgm
 image/fits					fits fit fts
 image/g3fax
 image/gif					gif

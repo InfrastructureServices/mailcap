@@ -1330,7 +1330,7 @@ text/rtx
 text/sgml					sgml sgm
 text/t140
 text/tab-separated-values			tsv
-text/troff
+text/troff					t tr roff
 text/turtle					ttl
 text/ulpfec
 text/uri-list					uris uri
@@ -1498,7 +1498,6 @@ application/x-tar				tar
 application/x-tcl				tcl
 application/x-tex				tex
 application/x-texinfo				texinfo texi
-application/x-troff				t tr roff
 application/x-troff-man				man 1 2 3 4 5 6 7 8
 application/x-troff-me				me
 application/x-troff-ms				ms

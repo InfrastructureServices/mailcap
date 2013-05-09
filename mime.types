@@ -164,7 +164,7 @@ application/parityfec
 # xer: application/xcap-error+xml
 application/patch-ops-error+xml
 application/pdf					pdf
-application/pgp-encrypted
+application/pgp-encrypted			pgp
 application/pgp-keys
 application/pgp-signature			sig
 application/pidf-diff+xml
@@ -1125,7 +1125,7 @@ audio/L8
 audio/LPC
 audio/mobile-xmf				mxmf
 # mp4, mpg4: video/mp4, see RFC 4337
-audio/mp4
+audio/mp4					m4a
 audio/MP4A-LATM
 audio/MPA
 audio/mpa-robust
@@ -1230,7 +1230,7 @@ image/vnd.dece.graphic				uvi uvvi uvg uvvg
 image/vnd.djvu					djvu djv
 # sub: text/vnd.dvb.subtitle
 image/vnd.dvb.subtitle
-image/vnd.dwg
+image/vnd.dwg					dwg
 image/vnd.dxf					dxf
 image/vnd.fastbidsheet				fbs
 image/vnd.fpx					fpx
@@ -1314,7 +1314,7 @@ text/jcr-cnd					cnd
 text/mizar					miz
 text/n3						n3
 text/parityfec
-text/plain				txt asc text pm el c h cc hh cxx hxx f90
+text/plain		txt asc text pm el c h cc hh cxx hxx f90 conf log
 text/provenance-notation			provn
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc
@@ -1385,7 +1385,7 @@ video/mj2					mj2 mjp2
 video/MP1S
 video/MP2P
 video/MP2T
-video/mp4					mp4 mpg4
+video/mp4					mp4 mpg4 m4v
 video/MP4V-ES
 video/mpeg					mpeg mpg mpe
 video/mpeg4-generic
@@ -1438,7 +1438,7 @@ video/vnd.sealed.swf				sswf ssw
 video/vnd.sealedmedia.softseal.mov		smov smo s1q
 # uvu, uvvu: video/vnd.dece.mp4
 video/vnd.uvvu.mp4
-video/vnd.vivo
+video/vnd.vivo					viv
 
 # Non-IANA types
 

@@ -8,7 +8,7 @@ mailcap x.x.x (2013-xx-xx)
                 application/vnd.ms-excel, application/vnd.ms-powerpoint,
                 application/vnd.ms-project, audio/mp4, audio/ogg, image/cgm,
                 image/vnd.dwg, text/cache-manifest, text/plain, video/mp4,
-                and video/vnd.vivo.
+                video/mpeg, and video/vnd.vivo.
   - mime.types: Use application/smil+xml instead of obsolete application/smil.
   - mime.types: Use text/troff instead of nonstandard application/x-troff.
   - mime.types: Fix application/vnd.hal+xml (was application/hal+xml).

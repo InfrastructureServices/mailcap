@@ -468,7 +468,7 @@ application/vnd.geoplan				g2w
 application/vnd.geospace			g3w
 application/vnd.globalplatform.card-content-mgt
 application/vnd.globalplatform.card-content-mgt-response
-# application/vnd.gmx deprecated 2009-03-04
+application/vnd.gmx				gmx
 application/vnd.google-earth.kml+xml		kml
 application/vnd.google-earth.kmz		kmz
 application/vnd.grafeq				gqf gqs

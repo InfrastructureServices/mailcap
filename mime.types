@@ -423,6 +423,7 @@ application/vnd.etsi.iptvueprofile+xml
 application/vnd.etsi.mcid+xml
 application/vnd.etsi.mheg5
 application/vnd.etsi.overload-control-policy-dataset+xml
+application/vnd.etsi.pstn+xml
 application/vnd.etsi.sci+xml
 application/vnd.etsi.simservs+xml
 application/vnd.etsi.tsl.der

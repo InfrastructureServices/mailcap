@@ -1522,6 +1522,7 @@ audio/x-stm					stm
 audio/x-wav					wav
 chemical/x-xyz					xyz
 image/bmp					bmp
+image/webp					webp
 image/x-cmu-raster				ras
 image/x-portable-anymap				pnm
 image/x-portable-bitmap				pbm

@@ -2,7 +2,7 @@ mailcap x.x.x (2013-xx-xx)
 
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2013-05-14.
-  - mime.types: Add application/x-chrome-extension.
+  - mime.types: Add application/x-chrome-extension and image/webp.
   - mime.types: Add (more) extensions for application/ecmascript,
                 application/pgp-encrypted, application/pkixcmp,
                 application/vnd.ms-excel, application/vnd.ms-powerpoint,

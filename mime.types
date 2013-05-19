@@ -218,6 +218,7 @@ application/scvp-vp-response			spp
 application/sdp					sdp
 application/sep+xml
 application/sep-exi
+application/session-info
 application/set-payment
 application/set-payment-initiation
 application/set-registration

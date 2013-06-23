@@ -1433,6 +1433,8 @@ video/vnd.nokia.interleaved-multimedia		nim
 video/vnd.nokia.videovoip
 # mp4: video/mp4
 video/vnd.objectvideo
+video/vnd.radgamettools.bink			bik bk2
+video/vnd.radgamettools.smacker			smk
 video/vnd.sealed.mpeg1				smpg s11
 # smpg: video/vnd.sealed.mpeg1
 video/vnd.sealed.mpeg4				s14

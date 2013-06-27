@@ -457,6 +457,7 @@ application/vnd.fujixerox.ART4
 application/vnd.fujixerox.ddd			ddd
 application/vnd.fujixerox.docuworks		xdw
 application/vnd.fujixerox.docuworks.binder	xbd
+application/vnd.fujixerox.docuworks.container	xct
 application/vnd.fujixerox.HBPL
 application/vnd.fut-misnet
 application/vnd.fuzzysheet			fzs

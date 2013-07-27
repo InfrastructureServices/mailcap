@@ -119,6 +119,7 @@ application/mbms-protection-description+xml
 application/mbms-reception-report+xml
 application/mbms-register-response+xml
 application/mbms-register+xml
+application/mbms-schedule+xml
 application/mbms-user-service-description+xml
 application/mbox				mbox
 application/media_control+xml
@@ -302,6 +303,7 @@ application/vnd.anser-web-certificate-issue-initiation	cii
 application/vnd.anser-web-funds-transfer-initiation	fti
 # atx: audio/ATRAC-X
 application/vnd.antix.game-component
+application/vnd.api+json
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
 application/vnd.apple.mpegurl			m3u8
@@ -985,6 +987,7 @@ application/vnd.wap.wmlc			wmlc
 application/vnd.wap.wmlscriptc			wmlsc
 application/vnd.webturbo			wtb
 application/vnd.wfa.wsc				wsc
+application/vnd.windows.devicepairing
 application/vnd.wmc				wmc
 application/vnd.wmf.bootstrap
 # nb: application/mathematica for now

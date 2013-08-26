@@ -41,6 +41,7 @@ application/cnrp+xml
 application/commonground
 application/conference-info+xml
 application/cpl+xml				cpl
+application/csrattrs				csrattrs
 application/csta+xml
 application/CSTAdata+xml
 application/cybercash
@@ -93,11 +94,13 @@ application/iotp
 application/ipfix				ipfix
 application/ipp
 application/isup
+application/its+xml				its
 application/javascript				js
 application/json				json
 application/json-patch+json			json-patch
 application/kpml-request+xml
 application/kpml-response+xml
+application/ld+json				jsonld
 application/link-format				wlnk
 application/lost+xml				lostxml
 application/lostsync+xml			lostsyncxml
@@ -414,6 +417,7 @@ application/vnd.epson.ssf			ssf
 application/vnd.ericsson.quickcall		qcall qca
 application/vnd.eszigno3+xml			es3 et3
 application/vnd.etsi.aoc+xml
+application/vnd.etsi.asic-e+zip			asice sce
 application/vnd.etsi.cug+xml
 application/vnd.etsi.iptvcommand+xml
 application/vnd.etsi.iptvdiscovery+xml
@@ -986,6 +990,7 @@ application/vnd.wap.wbxml			wbxml
 application/vnd.wap.wmlc			wmlc
 application/vnd.wap.wmlscriptc			wmlsc
 application/vnd.webturbo			wtb
+application/vnd.wfa.p2p				p2p
 application/vnd.wfa.wsc				wsc
 application/vnd.windows.devicepairing
 application/vnd.wmc				wmc

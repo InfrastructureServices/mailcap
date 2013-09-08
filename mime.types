@@ -46,6 +46,7 @@ application/csta+xml
 application/CSTAdata+xml
 application/cybercash
 application/dash+xml				mpd
+application/dashdelta				mpdd
 application/davmount+xml			davmount
 application/dca-rft
 application/dec-dx
@@ -96,6 +97,7 @@ application/ipp
 application/isup
 application/its+xml				its
 application/javascript				js
+application/jrd+json				jrd
 application/json				json
 application/json-patch+json			json-patch
 application/kpml-request+xml
@@ -288,6 +290,8 @@ application/vnd.accpac.simply.aso		aso
 application/vnd.accpac.simply.imp		imp
 application/vnd.acucobol			acu
 application/vnd.acucorp				atc acutc
+# swf: application/x-shockwave-flash for now
+application/vnd.adobe.flash.movie
 application/vnd.adobe.formscentral.fcdt		fcdt
 application/vnd.adobe.fxp			fxp fxpl
 application/vnd.adobe.partial-upload
@@ -318,6 +322,7 @@ application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml		bmml
 application/vnd.blueice.multipass		mpm
 application/vnd.bluetooth.ep.oob		ep
+application/vnd.bluetooth.le.oob		le
 application/vnd.bmi				bmi
 application/vnd.businessobjects			rep
 application/vnd.cab-jscript
@@ -368,6 +373,7 @@ application/vnd.desmume.movie			dsm
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dm.delegation+xml
 application/vnd.dna				dna
+application/vnd.document+json			docjson
 application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
 application/vnd.dpgraph				dpg mwc dpgraph
@@ -495,6 +501,7 @@ application/vnd.HandHeld-Entertainment+xml	zmm
 application/vnd.hbci				hbci hbc kom upa pkd bpd
 # rep: application/vnd.businessobjects
 application/vnd.hcl-bireports
+application/vnd.heroku+json
 application/vnd.hhe.lesson-player		les
 application/vnd.hp-HPGL				hpgl
 application/vnd.hp-hpid				hpi hpid
@@ -659,6 +666,7 @@ application/vnd.netfpx
 application/vnd.nitf				nitf
 application/vnd.neurolanguage.nlu		nlu
 application/vnd.nintendo.nitro.rom		nds
+application/vnd.nintendo.snes.rom		sfc smc
 application/vnd.noblenet-directory		nnd
 application/vnd.noblenet-sealer			nns
 application/vnd.noblenet-web			nnw
@@ -1281,6 +1289,8 @@ message/sip
 message/sipfrag
 message/tracking-status
 message/vnd.si.simp
+# wsc: application/vnd.wfa.wsc
+message/vnd.wfa.wsc
 model/iges					igs iges
 model/mesh					msh mesh silo
 model/vnd.collada+xml				dae

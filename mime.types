@@ -1534,6 +1534,7 @@ audio/midi					mid midi kar
 audio/x-aiff					aif aiff aifc
 audio/x-annodex					axa
 audio/x-flac					flac
+audio/x-matroska				mka
 audio/x-mod					mod ult uni m15 mtm 669 med
 audio/x-mpegurl					m3u
 audio/x-ms-wax					wax
@@ -1564,6 +1565,8 @@ video/webm					webm
 video/x-annodex					axv
 video/x-flv					flv
 video/x-javafx					fxm
+video/x-matroska				mkv
+video/x-matroska-3d				mk3d
 video/x-ms-asf					asx
 video/x-ms-wm					wm
 video/x-ms-wmv					wmv

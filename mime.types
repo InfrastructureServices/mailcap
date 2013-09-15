@@ -424,6 +424,8 @@ application/vnd.ericsson.quickcall		qcall qca
 application/vnd.eszigno3+xml			es3 et3
 application/vnd.etsi.aoc+xml
 application/vnd.etsi.asic-e+zip			asice sce
+# scs: application/scvp-cv-response
+application/vnd.etsi.asic-s+zip			asics
 application/vnd.etsi.cug+xml
 application/vnd.etsi.iptvcommand+xml
 application/vnd.etsi.iptvdiscovery+xml

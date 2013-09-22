@@ -1,7 +1,7 @@
 mailcap x.x.x (201x-xx-xx)
 
   Ville Skyttä:
-  - mime.types: Sync with IANA as of 2013-09-15.
+  - mime.types: Sync with IANA as of 2013-09-22.
   - mime.types: Add (private) Matroska types (#990338).
 
 mailcap 2.1.41 (2013-05-14)

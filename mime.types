@@ -1052,6 +1052,7 @@ application/wordperfect5.1
 application/wsdl+xml				wsdl
 application/wspolicy+xml			wspolicy
 application/x400-bp
+application/xacml+xml
 application/xcap-att+xml			xav
 application/xcap-caps+xml			xca
 application/xcap-diff+xml			xdf

@@ -203,6 +203,7 @@ application/rdf+xml				rdf
 application/reginfo+xml				rif
 application/relax-ng-compact-syntax		rnc
 application/remote-printing
+application/reputon+json
 application/resource-lists-diff+xml		rld
 application/resource-lists+xml			rl
 application/riscos

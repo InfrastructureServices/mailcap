@@ -959,6 +959,7 @@ application/vnd.syncml.dmtnds+xml
 application/vnd.syncml.ds.notification
 application/vnd.tao.intent-module-archive	tao
 application/vnd.tcpdump.pcap			pcap cap dmp
+application/vnd.theqvd				qvd
 application/vnd.tmobile-livetv			tmo
 application/vnd.trid.tpt			tpt
 application/vnd.triscape.mxs			mxs

@@ -444,6 +444,7 @@ application/vnd.etsi.overload-control-policy-dataset+xml
 application/vnd.etsi.pstn+xml
 application/vnd.etsi.sci+xml
 application/vnd.etsi.simservs+xml
+application/vnd.etsi.timestamp-token		tst
 application/vnd.etsi.tsl.der
 application/vnd.etsi.tsl+xml
 application/vnd.eudora.data

@@ -63,6 +63,7 @@ application/EDI-Consent
 application/EDI-X12
 application/EDIFACT
 application/emma+xml				emma
+application/emotionml+xml			emotionml
 application/encaprtp
 application/epp+xml
 application/eshop
@@ -767,6 +768,7 @@ application/vnd.omads-email+xml
 application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
+application/vnd.openeye.oeb			oeb
 application/vnd.openofficeorg.extension		oxt
 application/vnd.openxmlformats-officedocument.custom-properties+xml
 application/vnd.openxmlformats-officedocument.customXmlProperties+xml
@@ -1313,6 +1315,8 @@ model/vnd.parasolid.transmit.binary		x_b xmt_bin
 model/vnd.parasolid.transmit.text		x_t xmt_txt
 model/vnd.vtu					vtu
 model/vrml					wrl vrml
+# x3d: application/vnd.hzn-3d-crossword
+model/x3d+xml
 multipart/alternative
 multipart/appledouble
 multipart/byteranges

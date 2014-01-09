@@ -164,6 +164,7 @@ application/ocsp-request			orq
 application/ocsp-response			ors
 application/octet-stream		bin lha lzh exe class so dll img iso
 application/oda					oda
+application/ODX					odx
 application/oebps-package+xml			opf
 application/ogg					ogx
 application/oxps				oxps

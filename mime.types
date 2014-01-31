@@ -22,6 +22,7 @@ application/atomdeleted+xml			atomdeleted
 application/atomicmail
 application/atomsvc+xml				atomsvc
 application/auth-policy+xml			apxml
+application/bacnet-xdd+zip			xdd
 application/batch-SMTP
 application/beep+xml
 application/calendar+xml			xcs
@@ -173,6 +174,7 @@ application/parityfec
 # xer: application/xcap-error+xml
 application/patch-ops-error+xml
 application/pdf					pdf
+application/PDX					pdx
 application/pgp-encrypted			pgp
 application/pgp-keys
 application/pgp-signature			sig
@@ -545,6 +547,7 @@ application/vnd.intertrust.digibox
 application/vnd.intertrust.nncp
 application/vnd.intu.qbo			qbo
 application/vnd.intu.qfx			qfx
+application/vnd.iptc.g2.catalogitem+xml
 application/vnd.iptc.g2.conceptitem+xml
 application/vnd.iptc.g2.knowledgeitem+xml
 application/vnd.iptc.g2.newsitem+xml
@@ -1417,6 +1420,7 @@ video/H263-2000
 video/H264
 video/H264-RCDO
 video/H264-SVC
+video/iso.segment				m4s
 video/JPEG
 video/jpeg2000
 video/mj2					mj2 mjp2

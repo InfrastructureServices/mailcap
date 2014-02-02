@@ -349,6 +349,7 @@ application/vnd.clonk.c4group			c4g c4d c4f c4p c4u
 application/vnd.cluetrust.cartomobile-config	c11amc
 application/vnd.cluetrust.cartomobile-config-pkg	c11amz
 application/vnd.collection+json
+application/vnd.collection.doc+json
 application/vnd.collection.next+json
 # icc: application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
@@ -862,6 +863,7 @@ application/vnd.otps.ct-kip+xml
 application/vnd.palm				prc pdb pqa oprc
 application/vnd.paos+xml
 application/vnd.pawaafile			paw
+application/vnd.pcos
 application/vnd.pg.format		    	str
 application/vnd.pg.osasli			ei6
 application/vnd.piaccess.application-license	pil

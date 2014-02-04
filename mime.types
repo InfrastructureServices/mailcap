@@ -107,6 +107,7 @@ application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json				jsonld
 application/link-format				wlnk
+application/load-control+xml
 application/lost+xml				lostxml
 application/lostsync+xml			lostsyncxml
 application/mac-binhex40			hqx
@@ -275,6 +276,7 @@ application/thraud+xml				tfi
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
 application/timestamped-data			tsd
+application/ttml+xml				ttml
 application/tve-trigger
 application/ulpfec
 application/urc-grpsheet+xml			gsheet

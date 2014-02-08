@@ -1380,6 +1380,7 @@ text/turtle					ttl
 text/ulpfec
 text/uri-list					uris uri
 text/vcard					vcf vcard
+text/vnd.a					a
 text/vnd.abc					abc
 # curl: application/vnd.curl
 text/vnd.curl

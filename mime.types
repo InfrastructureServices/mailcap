@@ -39,6 +39,7 @@ application/cdmi-queue				cdmiq
 application/cea-2018+xml
 application/cellml+xml				cellml cml
 application/cfw
+application/cms					cmsc
 application/cnrp+xml
 application/commonground
 application/conference-info+xml

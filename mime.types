@@ -1359,6 +1359,7 @@ text/html					html htm
 text/jcr-cnd					cnd
 text/mizar					miz
 text/n3						n3
+text/parameters
 text/parityfec
 text/plain		txt asc text pm el c h cc hh cxx hxx f90 conf log
 text/provenance-notation			provn

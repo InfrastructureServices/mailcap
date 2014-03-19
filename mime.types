@@ -14,6 +14,16 @@
 application/1d-interleaved-parityfec
 application/3gpp-ims+xml
 application/activemessage
+application/alto-costmap+json
+application/alto-costmapfilter+json
+application/alto-directory+json
+application/alto-endpointcost+json
+application/alto-endpointcostparams+json
+application/alto-endpointprop+json
+application/alto-endpointpropparams+json
+application/alto-error+json
+application/alto-networkmap+json
+application/alto-networkmapfilter+json
 application/andrew-inset			ez
 application/applefile
 application/atom+xml				atom

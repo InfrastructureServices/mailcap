@@ -35,6 +35,7 @@ application/auth-policy+xml			apxml
 application/bacnet-xdd+zip			xdd
 application/batch-SMTP
 application/beep+xml
+application/calendar+json
 application/calendar+xml			xcs
 application/call-completion
 application/cals-1840

@@ -616,6 +616,7 @@ application/vnd.marlin.drm.actiontoken+xml
 application/vnd.marlin.drm.conftoken+xml
 application/vnd.marlin.drm.license+xml
 application/vnd.marlin.drm.mdcf			mdc
+application/vnd.mason+json
 application/vnd.mcd				mcd
 application/vnd.medcalcdata			mc1
 application/vnd.mediastation.cdkey		cdkey
@@ -645,6 +646,7 @@ application/vnd.motorola.flexsuite.ttc
 application/vnd.motorola.flexsuite.wem
 application/vnd.motorola.iprm
 application/vnd.mozilla.xul+xml			xul
+application/vnd.ms-3mfdocument			3mf
 application/vnd.ms-artgalry			cil
 application/vnd.ms-asf				asf
 application/vnd.ms-cab-compressed		cab
@@ -1339,6 +1341,8 @@ model/vnd.parasolid.transmit.binary		x_b xmt_bin
 model/vnd.parasolid.transmit.text		x_t xmt_txt
 model/vnd.vtu					vtu
 model/vrml					wrl vrml
+# x3db: model/x3d+xml
+model/x3d+fastinfoset
 # x3d: application/vnd.hzn-3d-crossword
 model/x3d+xml					x3db
 model/x3d-vrml					x3dv x3dvz

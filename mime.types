@@ -551,6 +551,12 @@ application/vnd.ieee.1905			1905.1
 application/vnd.igloader			igl
 application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
+application/vnd.ims.lis.v2.result+json
+application/vnd.ims.lti.v2.toolconsumerprofile+json
+application/vnd.ims.lti.v2.toolproxy.id+json
+application/vnd.ims.lti.v2.toolproxy+json
+application/vnd.ims.lti.v2.toolsettings+json
+application/vnd.ims.lti.v2.toolsettings.simple+json
 application/vnd.informedcontrol.rms+xml
 # application/vnd.informix-visionary obsoleted by application/vnd.visionary
 application/vnd.infotech.project
@@ -626,6 +632,7 @@ application/vnd.MFER				mwf
 application/vnd.mfmp				mfm
 application/vnd.micrografx.flo			flo
 application/vnd.micrografx.igx			igx
+application/vnd.miele+json
 application/vnd.mif				mif
 application/vnd.minisoft-hp3000-save
 application/vnd.mitsubishi.misty-guard.trustweb
@@ -878,6 +885,7 @@ application/vnd.osgi.dp				dp
 application/vnd.osgi.subsystem			esa
 application/vnd.otps.ct-kip+xml
 application/vnd.palm				prc pdb pqa oprc
+application/vnd.panoply				plp
 application/vnd.paos+xml
 application/vnd.pawaafile			paw
 application/vnd.pcos
@@ -1014,6 +1022,7 @@ application/vnd.uplanet.list-wbxml
 application/vnd.uplanet.listcmd
 application/vnd.uplanet.listcmd-wbxml
 application/vnd.uplanet.signal
+application/vnd.valve.source.material		vmt
 application/vnd.vcx				vcx
 # sxi: application/vnd.sun.xml.impress
 application/vnd.vd-study			mxi study-inter model-inter
@@ -1069,6 +1078,7 @@ application/vnd.yamaha.smaf-audio		saf
 application/vnd.yamaha.smaf-phrase		spf
 application/vnd.yamaha.through-ngn
 application/vnd.yamaha.tunnel-udpencap
+application/vnd.yaoweme				yme
 application/vnd.yellowriver-custom-menu		cmp
 application/vnd.zul				zir zirz
 application/vnd.zzazz.deck+xml			zaz
@@ -1082,6 +1092,8 @@ application/wita
 application/wordperfect5.1
 application/wsdl+xml				wsdl
 application/wspolicy+xml			wspolicy
+# yes, this *is* IANA registered despite of x-
+application/x-www-form-urlencoded
 application/x400-bp
 application/xacml+xml
 application/xcap-att+xml			xav
@@ -1119,6 +1131,7 @@ audio/ac3					ac3
 audio/AMR					amr
 audio/AMR-WB					awb
 audio/amr-wb+
+audio/aptx
 audio/asc					acn
 # aa3, omg: audio/ATRAC3
 audio/ATRAC-ADVANCED-LOSSLESS			aal
@@ -1147,12 +1160,14 @@ audio/EVRC0
 audio/EVRC1
 audio/EVRCB					evb
 audio/EVRCB0
+audio/EVRCB1
 audio/EVRCNW					enw
 audio/EVRCNW0
 audio/EVRCNW1
 audio/EVRCWB					evw
 audio/EVRCWB0
 audio/EVRCWB1
+audio/example
 audio/fwdred
 audio/G719
 audio/G722
@@ -1260,6 +1275,7 @@ audio/vnd.vmx.cvsd
 audio/vorbis
 audio/vorbis-config
 image/cgm					cgm
+image/example
 image/fits					fits fit fts
 image/g3fax
 image/gif					gif
@@ -1308,6 +1324,7 @@ image/vnd.xiff					xif
 message/CPIM
 message/delivery-status
 message/disposition-notification
+message/example
 message/external-body
 message/feedback-report
 message/global					u8msg
@@ -1327,6 +1344,7 @@ message/tracking-status
 message/vnd.si.simp
 # wsc: application/vnd.wfa.wsc
 message/vnd.wfa.wsc
+model/example
 model/iges					igs iges
 model/mesh					msh mesh silo
 model/vnd.collada+xml				dae
@@ -1338,8 +1356,10 @@ model/vnd.gs-gdl
 model/vnd.gtw					gtw
 model/vnd.moml+xml				moml
 model/vnd.mts					mts
+model/vnd.opengex				ogex
 model/vnd.parasolid.transmit.binary		x_b xmt_bin
 model/vnd.parasolid.transmit.text		x_t xmt_txt
+model/vnd.valve.source.compiled-map		bsp
 model/vnd.vtu					vtu
 model/vrml					wrl vrml
 # x3db: model/x3d+xml
@@ -1361,6 +1381,7 @@ multipart/report
 multipart/signed
 multipart/voice-message				vpm
 text/1d-interleaved-parityfec
+text/cache-manifest				appcache manifest
 text/calendar					ics ifb
 text/css					css
 text/csv					csv
@@ -1369,6 +1390,7 @@ text/dns					soa zone
 text/encaprtp
 # text/ecmascript obsoleted by application/ecmascript
 text/enriched
+text/example
 text/fwdred
 text/grammar-ref-list
 text/html					html htm
@@ -1437,6 +1459,7 @@ video/BT656
 video/CelB
 video/DV
 video/encaprtp
+video/example
 video/H261
 video/H263
 video/H263-1998
@@ -1601,7 +1624,6 @@ image/x-targa					tga
 image/x-xbitmap					xbm
 image/x-xpixmap					xpm
 image/x-xwindowdump				xwd
-text/cache-manifest				appcache manifest
 text/html-sandboxed				sandboxed
 text/x-pod					pod
 text/x-setext					etx

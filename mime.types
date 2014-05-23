@@ -389,6 +389,7 @@ application/vnd.cyan.dean.root+xml
 application/vnd.cybank
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
+application/vnd.debian.binary-package		deb udeb
 application/vnd.dece.data			uvf uvvf uvd uvvd
 application/vnd.dece.ttml+xml			uvt uvvt
 application/vnd.dece.unspecified		uvx uvvx
@@ -502,6 +503,7 @@ application/vnd.fujixerox.HBPL
 application/vnd.fut-misnet
 application/vnd.fuzzysheet			fzs
 application/vnd.genomatix.tuxedo		txd
+application/vnd.geo+json			geojson
 application/vnd.geocube+xml			g3 g³
 application/vnd.geogebra.file			ggb
 application/vnd.geogebra.tool			ggt

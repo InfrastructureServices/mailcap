@@ -431,6 +431,7 @@ application/vnd.dvb.service			svc
 # dxr: application/x-director
 application/vnd.dxr
 application/vnd.dynageo				geo
+application/vnd.dzr				dzr
 application/vnd.easykaraoke.cdgdownload
 application/vnd.ecdis-update
 application/vnd.ecowin.chart			mag

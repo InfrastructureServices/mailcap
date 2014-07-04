@@ -1116,6 +1116,7 @@ application/xml
 application/xml-dtd				dtd
 # ent: text/xml-external-parsed-entity
 application/xml-external-parsed-entity
+application/xml-patch+xml
 application/xmpp+xml
 application/xop+xml				xop
 application/xslt+xml				xsl xslt

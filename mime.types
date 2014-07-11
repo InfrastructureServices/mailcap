@@ -238,6 +238,7 @@ application/rtx
 application/samlassertion+xml
 application/samlmetadata+xml
 application/sbml+xml
+application/scaip+xml
 application/scvp-cv-request			scq
 application/scvp-cv-response			scs
 application/scvp-vp-request			spq

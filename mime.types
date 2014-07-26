@@ -403,6 +403,7 @@ application/vnd.dna				dna
 application/vnd.document+json			docjson
 application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
+application/vnd.doremir.scorecloud-binary-document	scld
 application/vnd.dpgraph				dpg mwc dpgraph
 application/vnd.dreamfactory			dfac
 application/vnd.dtg.local
@@ -628,6 +629,7 @@ application/vnd.marlin.drm.conftoken+xml
 application/vnd.marlin.drm.license+xml
 application/vnd.marlin.drm.mdcf			mdc
 application/vnd.mason+json
+application/vnd.maxmind.maxmind-db		mmdb
 application/vnd.mcd				mcd
 application/vnd.medcalcdata			mc1
 application/vnd.mediastation.cdkey		cdkey
@@ -733,6 +735,7 @@ application/vnd.novadigm.EDX			edx
 application/vnd.novadigm.EXT			ext
 application/vnd.ntt-local.content-share
 application/vnd.ntt-local.file-transfer
+application/vnd.ntt-local.ogw_remote-access
 application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream
 application/vnd.oasis.opendocument.chart			odc

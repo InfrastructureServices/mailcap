@@ -339,6 +339,7 @@ application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
 application/vnd.apple.mpegurl			m3u8
 application/vnd.aristanetworks.swi		swi
+application/vnd.artsquare
 application/vnd.astraea-software.iota		iota
 application/vnd.audiograph			aep
 application/vnd.autopackage			package

@@ -27,6 +27,7 @@ application/alto-networkmap+json
 application/alto-networkmapfilter+json
 application/andrew-inset			ez
 application/applefile
+application/ATF					atf
 application/atom+xml				atom
 application/atomcat+xml				atomcat
 application/atomdeleted+xml			atomdeleted
@@ -148,6 +149,7 @@ application/media_control+xml
 # mpf: text/vnd.ms-mediapackage
 application/media-policy-dataset+xml
 application/mediaservercontrol+xml
+application/merge-patch+json
 application/metalink4+xml			meta4
 application/mets+xml				mets
 application/mikey
@@ -338,6 +340,7 @@ application/vnd.api+json
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
 application/vnd.apple.mpegurl			m3u8
+# application/vnd.arastra.swi obsoleted by application/vnd.aristanetworks.swi
 application/vnd.aristanetworks.swi		swi
 application/vnd.artsquare
 application/vnd.astraea-software.iota		iota
@@ -1389,6 +1392,7 @@ multipart/related
 multipart/report
 multipart/signed
 multipart/voice-message				vpm
+multipart/x-mixed-replace
 text/1d-interleaved-parityfec
 text/cache-manifest				appcache manifest
 text/calendar					ics ifb

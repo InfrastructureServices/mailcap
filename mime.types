@@ -65,6 +65,7 @@ application/dash+xml				mpd
 application/dashdelta				mpdd
 application/davmount+xml			davmount
 application/dca-rft
+application/DCD					dcd
 application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
@@ -1331,6 +1332,7 @@ image/vnd.sealed.png				spng spn s1n
 image/vnd.sealedmedia.softseal.gif		sgif sgi s1g
 image/vnd.sealedmedia.softseal.jpg		sjpg sjp s1j
 image/vnd.svf
+image/vnd.tencent.tap				tap
 image/vnd.valve.source.texture			vtf
 image/vnd.wap.wbmp				wbmp
 image/vnd.xiff					xif

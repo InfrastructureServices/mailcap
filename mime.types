@@ -54,6 +54,7 @@ application/cellml+xml				cellml cml
 application/cfw
 application/cms					cmsc
 application/cnrp+xml
+application/coap-group+json
 application/commonground
 application/conference-info+xml
 application/cpl+xml				cpl

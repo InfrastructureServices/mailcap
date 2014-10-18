@@ -1,3 +1,8 @@
+mailcap x.x.x (201x-xx-xx)
+
+  Ville Skyttä:
+  - mime.types: Sync with IANA as of 2014-10-18.
+
 mailcap 2.1.43 (2014-10-14)
 
   Ville Skyttä:

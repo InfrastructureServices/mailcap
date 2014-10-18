@@ -49,6 +49,7 @@ application/cdmi-container			cdmic
 application/cdmi-domain				cdmid
 application/cdmi-object				cdmio
 application/cdmi-queue				cdmiq
+application/CEA					cea
 application/cea-2018+xml
 application/cellml+xml				cellml cml
 application/cfw
@@ -70,6 +71,7 @@ application/DCD					dcd
 application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
+application/DIT					dit
 application/dns
 application/dskpp+xml				xmls
 application/dssc+der				dssc

@@ -528,6 +528,7 @@ application/vnd.globalplatform.card-content-mgt-response
 application/vnd.gmx				gmx
 application/vnd.google-earth.kml+xml		kml
 application/vnd.google-earth.kmz		kmz
+application/vnd.gov.sk.e-form+zip
 application/vnd.grafeq				gqf gqs
 application/vnd.gridmp
 application/vnd.groove-account			gac

@@ -85,6 +85,7 @@ application/emma+xml				emma
 application/emotionml+xml			emotionml
 application/encaprtp
 application/epp+xml
+application/epub+zip				epub
 application/eshop
 application/exi					exi
 application/fastinfoset				finf
@@ -1014,6 +1015,7 @@ application/vnd.syncml.ds.notification
 application/vnd.tao.intent-module-archive	tao
 application/vnd.tcpdump.pcap			pcap cap dmp
 application/vnd.theqvd				qvd
+application/vnd.tmd.mediaflex.api+xml
 application/vnd.tmobile-livetv			tmo
 application/vnd.trid.tpt			tpt
 application/vnd.triscape.mxs			mxs
@@ -1553,7 +1555,6 @@ video/vnd.vivo					viv
 
 # Non-IANA types
 
-application/epub+zip				epub
 application/mac-compactpro			cpt
 application/metalink+xml			metalink
 application/rss+xml				rss

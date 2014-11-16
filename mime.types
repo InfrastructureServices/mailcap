@@ -14,6 +14,7 @@
 application/1d-interleaved-parityfec
 application/3gpdash-qoe-report+xml
 application/3gpp-ims+xml
+application/A2L					a2l
 application/activemessage
 application/alto-costmap+json
 application/alto-costmapfilter+json
@@ -25,9 +26,12 @@ application/alto-endpointpropparams+json
 application/alto-error+json
 application/alto-networkmap+json
 application/alto-networkmapfilter+json
+application/AML					aml
 application/andrew-inset			ez
 application/applefile
 application/ATF					atf
+application/ATFX				atfx
+application/ATXML				atxml
 application/atom+xml				atom
 application/atomcat+xml				atomcat
 application/atomdeleted+xml			atomdeleted
@@ -44,6 +48,7 @@ application/cals-1840
 application/cbor				cbor
 application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
+application/CDFX+XML				cdfx
 application/cdmi-capability			cdmia
 application/cdmi-container			cdmic
 application/cdmi-domain				cdmid
@@ -129,6 +134,7 @@ application/link-format				wlnk
 application/load-control+xml
 application/lost+xml				lostxml
 application/lostsync+xml			lostsyncxml
+application/LXF					lxf
 application/mac-binhex40			hqx
 application/macwriteii
 application/mads+xml				mads
@@ -157,6 +163,7 @@ application/mediaservercontrol+xml
 application/merge-patch+json
 application/metalink4+xml			meta4
 application/mets+xml				mets
+application/MF4					mf4
 application/mikey
 application/mods+xml				mods
 application/moss-keys
@@ -342,6 +349,7 @@ application/vnd.anser-web-funds-transfer-initiation	fti
 # atx: audio/ATRAC-X
 application/vnd.antix.game-component
 application/vnd.apache.thrift.binary
+application/vnd.apache.thrift.compact
 application/vnd.api+json
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
@@ -453,6 +461,7 @@ application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
 application/vnd.enliven				nml
+application/vnd.enphase.envoy
 application/vnd.eprints.data+xml
 application/vnd.epson.esf			esf
 application/vnd.epson.msf			msf
@@ -1418,6 +1427,7 @@ text/grammar-ref-list
 text/html					html htm
 # text/javascript obsoleted by application/javascript
 text/jcr-cnd					cnd
+text/markdown					markdown md
 text/mizar					miz
 text/n3						n3
 text/parameters

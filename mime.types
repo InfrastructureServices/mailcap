@@ -76,6 +76,7 @@ application/DCD					dcd
 application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
+application/DII					dii
 application/DIT					dit
 application/dns
 application/dskpp+xml				xmls
@@ -350,6 +351,7 @@ application/vnd.anser-web-funds-transfer-initiation	fti
 application/vnd.antix.game-component
 application/vnd.apache.thrift.binary
 application/vnd.apache.thrift.compact
+application/vnd.apache.thrift.json
 application/vnd.api+json
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
@@ -382,6 +384,7 @@ application/vnd.cloanto.rp9			rp9
 application/vnd.clonk.c4group			c4g c4d c4f c4p c4u
 application/vnd.cluetrust.cartomobile-config	c11amc
 application/vnd.cluetrust.cartomobile-config-pkg	c11amz
+application/vnd.coffeescript			coffee
 application/vnd.collection+json
 application/vnd.collection.doc+json
 application/vnd.collection.next+json
@@ -576,6 +579,7 @@ application/vnd.ieee.1905			1905.1
 application/vnd.igloader			igl
 application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
+application/vnd.ims.imsccv1p1			imscc
 application/vnd.ims.lis.v2.result+json
 application/vnd.ims.lti.v2.toolconsumerprofile+json
 application/vnd.ims.lti.v2.toolproxy.id+json
@@ -1416,6 +1420,7 @@ text/cache-manifest				appcache manifest
 text/calendar					ics ifb
 text/css					css
 text/csv					csv
+text/csv-schema					csvs
 text/directory
 text/dns					soa zone
 text/encaprtp

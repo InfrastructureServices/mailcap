@@ -580,6 +580,7 @@ application/vnd.igloader			igl
 application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
 application/vnd.ims.imsccv1p1			imscc
+application/vnd.ims.imsccv1p2
 application/vnd.ims.lis.v2.result+json
 application/vnd.ims.lti.v2.toolconsumerprofile+json
 application/vnd.ims.lti.v2.toolproxy.id+json

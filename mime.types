@@ -908,6 +908,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
 application/vnd.openxmlformats-package.core-properties+xml
 application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
 application/vnd.openxmlformats-package.relationships+xml
+application/vnd.oracle.resource+json
 application/vnd.orange.indata
 application/vnd.osa.netdeploy			ndc
 application/vnd.osgeo.mapguide.package		mgp

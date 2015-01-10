@@ -128,6 +128,7 @@ application/javascript				js
 application/jrd+json				jrd
 application/json				json
 application/json-patch+json			json-patch
+application/json-seq
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json				jsonld
@@ -541,6 +542,7 @@ application/vnd.globalplatform.card-content-mgt-response
 application/vnd.gmx				gmx
 application/vnd.google-earth.kml+xml		kml
 application/vnd.google-earth.kmz		kmz
+application/vnd.gov.sk.e-form+xml
 application/vnd.gov.sk.e-form+zip
 application/vnd.grafeq				gqf gqs
 application/vnd.gridmp
@@ -581,6 +583,7 @@ application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
 application/vnd.ims.imsccv1p1			imscc
 application/vnd.ims.imsccv1p2
+application/vnd.ims.imsccv1p3
 application/vnd.ims.lis.v2.result+json
 application/vnd.ims.lti.v2.toolconsumerprofile+json
 application/vnd.ims.lti.v2.toolproxy.id+json

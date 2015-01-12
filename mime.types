@@ -234,6 +234,7 @@ application/prs.xsf+xml				xsf
 application/pskc+xml				pskcxml
 application/qsig
 application/raptorfec
+application/rdap+json
 application/rdf+xml				rdf
 application/reginfo+xml				rif
 application/relax-ng-compact-syntax		rnc

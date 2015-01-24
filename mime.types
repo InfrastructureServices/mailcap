@@ -125,10 +125,15 @@ application/ipp
 application/isup
 application/its+xml				its
 application/javascript				js
+application/jose
+application/jose+json
 application/jrd+json				jrd
 application/json				json
 application/json-patch+json			json-patch
 application/json-seq
+application/jwk+json
+application/jwk-set+json
+application/jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json				jsonld

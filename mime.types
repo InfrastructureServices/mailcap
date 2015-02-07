@@ -543,6 +543,8 @@ application/vnd.geometry-explorer		gex gre
 application/vnd.geonext				gxt
 application/vnd.geoplan				g2w
 application/vnd.geospace			g3w
+# gbr: application/rpki-ghostbusters
+application/vnd.gerber
 application/vnd.globalplatform.card-content-mgt
 application/vnd.globalplatform.card-content-mgt-response
 application/vnd.gmx				gmx
@@ -728,6 +730,7 @@ application/vnd.ms-word.template.macroEnabled.12	dotm
 application/vnd.ms-works			wcm wdb wks wps
 application/vnd.ms-wpl				wpl
 application/vnd.ms-xpsdocument			xps
+application/vnd.msa-disk-image			msa
 application/vnd.mseq				mseq
 application/vnd.msign
 application/vnd.multiad.creator			crtr

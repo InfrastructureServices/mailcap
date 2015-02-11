@@ -552,6 +552,7 @@ application/vnd.google-earth.kml+xml		kml
 application/vnd.google-earth.kmz		kmz
 application/vnd.gov.sk.e-form+xml
 application/vnd.gov.sk.e-form+zip
+application/vnd.gov.sk.xmldatacontainer+xml
 application/vnd.grafeq				gqf gqs
 application/vnd.gridmp
 application/vnd.groove-account			gac

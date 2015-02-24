@@ -386,6 +386,7 @@ application/vnd.chemdraw+xml			cdxml
 application/vnd.chipnuts.karaoke-mmd		mmd
 application/vnd.cinderella			cdy
 application/vnd.cirpack.isdn-ext
+application/vnd.citationstyles.style+xml	csl
 application/vnd.claymore			cla
 application/vnd.cloanto.rp9			rp9
 application/vnd.clonk.c4group			c4g c4d c4f c4p c4u

@@ -508,6 +508,7 @@ application/vnd.eudora.data
 application/vnd.ezpix-album			ez2
 application/vnd.ezpix-package			ez3
 application/vnd.f-secure.mobile
+application/vnd.fastcopy-disk-image		dim
 application/vnd.fdf				fdf
 application/vnd.fdsn.mseed			msd mseed
 application/vnd.fdsn.seed			seed dataless
@@ -1588,6 +1589,7 @@ video/vnd.vivo					viv
 
 application/mac-compactpro			cpt
 application/metalink+xml			metalink
+application/owl+xml				owx
 application/rss+xml				rss
 application/vnd.android.package-archive		apk
 application/vnd.oma.dd+xml			dd

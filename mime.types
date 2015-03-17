@@ -675,6 +675,7 @@ application/vnd.mediastation.cdkey		cdkey
 application/vnd.meridian-slingshot
 application/vnd.MFER				mwf
 application/vnd.mfmp				mfm
+application/vnd.micro+json
 application/vnd.micrografx.flo			flo
 application/vnd.micrografx.igx			igx
 application/vnd.miele+json

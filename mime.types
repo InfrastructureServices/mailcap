@@ -1373,6 +1373,7 @@ image/vnd.tencent.tap				tap
 image/vnd.valve.source.texture			vtf
 image/vnd.wap.wbmp				wbmp
 image/vnd.xiff					xif
+image/vnd.zbrush.pcx				pcx
 message/CPIM
 message/delivery-status
 message/disposition-notification

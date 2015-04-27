@@ -678,6 +678,7 @@ application/vnd.mfmp				mfm
 application/vnd.micro+json
 application/vnd.micrografx.flo			flo
 application/vnd.micrografx.igx			igx
+application/vnd.microsoft.portable-executable
 application/vnd.miele+json
 application/vnd.mif				mif
 application/vnd.minisoft-hp3000-save
@@ -1253,6 +1254,7 @@ audio/mpa-robust
 audio/mpeg					mp3 mpga mp1 mp2
 audio/mpeg4-generic
 audio/ogg					oga ogg opus spx
+audio/opus
 audio/parityfec
 audio/PCMA
 audio/PCMA-WB

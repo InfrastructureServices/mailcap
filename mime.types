@@ -371,6 +371,7 @@ application/vnd.audiograph			aep
 application/vnd.autopackage			package
 application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml		bmml
+application/vnd.balsamiq.bmpr			bmpr
 application/vnd.bekitzur-stech+json
 application/vnd.blueice.multipass		mpm
 application/vnd.bluetooth.ep.oob		ep

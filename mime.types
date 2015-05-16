@@ -1158,7 +1158,6 @@ application/xcon-conference-info-diff+xml
 application/xcon-conference-info+xml
 application/xenc+xml
 application/xhtml+xml				xhtml xhtm xht
-# application/xhtml-voice+xml obsoleted by application/xv+xml
 # xml, xsd, rng: text/xml
 application/xml
 # mod: audio/x-mod

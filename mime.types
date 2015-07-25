@@ -261,6 +261,8 @@ application/samlassertion+xml
 application/samlmetadata+xml
 application/sbml+xml
 application/scaip+xml
+# scm: application/vnd.lotus-screencam
+application/scim+json				scim
 application/scvp-cv-request			scq
 application/scvp-cv-response			scs
 application/scvp-vp-request			spq
@@ -328,6 +330,7 @@ application/vnd.3gpp.pic-bw-small		psb
 application/vnd.3gpp.pic-bw-var			pvb
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
+application/vnd.3gpp.ussd+xml
 application/vnd.3gpp2.bcmcsinfo+xml
 application/vnd.3gpp2.sms			sms
 application/vnd.3gpp2.tcap			tcap
@@ -373,6 +376,7 @@ application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml		bmml
 application/vnd.balsamiq.bmpr			bmpr
 application/vnd.bekitzur-stech+json
+application/vnd.biopax.rdf+xml
 application/vnd.blueice.multipass		mpm
 application/vnd.bluetooth.ep.oob		ep
 application/vnd.bluetooth.le.oob		le
@@ -581,6 +585,7 @@ application/vnd.hp-PCL				pcl
 application/vnd.hp-PCLXL
 application/vnd.httphone
 application/vnd.hydrostatix.sof-data		sfd-hdstx
+application/vnd.hyperdrive+json
 application/vnd.hzn-3d-crossword		x3d
 application/vnd.ibm.afplinedata
 application/vnd.ibm.electronic-media		emm
@@ -1074,6 +1079,7 @@ application/vnd.uplanet.list-wbxml
 application/vnd.uplanet.listcmd
 application/vnd.uplanet.listcmd-wbxml
 application/vnd.uplanet.signal
+application/vnd.uri-map				urim urimap
 application/vnd.valve.source.material		vmt
 application/vnd.vcx				vcx
 # sxi: application/vnd.sun.xml.impress

@@ -1227,6 +1227,7 @@ audio/EVRCWB0
 audio/EVRCWB1
 audio/example
 audio/fwdred
+audio/G711-0
 audio/G719
 audio/G722
 audio/G7221
@@ -1370,6 +1371,7 @@ image/vnd.fujixerox.edmics-rlc			rlc
 image/vnd.globalgraphics.pgb			pgb
 image/vnd.microsoft.icon			ico
 image/vnd.mix
+image/vnd.mozilla.apng				apng
 image/vnd.ms-modi				mdi
 image/vnd.net-fpx
 image/vnd.radiance				hdr rgbe xyze

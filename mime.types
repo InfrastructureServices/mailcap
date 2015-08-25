@@ -216,6 +216,7 @@ application/pgp-signature			sig
 application/pidf-diff+xml
 application/pidf+xml
 application/pkcs10				p10
+application/pkcs12				p12 pfx
 application/pkcs7-mime				p7m p7c
 application/pkcs7-signature			p7s
 application/pkcs8				p8
@@ -855,6 +856,7 @@ application/vnd.omads-email+xml
 application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
+application/vnd.openblox.game+xml		obgx
 application/vnd.openeye.oeb			oeb
 application/vnd.openofficeorg.extension		oxt
 application/vnd.openxmlformats-officedocument.custom-properties+xml

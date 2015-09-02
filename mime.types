@@ -326,11 +326,14 @@ application/vcard+json
 application/vcard+xml
 application/vemmi
 application/vnd.3gpp.bsf+xml
+application/vnd.3gpp.mid-call+xml
 application/vnd.3gpp.pic-bw-large		plb
 application/vnd.3gpp.pic-bw-small		psb
 application/vnd.3gpp.pic-bw-var			pvb
+application/vnd.3gpp-prose+xml
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
+application/vnd.3gpp.state-and-event-info+xml
 application/vnd.3gpp.ussd+xml
 application/vnd.3gpp2.bcmcsinfo+xml
 application/vnd.3gpp2.sms			sms
@@ -355,6 +358,7 @@ application/vnd.airzip.filesecure.azs		azs
 application/vnd.americandynamics.acc		acc
 application/vnd.amiga.ami			ami
 application/vnd.amundsen.maze+xml
+application/vnd.anki				apkg
 application/vnd.anser-web-certificate-issue-initiation	cii
 # Not in IANA listing, but is on FTP site?
 application/vnd.anser-web-funds-transfer-initiation	fti
@@ -521,6 +525,7 @@ application/vnd.fdsn.seed			seed dataless
 application/vnd.ffsns
 # all extensions: application/vnd.hbci
 application/vnd.fints
+application/vnd.firemonkeys.cloudcell
 application/vnd.FloGraphIt			gph
 application/vnd.fluxtime.clip			ftc
 application/vnd.font-fontforge-sfd		sfd
@@ -857,6 +862,7 @@ application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
 application/vnd.openblox.game+xml		obgx
+application/vnd.openblox.game-binary		obg
 application/vnd.openeye.oeb			oeb
 application/vnd.openofficeorg.extension		oxt
 application/vnd.openxmlformats-officedocument.custom-properties+xml

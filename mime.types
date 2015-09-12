@@ -331,6 +331,7 @@ application/vnd.3gpp.pic-bw-large		plb
 application/vnd.3gpp.pic-bw-small		psb
 application/vnd.3gpp.pic-bw-var			pvb
 application/vnd.3gpp-prose+xml
+application/vnd.3gpp-prose-pc3ch+xml
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
 application/vnd.3gpp.state-and-event-info+xml
@@ -445,6 +446,7 @@ application/vnd.dolby.mobile.2
 application/vnd.doremir.scorecloud-binary-document	scld
 application/vnd.dpgraph				dpg mwc dpgraph
 application/vnd.dreamfactory			dfac
+application/vnd.drive+json
 application/vnd.dtg.local
 application/vnd.dtg.local.flash			fla
 application/vnd.dtg.local.html

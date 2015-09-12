@@ -5,15 +5,22 @@ INSTALL = install
 sysconfdir = /etc
 mandir = /usr/share/man
 
-all:
+all: mime.types.nginx
+
+mime.types.nginx:
+	sh generate-nginx-mimetypes.sh < mime.types > $@
 
 check:
 	@perl test.pl < mime.types
 
-install:
+install: mime.types.nginx
 	$(INSTALL) -Dpm 644 mailcap $(DESTDIR)$(sysconfdir)/mailcap
 	$(INSTALL) -Dpm 644 mime.types $(DESTDIR)$(sysconfdir)/mime.types
+	$(INSTALL) -Dpm 644 mime.types.nginx $(DESTDIR)$(sysconfdir)/nginx/mime.types
 	$(INSTALL) -Dpm 644 mailcap.4 $(DESTDIR)$(mandir)/man4/mailcap.4
+
+clean:
+	rm -f mime.types.nginx
 
 tag-archive: check
 	@git tag $(TAG)

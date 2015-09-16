@@ -334,6 +334,7 @@ application/vnd.3gpp-prose+xml
 application/vnd.3gpp-prose-pc3ch+xml
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
+application/vnd.3gpp.SRVCC-info+xml
 application/vnd.3gpp.state-and-event-info+xml
 application/vnd.3gpp.ussd+xml
 application/vnd.3gpp2.bcmcsinfo+xml

@@ -1,7 +1,7 @@
-mailcap x.x.xx (201x-xx-xx)
+mailcap 2.1.45 (2015-09-25)
 
   Ville Skyttä:
-  - mime.types: Sync with IANA as of 2015-09-16.
+  - mime.types: Sync with IANA as of 2015-09-25.
   - Generate and install mime.types for use with nginx.
 
 mailcap 2.1.44 (2015-04-27)

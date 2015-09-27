@@ -1607,6 +1607,7 @@ video/vnd.sealedmedia.softseal.mov		smov smo s1q
 # uvu, uvvu: video/vnd.dece.mp4
 video/vnd.uvvu.mp4
 video/vnd.vivo					viv
+video/VP8
 
 # Non-IANA types
 

@@ -334,6 +334,7 @@ application/vnd.3gpp-prose+xml
 application/vnd.3gpp-prose-pc3ch+xml
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
+application/vnd.3gpp.srvcc-ext+xml
 application/vnd.3gpp.SRVCC-info+xml
 application/vnd.3gpp.state-and-event-info+xml
 application/vnd.3gpp.ussd+xml
@@ -951,6 +952,7 @@ application/vnd.osgi.bundle
 application/vnd.osgi.dp				dp
 application/vnd.osgi.subsystem			esa
 application/vnd.otps.ct-kip+xml
+application/vnd.pagerduty+json
 application/vnd.palm				prc pdb pqa oprc
 application/vnd.panoply				plp
 application/vnd.paos+xml

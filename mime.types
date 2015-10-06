@@ -952,6 +952,7 @@ application/vnd.osgi.bundle
 application/vnd.osgi.dp				dp
 application/vnd.osgi.subsystem			esa
 application/vnd.otps.ct-kip+xml
+application/vnd.oxli.countgraph			oxlicg
 application/vnd.pagerduty+json
 application/vnd.palm				prc pdb pqa oprc
 application/vnd.panoply				plp

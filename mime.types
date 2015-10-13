@@ -67,6 +67,7 @@ application/cpl+xml				cpl
 application/csrattrs				csrattrs
 application/csta+xml
 application/CSTAdata+xml
+application/csvm+json
 application/cybercash
 application/dash+xml				mpd
 application/dashdelta				mpdd
@@ -248,6 +249,7 @@ application/remote-printing
 application/reputon+json
 application/resource-lists-diff+xml		rld
 application/resource-lists+xml			rl
+application/rfc+xml				rfcxml
 application/riscos
 application/rlmi+xml
 application/rls-services+xml			rs

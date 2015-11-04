@@ -746,6 +746,7 @@ application/vnd.ms-powerpoint.template.macroEnabled.12	potm
 application/vnd.ms-project			mpp mpt
 application/vnd.ms-tnef				tnef tnf
 application/vnd.ms-windows.printerpairing
+application/vnd.ms-windows.wsd.oob
 application/vnd.ms-wmdrm.lic-chlg-req
 application/vnd.ms-wmdrm.lic-resp
 application/vnd.ms-wmdrm.meter-chlg-req

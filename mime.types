@@ -1553,6 +1553,7 @@ video/H263-2000
 video/H264
 video/H264-RCDO
 video/H264-SVC
+video/H265
 video/iso.segment				m4s
 video/JPEG
 video/jpeg2000

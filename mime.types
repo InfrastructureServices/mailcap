@@ -89,6 +89,11 @@ application/ecmascript				es
 application/EDI-Consent
 application/EDI-X12
 application/EDIFACT
+application/EmergencyCallData.Comment+xml
+application/EmergencyCallData.DeviceInfo+xml
+application/EmergencyCallData.ProviderInfo+xml
+application/EmergencyCallData.ServiceInfo+xml
+application/EmergencyCallData.SubscriberInfo+xml
 application/emma+xml				emma
 application/emotionml+xml			emotionml
 application/encaprtp

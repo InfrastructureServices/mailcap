@@ -595,6 +595,7 @@ application/vnd.HandHeld-Entertainment+xml	zmm
 application/vnd.hbci				hbci hbc kom upa pkd bpd
 # rep: application/vnd.businessobjects
 application/vnd.hcl-bireports
+application/vnd.hdt				hdt
 application/vnd.heroku+json
 application/vnd.hhe.lesson-player		les
 application/vnd.hp-HPGL				hpgl

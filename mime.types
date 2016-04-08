@@ -89,6 +89,7 @@ application/ecmascript				es
 application/EDI-Consent
 application/EDI-X12
 application/EDIFACT
+application/efi					efi
 application/EmergencyCallData.Comment+xml
 application/EmergencyCallData.DeviceInfo+xml
 application/EmergencyCallData.ProviderInfo+xml
@@ -887,6 +888,7 @@ application/vnd.omads-email+xml
 application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
+application/vnd.onepager			tam
 application/vnd.openblox.game+xml		obgx
 application/vnd.openblox.game-binary		obg
 application/vnd.openeye.oeb			oeb
@@ -1123,6 +1125,7 @@ application/vnd.vcx				vcx
 application/vnd.vd-study			mxi study-inter model-inter
 # mcd: application/vnd.mcd
 application/vnd.vectorworks			vwx
+application/vnd.vel+json
 application/vnd.verimatrix.vcas
 application/vnd.vidsoft.vidconference		vsc
 application/vnd.visio				vsd vst vsw vss
@@ -1509,6 +1512,7 @@ text/plain		txt asc text pm el c h cc hh cxx hxx f90 conf log
 text/provenance-notation			provn
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc
+text/prs.prop.logic
 text/raptorfec
 text/RED
 text/rfc822-headers

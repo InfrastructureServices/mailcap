@@ -428,6 +428,7 @@ application/vnd.collection.next+json
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
 application/vnd.commonspace			csp cst
 application/vnd.contact.cmsg			cdbcmsg
+application/vnd.coreos.ignition+json		ign ignition
 application/vnd.cosmocaller			cmc
 application/vnd.crick.clicker			clkx
 application/vnd.crick.clicker.keyboard		clkk

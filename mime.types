@@ -1376,7 +1376,9 @@ audio/vnd.sealedmedia.softseal.mpeg		smp3 smp s1m
 audio/vnd.vmx.cvsd
 audio/vorbis
 audio/vorbis-config
+image/bmp					bmp dib
 image/cgm					cgm
+image/emf					emf
 image/example
 image/fits					fits fit fts
 image/g3fax
@@ -1426,6 +1428,7 @@ image/vnd.valve.source.texture			vtf
 image/vnd.wap.wbmp				wbmp
 image/vnd.xiff					xif
 image/vnd.zbrush.pcx				pcx
+image/wmf					wmf
 message/CPIM
 message/delivery-status
 message/disposition-notification
@@ -1724,7 +1727,6 @@ audio/x-s3m					s3m
 audio/x-stm					stm
 audio/x-wav					wav
 chemical/x-xyz					xyz
-image/bmp					bmp
 image/webp					webp
 image/x-cmu-raster				ras
 image/x-portable-anymap				pnm

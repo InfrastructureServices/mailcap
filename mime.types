@@ -145,6 +145,7 @@ application/jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json				jsonld
+application/lgr+xml				lgr
 application/link-format				wlnk
 application/load-control+xml
 application/lost+xml				lostxml

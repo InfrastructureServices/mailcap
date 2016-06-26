@@ -875,6 +875,7 @@ application/vnd.oma.dd2+xml			dd2
 application/vnd.oma.drm.risd+xml
 application/vnd.oma.group-usage-list+xml
 application/vnd.oma.lwm2m+json
+application/vnd.oma.lwm2m+tlv
 application/vnd.oma.pal+xml
 application/vnd.oma.poc.detailed-progress-report+xml
 application/vnd.oma.poc.final-report+xml

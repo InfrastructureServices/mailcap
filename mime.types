@@ -374,6 +374,7 @@ application/vnd.ah-barcode
 application/vnd.ahead.space			ahead
 application/vnd.airzip.filesecure.azf		azf
 application/vnd.airzip.filesecure.azs		azs
+application/vnd.amazon.mobi8-ebook		azw3
 application/vnd.americandynamics.acc		acc
 application/vnd.amiga.ami			ami
 application/vnd.amundsen.maze+xml
@@ -412,6 +413,7 @@ application/vnd.canon-lips
 application/vnd.cendio.thinlinc.clientconf	tlclient
 application/vnd.century-systems.tcp_stream
 application/vnd.chemdraw+xml			cdxml
+application/vnd.chess-pgn			pgn
 application/vnd.chipnuts.karaoke-mmd		mmd
 application/vnd.cinderella			cdy
 application/vnd.cirpack.isdn-ext
@@ -425,6 +427,7 @@ application/vnd.coffeescript			coffee
 application/vnd.collection+json
 application/vnd.collection.doc+json
 application/vnd.collection.next+json
+application/vnd.comicbook+zip			cbz
 # icc: application/vnd.iccprofile
 application/vnd.commerce-battelle	ica icf icd ic0 ic1 ic2 ic3 ic4 ic5 ic6 ic7 ic8
 application/vnd.commonspace			csp cst
@@ -1382,12 +1385,14 @@ audio/vorbis
 audio/vorbis-config
 image/bmp					bmp dib
 image/cgm					cgm
+image/dicom-rle					drle
 image/emf					emf
 image/example
 image/fits					fits fit fts
 image/g3fax
 image/gif					gif
 image/ief					ief
+image/jls					jls
 image/jp2					jp2 jpg2
 image/jpeg					jpg jpeg jpe jfif
 image/jpm					jpm jpgm
@@ -1457,6 +1462,7 @@ message/vnd.si.simp
 # wsc: application/vnd.wfa.wsc
 message/vnd.wfa.wsc
 model/example
+model/gltf+json					gltf
 model/iges					igs iges
 model/mesh					msh mesh silo
 model/vnd.collada+xml				dae
@@ -1681,7 +1687,6 @@ application/x-bcpio				bcpio
 application/x-bittorrent			torrent
 application/x-bzip2				bz2
 application/x-cdlink				vcd
-application/x-chess-pgn				pgn
 application/x-chrome-extension			crx
 application/x-cpio				cpio
 application/x-csh				csh

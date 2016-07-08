@@ -111,6 +111,7 @@ application/font-sfnt				ttf
 application/font-tdpfr				pfr
 application/font-woff				woff
 application/framework-attributes+xml
+application/geo+json				geojson
 application/gzip				gz tgz
 application/H224
 application/held+xml
@@ -573,7 +574,7 @@ application/vnd.fujixerox.HBPL
 application/vnd.fut-misnet
 application/vnd.fuzzysheet			fzs
 application/vnd.genomatix.tuxedo		txd
-application/vnd.geo+json			geojson
+# application/vnd.geo+json obsoleted by application/geo+json
 application/vnd.geocube+xml			g3 g³
 application/vnd.geogebra.file			ggb
 application/vnd.geogebra.tool			ggt

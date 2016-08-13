@@ -515,6 +515,7 @@ application/vnd.epson.quickanime		qam
 application/vnd.epson.salt			slt
 application/vnd.epson.ssf			ssf
 application/vnd.ericsson.quickcall		qcall qca
+application/vnd.espass-espass+zip		espass
 application/vnd.eszigno3+xml			es3 et3
 application/vnd.etsi.aoc+xml
 application/vnd.etsi.asic-e+zip			asice sce
@@ -791,6 +792,7 @@ application/vnd.muvee.style			msty
 application/vnd.mynfc				taglet
 application/vnd.ncd.control
 application/vnd.ncd.reference
+application/vnd.nearst.inv+json
 application/vnd.nervana				entity request bkm kcm
 application/vnd.netfpx
 # ntf: application/vnd.lotus-notes
@@ -1548,6 +1550,7 @@ text/uri-list					uris uri
 text/vcard					vcf vcard
 text/vnd.a					a
 text/vnd.abc					abc
+text/vnd.ascii-art				ascii
 # curl: application/vnd.curl
 text/vnd.curl
 text/vnd.debian.copyright			copyright

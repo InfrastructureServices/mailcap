@@ -59,6 +59,7 @@ application/CEA					cea
 application/cea-2018+xml
 application/cellml+xml				cellml cml
 application/cfw
+application/clue_info+xml			clue
 application/cms					cmsc
 application/cnrp+xml
 application/coap-group+json

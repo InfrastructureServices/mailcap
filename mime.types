@@ -452,6 +452,7 @@ application/vnd.cups-raw
 application/vnd.curl				curl
 application/vnd.cyan.dean.root+xml
 application/vnd.cybank
+application/vnd.d2l.coursepackage1p0+zip
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
 application/vnd.debian.binary-package		deb udeb

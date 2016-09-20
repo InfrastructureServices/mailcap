@@ -79,6 +79,7 @@ application/DCD					dcd
 application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
+application/dicom+json
 application/DII					dii
 application/DIT					dit
 application/dns

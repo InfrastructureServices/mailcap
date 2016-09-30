@@ -80,6 +80,7 @@ application/dec-dx
 application/dialog-info+xml
 application/dicom				dcm
 application/dicom+json
+application/dicom+xml
 application/DII					dii
 application/DIT					dit
 application/dns
@@ -906,6 +907,7 @@ application/vnd.openblox.game+xml		obgx
 application/vnd.openblox.game-binary		obg
 application/vnd.openeye.oeb			oeb
 application/vnd.openofficeorg.extension		oxt
+application/vnd.openstreetmap.data+xml		osm
 application/vnd.openxmlformats-officedocument.custom-properties+xml
 application/vnd.openxmlformats-officedocument.customXmlProperties+xml
 application/vnd.openxmlformats-officedocument.drawing+xml
@@ -1109,6 +1111,7 @@ application/vnd.theqvd				qvd
 application/vnd.tmd.mediaflex.api+xml
 application/vnd.tml				vfr viaframe
 application/vnd.tmobile-livetv			tmo
+application/vnd.tri.onesource
 application/vnd.trid.tpt			tpt
 application/vnd.triscape.mxs			mxs
 application/vnd.trueapp				tra

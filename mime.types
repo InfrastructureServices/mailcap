@@ -202,6 +202,7 @@ application/mrb-publish+xml
 application/msc-ivr+xml
 application/msc-mixer+xml
 application/msword				doc
+application/mud+json
 application/mxf					mxf
 application/nasdata
 application/news-checkgroups

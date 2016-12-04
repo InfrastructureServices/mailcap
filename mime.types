@@ -333,6 +333,7 @@ application/thraud+xml				tfi
 application/timestamp-query			tsq
 application/timestamp-reply			tsr
 application/timestamped-data			tsd
+application/trig				trig
 application/ttml+xml				ttml
 application/tve-trigger
 application/ulpfec
@@ -1237,6 +1238,8 @@ application/xv+xml				mxml xhvml xvml xvm
 application/yang				yang
 application/yang-data+json
 application/yang-data+xml
+application/yang-patch+json
+application/yang-patch+xml
 application/yin+xml				yin
 application/zip					zip
 application/zlib

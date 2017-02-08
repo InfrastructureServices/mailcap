@@ -45,7 +45,8 @@ application/calendar+json
 application/calendar+xml			xcs
 application/call-completion
 application/cals-1840
-application/cbor				cbor
+# cbor: application/cose
+application/cbor
 application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
 application/CDFX+XML				cdfx
@@ -63,9 +64,15 @@ application/clue_info+xml			clue
 application/cms					cmsc
 application/cnrp+xml
 application/coap-group+json
+application/coap-payload
 application/commonground
 application/conference-info+xml
 application/cpl+xml				cpl
+application/cose				cbor
+# cbor: application/cose
+application/cose-key
+# cbor: application/cose
+application/cose-key-set
 application/csrattrs				csrattrs
 application/csta+xml
 application/CSTAdata+xml
@@ -110,11 +117,12 @@ application/fastsoap
 application/fdt+xml				fdt
 # fits, fit, fts: image/fits
 application/fits
-application/font-sfnt				ttf
-application/font-tdpfr				pfr
-application/font-woff				woff
+# application/font-sfnt deprecated in favor of font/sfnt
+application/font-tdpfr
+# application/font-woff deprecated in favor of font/woff
 application/framework-attributes+xml
 application/geo+json				geojson
+application/gml+xml				gml
 application/gzip				gz tgz
 application/H224
 application/held+xml
@@ -204,6 +212,7 @@ application/msc-mixer+xml
 application/msword				doc
 application/mud+json
 application/mxf					mxf
+application/n-triples				nt
 application/nasdata
 application/news-checkgroups
 application/news-groupinfo
@@ -394,6 +403,7 @@ application/vnd.apache.thrift.binary
 application/vnd.apache.thrift.compact
 application/vnd.apache.thrift.json
 application/vnd.api+json
+application/vnd.apothekende.reservation+json
 application/vnd.apple.installer+xml		dist distz pkg mpkg
 # m3u: audio/x-mpegurl for now
 application/vnd.apple.mpegurl			m3u8
@@ -459,6 +469,7 @@ application/vnd.cybank
 application/vnd.d2l.coursepackage1p0+zip
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
+application/vnd.dataresource+json
 application/vnd.debian.binary-package		deb udeb
 application/vnd.dece.data			uvf uvvf uvd uvvd
 application/vnd.dece.ttml+xml			uvt uvvt
@@ -512,6 +523,10 @@ application/vnd.ecowin.fileupdate
 application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
+# img: application/octet-stream
+application/vnd.efi-img
+# iso: application/octet-stream
+application/vnd.efi-iso
 application/vnd.enliven				nml
 application/vnd.enphase.envoy
 application/vnd.eprints.data+xml
@@ -612,6 +627,7 @@ application/vnd.hal+json
 application/vnd.hal+xml				hal
 application/vnd.HandHeld-Entertainment+xml	zmm
 application/vnd.hbci				hbci hbc kom upa pkd bpd
+application/vnd.hc+json
 # rep: application/vnd.businessobjects
 application/vnd.hcl-bireports
 application/vnd.hdt				hdt
@@ -837,7 +853,8 @@ application/vnd.oasis.opendocument.chart			odc
 application/vnd.oasis.opendocument.chart-template		otc
 application/vnd.oasis.opendocument.database			odb
 application/vnd.oasis.opendocument.formula			odf
-application/vnd.oasis.opendocument.formula-template		otf
+# otf: font/otf
+application/vnd.oasis.opendocument.formula-template
 application/vnd.oasis.opendocument.graphics			odg
 application/vnd.oasis.opendocument.graphics-template		otg
 application/vnd.oasis.opendocument.image			odi
@@ -1107,6 +1124,7 @@ application/vnd.syncml.dmddf+xml		ddf
 application/vnd.syncml.dmtnds+wbxml
 application/vnd.syncml.dmtnds+xml
 application/vnd.syncml.ds.notification
+application/vnd.tableschema+json
 application/vnd.tao.intent-module-archive	tao
 application/vnd.tcpdump.pcap			pcap cap dmp
 application/vnd.theqvd				qvd
@@ -1399,6 +1417,12 @@ audio/vnd.sealedmedia.softseal.mpeg		smp3 smp s1m
 audio/vnd.vmx.cvsd
 audio/vorbis
 audio/vorbis-config
+font/collection					ttc
+font/otf					otf
+font/sfnt
+font/ttf					ttf
+font/woff					woff
+font/woff2					woff2
 image/bmp					bmp dib
 image/cgm					cgm
 image/dicom-rle					drle

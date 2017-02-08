@@ -118,7 +118,7 @@ application/fdt+xml				fdt
 # fits, fit, fts: image/fits
 application/fits
 # application/font-sfnt deprecated in favor of font/sfnt
-application/font-tdpfr
+application/font-tdpfr				pfr
 # application/font-woff deprecated in favor of font/woff
 application/framework-attributes+xml
 application/geo+json				geojson

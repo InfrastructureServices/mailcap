@@ -7,7 +7,7 @@ my %seentype;
 my %toplevel;
 
 my %good_toplevel = map { $_ => 1 }
-  qw(application audio chemical image message model multipart text video
+  qw(application audio chemical font image message model multipart text video
      x-conference x-epoc);
 
 while (<>) {

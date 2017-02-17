@@ -1335,6 +1335,10 @@ audio/L20
 audio/L24
 audio/L8
 audio/LPC
+audio/MELP
+audio/MELP600
+audio/MELP1200
+audio/MELP2400
 audio/mobile-xmf				mxmf
 # mp4, mpg4: video/mp4, see RFC 4337
 audio/mp4					m4a

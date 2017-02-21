@@ -377,8 +377,7 @@ application/vnd.accpac.simply.aso		aso
 application/vnd.accpac.simply.imp		imp
 application/vnd.acucobol			acu
 application/vnd.acucorp				atc acutc
-# swf: application/x-shockwave-flash for now
-application/vnd.adobe.flash.movie
+application/vnd.adobe.flash.movie		swf
 application/vnd.adobe.formscentral.fcdt		fcdt
 application/vnd.adobe.fxp			fxp fxpl
 application/vnd.adobe.partial-upload
@@ -1750,7 +1749,6 @@ application/x-perl				pl
 application/x-rpm				rpm
 application/x-sh				sh
 application/x-shar				shar
-application/x-shockwave-flash			swf
 application/x-stuffit				sit
 application/x-sv4cpio				sv4cpio
 application/x-sv4crc				sv4crc

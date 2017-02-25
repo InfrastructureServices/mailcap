@@ -101,7 +101,9 @@ application/EDI-X12
 application/EDIFACT
 application/efi					efi
 application/EmergencyCallData.Comment+xml
+application/EmergencyCallData.Control+xml
 application/EmergencyCallData.DeviceInfo+xml
+application/EmergencyCallData.eCall.MSD
 application/EmergencyCallData.ProviderInfo+xml
 application/EmergencyCallData.ServiceInfo+xml
 application/EmergencyCallData.SubscriberInfo+xml
@@ -122,6 +124,7 @@ application/font-tdpfr				pfr
 # application/font-woff deprecated in favor of font/woff
 application/framework-attributes+xml
 application/geo+json				geojson
+application/geo+json-seq
 application/gml+xml				gml
 application/gzip				gz tgz
 application/H224

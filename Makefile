@@ -7,7 +7,7 @@ mandir = /usr/share/man
 
 all: mime.types.nginx
 
-mime.types.nginx:
+mime.types.nginx: mime.types generate-nginx-mimetypes.sh
 	sh generate-nginx-mimetypes.sh < mime.types > $@
 
 check:

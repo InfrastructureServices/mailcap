@@ -107,6 +107,7 @@ application/EmergencyCallData.eCall.MSD
 application/EmergencyCallData.ProviderInfo+xml
 application/EmergencyCallData.ServiceInfo+xml
 application/EmergencyCallData.SubscriberInfo+xml
+application/EmergencyCallData.VEDS+xml
 application/emma+xml				emma
 application/emotionml+xml			emotionml
 application/encaprtp

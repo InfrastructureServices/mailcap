@@ -1,7 +1,7 @@
 mailcap x.x.x (201x-xx-xx)
 
   Ville Skyttä:
-  - mime.types: Sync with IANA as of 2017-02-25.
+  - mime.types: Sync with IANA as of 2017-03-01.
   - mime.types: Use application/vnd.adobe.flash.movie for flash (#1424914).
   - Add missing make dependencies for mime.types.nginx.
 

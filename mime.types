@@ -871,6 +871,7 @@ application/vnd.oasis.opendocument.text-master			odm
 application/vnd.oasis.opendocument.text-template		ott
 application/vnd.oasis.opendocument.text-web			oth
 application/vnd.obn
+application/vnd.ocf+cbor
 application/vnd.oftn.l10n+json
 application/vnd.oipf.contentaccessdownload+xml
 application/vnd.oipf.contentaccessstreaming+xml

@@ -216,6 +216,7 @@ application/msc-mixer+xml
 application/msword				doc
 application/mud+json
 application/mxf					mxf
+application/n-quads				nq
 application/n-triples				nt
 application/nasdata
 application/news-checkgroups

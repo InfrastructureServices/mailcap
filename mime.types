@@ -717,6 +717,7 @@ application/vnd.kidspiration			kia
 application/vnd.Kinar				kne knp sdf
 application/vnd.koan				skp skd skm skt
 application/vnd.kodak-descriptor		sse
+application/vnd.las.las+json			lasjson
 application/vnd.las.las+xml			lasxml
 application/vnd.liberty-request+xml
 application/vnd.llamagraphics.life-balance.desktop	lbd

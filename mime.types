@@ -656,6 +656,7 @@ application/vnd.ibm.secure-container		sc
 application/vnd.iccprofile			icc icm
 application/vnd.ieee.1905			1905.1
 application/vnd.igloader			igl
+application/vnd.imagemeter.image+zip		imi
 application/vnd.immervision-ivp			ivp
 application/vnd.immervision-ivu			ivu
 application/vnd.ims.imsccv1p1			imscc

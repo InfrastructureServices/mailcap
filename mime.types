@@ -285,6 +285,7 @@ application/rlmi+xml
 application/rls-services+xml			rs
 application/rpki-ghostbusters			gbr
 application/rpki-manifest			mft
+application/rpki-publication
 application/rpki-roa				roa
 application/rpki-updown
 application/rtf					rtf

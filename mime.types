@@ -930,6 +930,7 @@ application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
 application/vnd.onepager			tam
+application/vnd.onepagertat			tat
 application/vnd.openblox.game+xml		obgx
 application/vnd.openblox.game-binary		obg
 application/vnd.openeye.oeb			oeb

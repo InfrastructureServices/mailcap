@@ -422,6 +422,7 @@ application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml		bmml
 application/vnd.balsamiq.bmpr			bmpr
 application/vnd.bekitzur-stech+json
+application/vnd.bint.med-content
 application/vnd.biopax.rdf+xml
 application/vnd.blueice.multipass		mpm
 application/vnd.bluetooth.ep.oob		ep
@@ -749,6 +750,7 @@ application/vnd.micro+json
 application/vnd.micrografx.flo			flo
 application/vnd.micrografx.igx			igx
 application/vnd.microsoft.portable-executable
+application/vnd.microsoft.windows.thumbnail-cache
 application/vnd.miele+json
 application/vnd.mif				mif
 application/vnd.minisoft-hp3000-save
@@ -1551,6 +1553,7 @@ multipart/parallel
 multipart/related
 multipart/report
 multipart/signed
+multipart/vnd.bint.med-plus			bmed
 multipart/voice-message				vpm
 multipart/x-mixed-replace
 text/1d-interleaved-parityfec

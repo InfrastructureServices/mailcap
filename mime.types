@@ -475,6 +475,7 @@ application/vnd.cybank
 application/vnd.d2l.coursepackage1p0+zip
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
+application/vnd.datapackage+json
 application/vnd.dataresource+json
 application/vnd.debian.binary-package		deb udeb
 application/vnd.dece.data			uvf uvvf uvd uvvd
@@ -1598,6 +1599,7 @@ text/rtp-enc-aescm128
 text/rtploopback
 text/rtx
 text/sgml					sgml sgm
+text/strings
 text/t140
 text/tab-separated-values			tsv
 text/troff					t tr roff

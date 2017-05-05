@@ -432,6 +432,7 @@ application/vnd.businessobjects			rep
 application/vnd.cab-jscript
 application/vnd.canon-cpdl
 application/vnd.canon-lips
+application/vnd.capasystems-pg+json
 application/vnd.cendio.thinlinc.clientconf	tlclient
 application/vnd.century-systems.tcp_stream
 application/vnd.chemdraw+xml			cdxml

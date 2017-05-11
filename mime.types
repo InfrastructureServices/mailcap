@@ -45,8 +45,7 @@ application/calendar+json
 application/calendar+xml			xcs
 application/call-completion
 application/cals-1840
-# cbor: application/cose
-application/cbor
+application/cbor				cbor
 application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
 application/CDFX+XML				cdfx
@@ -68,10 +67,8 @@ application/coap-payload
 application/commonground
 application/conference-info+xml
 application/cpl+xml				cpl
-application/cose				cbor
-# cbor: application/cose
+application/cose
 application/cose-key
-# cbor: application/cose
 application/cose-key-set
 application/csrattrs				csrattrs
 application/csta+xml

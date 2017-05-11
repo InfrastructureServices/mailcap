@@ -3,7 +3,6 @@ mailcap 2.1.48 (2017-05-11)
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2017-05-05.
   - mime.types: Use application/vnd.adobe.flash.movie for flash (#1424914).
-  - mime.types: Use application/cbor for *.cbor.
   - Add missing make dependencies for mime.types.nginx.
 
 mailcap 2.1.47 (2016-11-01)

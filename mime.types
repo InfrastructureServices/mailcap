@@ -646,6 +646,7 @@ application/vnd.hp-PCL				pcl
 application/vnd.hp-PCLXL
 application/vnd.httphone
 application/vnd.hydrostatix.sof-data		sfd-hdstx
+application/vnd.hyper-item+json
 application/vnd.hyperdrive+json
 application/vnd.hzn-3d-crossword		x3d
 application/vnd.ibm.afplinedata
@@ -1520,6 +1521,8 @@ message/tracking-status
 message/vnd.si.simp
 # wsc: application/vnd.wfa.wsc
 message/vnd.wfa.wsc
+# 3mf: application/vnd.ms-3mfdocument
+model/3mf
 model/example
 model/gltf+json					gltf
 model/iges					igs iges

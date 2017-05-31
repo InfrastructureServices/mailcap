@@ -567,6 +567,7 @@ application/vnd.etsi.timestamp-token		tst
 application/vnd.etsi.tsl.der
 application/vnd.etsi.tsl+xml
 application/vnd.eudora.data
+application/vnd.evolv.ecig.theme		ecigtheme
 application/vnd.ezpix-album			ez2
 application/vnd.ezpix-package			ez3
 application/vnd.f-secure.mobile

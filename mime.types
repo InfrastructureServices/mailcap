@@ -46,6 +46,7 @@ application/calendar+xml			xcs
 application/call-completion
 application/cals-1840
 application/cbor				cbor
+application/cccex				c3ex
 application/ccmp+xml				ccmp
 application/ccxml+xml				ccxml
 application/CDFX+XML				cdfx

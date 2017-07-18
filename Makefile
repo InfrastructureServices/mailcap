@@ -2,6 +2,7 @@ VERSION = 2.1.48
 TAG = r$(subst .,-,$(VERSION))
 
 INSTALL = install
+PYTHON3 = python3
 sysconfdir = /etc
 mandir = /usr/share/man
 
@@ -11,7 +12,7 @@ mime.types.nginx: mime.types generate-nginx-mimetypes.sh
 	sh generate-nginx-mimetypes.sh < mime.types > $@
 
 check:
-	@perl test.pl < mime.types
+	$(PYTHON3) -Wd test.py < mime.types
 
 install: mime.types.nginx
 	$(INSTALL) -Dpm 644 mailcap $(DESTDIR)$(sysconfdir)/mailcap

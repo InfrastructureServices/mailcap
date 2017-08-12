@@ -197,6 +197,7 @@ application/metalink4+xml			meta4
 application/mets+xml				mets
 application/MF4					mf4
 application/mikey
+application/mmt-usd+xml				musd
 application/mods+xml				mods
 application/moss-keys
 application/moss-signature
@@ -274,6 +275,9 @@ application/qsig
 application/raptorfec
 application/rdap+json
 application/rdf+xml				rdf
+application/route-apd+xml			rapd
+application/route-s-tsid+xml			sls
+application/route-usd+xml			rusd
 application/reginfo+xml				rif
 application/relax-ng-compact-syntax		rnc
 application/remote-printing

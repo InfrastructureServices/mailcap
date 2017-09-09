@@ -539,6 +539,7 @@ application/vnd.dynageo				geo
 application/vnd.dzr				dzr
 application/vnd.easykaraoke.cdgdownload
 application/vnd.ecdis-update
+application/vnd.ecip.rlp
 application/vnd.ecowin.chart			mag
 application/vnd.ecowin.filerequest
 application/vnd.ecowin.fileupdate

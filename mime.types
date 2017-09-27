@@ -373,6 +373,7 @@ application/vnd.3gpp.mcptt-floor-request+xml
 application/vnd.3gpp.mcptt-info+xml
 application/vnd.3gpp.mcptt-location-info+xml
 application/vnd.3gpp.mcptt-mbms-usage-info+xml
+application/vnd.3gpp.mcptt-signed+xml
 application/vnd.3gpp.mid-call+xml
 application/vnd.3gpp.pic-bw-large		plb
 application/vnd.3gpp.pic-bw-small		psb
@@ -386,6 +387,7 @@ application/vnd.3gpp.srvcc-ext+xml
 application/vnd.3gpp.SRVCC-info+xml
 application/vnd.3gpp.state-and-event-info+xml
 application/vnd.3gpp.ussd+xml
+application/vnd.3gpp-v2x-local-service-information
 application/vnd.3gpp2.bcmcsinfo+xml
 application/vnd.3gpp2.sms			sms
 application/vnd.3gpp2.tcap			tcap
@@ -430,6 +432,7 @@ application/vnd.artsquare
 application/vnd.astraea-software.iota		iota
 application/vnd.audiograph			aep
 application/vnd.autopackage			package
+application/vnd.avalon+json
 application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml		bmml
 application/vnd.balsamiq.bmpr			bmpr
@@ -1730,6 +1733,7 @@ video/vnd.motorola.videop
 video/vnd.mpegurl				mxu m4u
 video/vnd.ms-playready.media.pyv		pyv
 video/vnd.nokia.interleaved-multimedia		nim
+video/vnd.nokia.mp4vr
 video/vnd.nokia.videovoip
 # mp4: video/mp4
 video/vnd.objectvideo

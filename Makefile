@@ -18,7 +18,7 @@ install: mime.types.nginx
 	$(INSTALL) -Dpm 644 mailcap $(DESTDIR)$(sysconfdir)/mailcap
 	$(INSTALL) -Dpm 644 mime.types $(DESTDIR)$(sysconfdir)/mime.types
 	$(INSTALL) -Dpm 644 mime.types.nginx $(DESTDIR)$(sysconfdir)/nginx/mime.types
-	$(INSTALL) -Dpm 644 mailcap.4 $(DESTDIR)$(mandir)/man4/mailcap.4
+	$(INSTALL) -Dpm 644 mailcap.5 $(DESTDIR)$(mandir)/man5/mailcap.5
 
 clean:
 	rm -f mime.types.nginx

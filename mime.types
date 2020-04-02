@@ -1717,6 +1717,7 @@ text/vnd.wap.si					si
 text/vnd.wap.sl					sl
 text/vnd.wap.wml				wml
 text/vnd.wap.wmlscript				wmls
+text/vtt					vtt
 text/xml					xml xsd rng
 text/xml-external-parsed-entity			ent
 video/1d-interleaved-parityfec

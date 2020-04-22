@@ -1,8 +1,11 @@
-mailcap x.x.x (201x-xx-xx)
+mailcap 2.1.49 (2020-04-22)
 
   Ville Skyttä:
   - mime.types: Sync with IANA as of 2017-09-27.
   - Rewrite test tool in Python 3.
+
+  Tomas Korbar:
+  - mime.types: Sync with IANA as of 2020-04-22
 
 mailcap 2.1.48 (2017-05-11)
 

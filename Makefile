@@ -1,4 +1,4 @@
-VERSION = 2.1.48
+VERSION = 2.1.49
 TAG = r$(subst .,-,$(VERSION))
 
 INSTALL = install

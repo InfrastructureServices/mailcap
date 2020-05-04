@@ -1966,6 +1966,7 @@ application/vnd.sun.xml.writer.global		sxg
 application/vnd.sun.xml.writer.template		stw
 application/vnd.symbian.install			sis
 application/vnd.wap.mms-message			mms
+application/wasm                                wasm
 application/x-annodex				anx
 application/x-bcpio				bcpio
 application/x-bittorrent			torrent

@@ -169,6 +169,7 @@ application/ipp
 application/isup
 application/its+xml				its
 application/javascript				js
+application/javascript				mjs
 application/jf2feed+json
 application/jose
 application/jose+json

@@ -373,7 +373,8 @@ application/sieve				siv sieve
 application/simple-filter+xml			cl
 application/simple-message-summary
 application/simpleSymbolContainer
-application/sipc                h5
+# h5: application/mipc
+application/sipc
 application/slate
 # application/smil obsoleted by application/smil+xml
 application/smil+xml				smil smi sml
@@ -611,11 +612,15 @@ application/vnd.cups-raw
 application/vnd.curl				curl
 application/vnd.cyan.dean.root+xml
 application/vnd.cybank
-application/vnd.cyclonedx+json      json
-application/vnd.cyclonedx+xml       xml
+# json: application/json
+application/vnd.cyclonedx+json
+# xml: text/xml
+application/vnd.cyclonedx+xml
 application/vnd.d2l.coursepackage1p0+zip
-application/vnd.d3m-dataset         json
-application/vnd.d3m-problem         json
+# json: application/json
+application/vnd.d3m-dataset
+# json: application/json
+application/vnd.d3m-problem
 application/vnd.dart				dart
 application/vnd.data-vision.rdz			rdz
 application/vnd.datapackage+json
@@ -676,12 +681,10 @@ application/vnd.ecowin.fileupdate
 application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
-application/vnd.efi.img                 img
-application/vnd.efi.iso                 iso
 # img: application/octet-stream
-application/vnd.efi-img
+application/vnd.efi.img
 # iso: application/octet-stream
-application/vnd.efi-iso
+application/vnd.efi.iso
 application/vnd.emclient.accessrequest+xml
 application/vnd.enliven				nml
 application/vnd.enphase.envoy
@@ -1282,7 +1285,8 @@ application/vnd.sealed.xls			sxls sxl s1e
 application/vnd.sealedmedia.softseal.html	stml s1h
 application/vnd.sealedmedia.softseal.pdf	spdf spd s1a
 application/vnd.seemail				see
-application/vnd.seis+json           json
+# json: application/json
+application/vnd.seis+json
 application/vnd.sema				sema
 application/vnd.semd				semd
 application/vnd.semf				semf
@@ -1661,7 +1665,9 @@ font/woff2					woff2
 image/aces					exr
 image/avci					avci
 image/avcs					avcs
-image/avif                  avif heif heifs hif
+# heif: image/heif
+# heifs: images/heif-sequence
+image/avif                  avif hif
 image/bmp					bmp dib
 image/cgm					cgm
 image/dicom-rle					drle

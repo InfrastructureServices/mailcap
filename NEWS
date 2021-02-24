@@ -1,5 +1,9 @@
 mailcap 2.1.50 (2021-02-24)
   Tomas Korbar:
+  - mime.types: Fix duplicate mappings
+
+mailcap 2.1.50 (2021-02-24)
+  Tomas Korbar:
   - mime.types: Sync with IANA as of 2021-02-24
 
 mailcap 2.1.49 (2020-04-22)

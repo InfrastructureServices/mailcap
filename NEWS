@@ -1,4 +1,8 @@
-mailcap 2.1.50 (2021-02-24)
+mailcap 2.1.52 (2021-02-24)
+  Tomas Korbar:
+  - Fix makefile problem
+
+mailcap 2.1.51 (2021-02-24)
   Tomas Korbar:
   - mime.types: Fix duplicate mappings
 

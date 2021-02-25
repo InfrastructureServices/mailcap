@@ -1582,7 +1582,7 @@ audio/PCMA-WB
 audio/PCMU
 audio/PCMU-WB
 audio/prs.sid					sid psid
-audio/qcelp					qcp
+audio/QCELP					qcp
 audio/raptorfec
 audio/RED
 audio/rtp-enc-aescm128

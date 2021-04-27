@@ -257,6 +257,7 @@ application/news-transmission
 application/nlsml+xml
 application/node
 application/nss
+application/oauth-authz-req+jwt
 application/ocsp-request			orq
 application/ocsp-response			ors
 application/octet-stream		bin lha lzh exe class so dll img iso
@@ -337,6 +338,7 @@ application/rtploopback
 application/rtx
 application/samlassertion+xml
 application/samlmetadata+xml
+application/sarif-external-properties+json sarif-external-properties sarif-external-properties.json
 application/sarif+json          sarif sarif.json
 application/sbe
 application/sbml+xml
@@ -430,10 +432,13 @@ application/vcard+json
 application/vcard+xml
 application/vemmi
 application/vnd.1000minds.decision-model+xml	1km
+application/vnd.3gpp.5gnas              
 application/vnd.3gpp.access-transfer-events+xml
 application/vnd.3gpp.bsf+xml
 application/vnd.3gpp.GMOP+xml
+application/vnd.3gpp.gtpc
 application/vnd.3gpp.interworking-data
+application/vnd.3gpp.lpp
 application/vnd.3gpp.mc-signalling-ear
 application/vnd.3gpp.mcdata-affiliation-command+xml
 application/vnd.3gpp.mcdata-info+xml
@@ -461,10 +466,13 @@ application/vnd.3gpp.mcvideo-transmission-request+xml
 application/vnd.3gpp.mcvideo-ue-config+xml
 application/vnd.3gpp.mcvideo-user-profile+xml
 application/vnd.3gpp.mid-call+xml
+application/vnd.3gpp.ngap
+application/vnd.3gpp.pfcp
 application/vnd.3gpp.pic-bw-large		plb
 application/vnd.3gpp.pic-bw-small		psb
 application/vnd.3gpp.pic-bw-var			pvb
 application/vnd.3gpp-prose+xml
+application/vnd.3gpp.s1ap
 application/vnd.3gpp-prose-pc3ch+xml
 # sms: application/vnd.3gpp2.sms
 application/vnd.3gpp.sms
@@ -602,6 +610,8 @@ application/vnd.crick.clicker.wordbank		clkw
 application/vnd.criticaltools.wbs+xml		wbs
 application/vnd.cryptii.pipe+json
 application/vnd.crypto-shade-file		ssvc
+application/vnd.cryptomator.encrypted   c9r c9s
+application/vnd.cryptomator.vault       cryptomator
 application/vnd.ctc-posml			pml
 application/vnd.ctct.ws+xml
 application/vnd.cups-pdf
@@ -746,6 +756,12 @@ application/vnd.framemaker			fm
 application/vnd.frogans.fnc			fnc
 application/vnd.frogans.ltf			ltf
 application/vnd.fsc.weblaunch			fsc
+# xdw: application/vnd.fujixerox.docuworks
+application/vnd.fujifilm.fb.docuworks
+# xbd: application/vnd.fujixerox.docuworks.binder
+application/vnd.fujifilm.fb.docuworks.binder
+# xct: application/vnd.fujixerox.docuworks.container
+application/vnd.fujifilm.fb.docuworks.container
 application/vnd.fujitsu.oasys			oas
 application/vnd.fujitsu.oasys2			oa2
 application/vnd.fujitsu.oasys3			oa3
@@ -754,9 +770,9 @@ application/vnd.fujitsu.oasysprs		bh2
 application/vnd.fujixerox.ART-EX
 application/vnd.fujixerox.ART4
 application/vnd.fujixerox.ddd			ddd
-application/vnd.fujixerox.docuworks		xdw
-application/vnd.fujixerox.docuworks.binder	xbd
-application/vnd.fujixerox.docuworks.container	xct
+application/vnd.fujixerox.docuworks     xdw
+application/vnd.fujixerox.docuworks.binder      xbd
+application/vnd.fujixerox.docuworks.container       xct
 application/vnd.fujixerox.HBPL
 application/vnd.fut-misnet
 application/vnd.futoin+cbor
@@ -996,6 +1012,7 @@ application/vnd.mynfc				taglet
 application/vnd.ncd.control
 application/vnd.ncd.reference
 application/vnd.nearst.inv+json
+application/vnd.nebumind.line       nebul line
 application/vnd.nervana				entity request bkm kcm
 application/vnd.netfpx
 application/vnd.nimn				nimn
@@ -1435,6 +1452,7 @@ application/vnd.zzazz.deck+xml			zaz
 application/voicexml+xml			vxml
 application/voucher-cms+json			vcj
 application/vq-rtcpxr
+application/wasm                    wasm
 application/vq-rtcp-xr
 application/watcherinfo+xml			wif
 application/webpush-options+json
@@ -1690,6 +1708,7 @@ image/jphc					jhc
 image/jpeg					jpg jpeg jpe jfif
 image/jpm					jpm jpgm
 image/jpx					jpx jpf
+image/jxl                   jxl
 image/jxr					jxr
 image/jxrA					jxra
 image/jxrS					jxrs
@@ -1786,7 +1805,9 @@ model/vnd.mts					mts
 model/vnd.opengex				ogex
 model/vnd.parasolid.transmit.binary		x_b xmt_bin
 model/vnd.parasolid.transmit.text		x_t xmt_txt
+model/vnd.pytha.pyox            pyo pyox
 model/vnd.rosette.annotated-data-model
+model/vnd.sap.vds               vds
 model/vnd.usdz+zip				usdz
 model/vnd.valve.source.compiled-map		bsp
 model/vnd.vtu					vtu
@@ -1913,6 +1934,7 @@ video/BT656
 video/CelB
 video/DV
 video/encaprtp
+video/FFV1
 video/example
 video/flexfec
 video/H261

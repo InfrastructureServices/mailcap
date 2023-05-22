@@ -1,3 +1,8 @@
+mailcap 2.1.54 (2023-05-22)
+  Tomas Korbar:
+  - mime.types: Sync with IANA as of 2023-05-22
+  - typediff.py: remove unnecessary import
+
 mailcap 2.1.53 (2021-02-27)
   Tomas Korbar:
   - mime.types: Sync with IANA as of 2021-02-27

@@ -5,7 +5,6 @@ and IANAs official list of types.
 
 import urllib.request
 import re
-import pdb
 
 already_have = []
 upstream_present = []

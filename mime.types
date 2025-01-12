@@ -317,7 +317,7 @@ application/PDX					pdx
 application/pem-certificate-chain		pem
 application/pgp-encrypted			pgp
 application/pgp-keys
-application/pgp-signature			sig
+application/pgp-signature			asc sig
 application/pidf-diff+xml
 application/pidf+xml
 application/pkcs10				p10
@@ -1994,7 +1994,7 @@ text/mizar					miz
 text/n3						n3
 text/parameters
 text/parityfec
-text/plain		txt asc text pm el c h cc hh cxx hxx f90 conf log
+text/plain		txt text pm el c h cc hh cxx hxx f90 conf log
 text/provenance-notation			provn
 text/prs.fallenstein.rst			rst
 text/prs.lines.tag				tag dsc

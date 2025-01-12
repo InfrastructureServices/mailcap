@@ -317,7 +317,7 @@ application/PDX					pdx
 application/pem-certificate-chain		pem
 application/pgp-encrypted			pgp
 application/pgp-keys
-application/pgp-signature			asc sig
+application/pgp-signature			asc sig sign
 application/pidf-diff+xml
 application/pidf+xml
 application/pkcs10				p10
